@@ -92,7 +92,9 @@ items:
     py_query: "ricotta"
     match:
       all: [ricota]
-      none: [dulce, postre, ravioles, rav, sorrentinos, capelletti, capeletti, panzotis, canelones, tapa, tarta, relleno, jamon]
+      # "entera" es ricotta entera, no magra ni semimagra: es otro producto.
+      # "con crema" idem. Semigrasa si entra, es lo mismo que semimagra.
+      none: [dulce, postre, ravioles, rav, sorrentinos, capelletti, capeletti, panzotis, canelones, tapa, tarta, relleno, jamon, entera, entero, con crema]
     acepta_variantes: [ricotta]
     unidad: kg
 
@@ -147,7 +149,8 @@ items:
     match:
       all: [cafe]
       any: [instantaneo, liofilizado, soluble]
-      none: [capsula, molido, grano, torrado, filtro]
+      # Saborizados y los "ice" (para preparar frio) no son cafe instantaneo comun.
+      none: [capsula, molido, grano, torrado, filtro, avellana, vainilla, caramelo, ice, capuccino, cappuccino]
     unidad: kg
 
   - id: capsulas-nespresso-starbucks
@@ -210,7 +213,9 @@ items:
     match:
       all: [desodorante]
       any: [barra]
-      none: [aerosol, spray, roll, crema, mujer, women]
+      # Secret y Dove Women son marcas de mujer que nunca lo dicen en el nombre,
+      # asi que el filtro por "mujer/women" no las agarra. Van por marca.
+      none: [aerosol, spray, roll, crema, mujer, women, secret, nivea women, dove women]
     unidad: un
 
   - id: queso-port-salut-light

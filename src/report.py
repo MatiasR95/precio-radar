@@ -80,6 +80,49 @@ def serie_de(filas: list[dict], ean: str, fuente: str, tienda: str | None,
     return list(por_dia.values())
 
 
+# PedidosYa publica el precio por unidad en la unidad de cada ficha: dentro de
+# una misma familia conviven $/g y $/kg, o $/ml y $/L. Se llevan todos a la
+# unidad base para poder ordenarlos entre si.
+CONVERSION = {
+    "g": ("kg", 0.001), "gr": ("kg", 0.001), "grs": ("kg", 0.001), "kg": ("kg", 1.0),
+    "ml": ("L", 0.001), "cc": ("L", 0.001), "l": ("L", 1.0), "lt": ("L", 1.0),
+    "m": ("m", 1.0), "mt": ("m", 1.0),
+    "un": ("un", 1.0), "u": ("un", 1.0), "sheets": ("un", 1.0),
+}
+
+
+def por_unidad(r: dict) -> tuple[str, float] | None:
+    """(unidad base, precio por esa unidad). None si no se puede normalizar."""
+    p = num(r.get("precio_por_unidad"))
+    u = (r.get("unidad") or "").strip().lower()
+    if p is None or p <= 0 or u not in CONVERSION:
+        return None
+    base, factor = CONVERSION[u]
+    return base, p / factor
+
+
+def ordenador(filas: list[dict]):
+    """Devuelve una funcion de orden por precio por unidad, con el envase como
+    ultimo recurso.
+
+    Ordenar por el precio del paquete elige el paquete mas chico, no el mas
+    conveniente: en papel higienico el mas barato era el pack de 4 a $2.459
+    mientras existia uno de 18 a $15.510 que sale bastante menos por rollo. Solo
+    se comparan entre si las filas que comparten unidad base; las demas caen al
+    final y se ordenan por precio.
+    """
+    bases = [b for b, _ in filter(None, (por_unidad(r) for r in filas))]
+    dominante = max(set(bases), key=bases.count) if bases else None
+
+    def clave(r: dict):
+        pu = por_unidad(r)
+        if dominante and pu and pu[0] == dominante:
+            return (0, pu[1])
+        return (1, num(r.get("precio")) or float("inf"))
+
+    return clave
+
+
 def fecha_siguiente(f: str) -> str:
     """serie_de() corta con `fecha < hasta`; para incluir hoy hay que pedir mañana."""
     return (date.fromisoformat(f) + timedelta(days=1)).isoformat()
@@ -91,10 +134,10 @@ def mejor_por_tienda(filas: list[dict]) -> dict[str, dict]:
     Un candidato sin confirmar puede ser cualquier cosa que el buscador devolvio
     barata; si hay uno confirmado, gana el confirmado aunque salga mas.
     """
+    clave = ordenador(filas)
     mejor: dict[str, dict] = {}
     for r in filas:
-        p = num(r["precio"])
-        if p is None:
+        if num(r["precio"]) is None:
             continue
         actual = mejor.get(r["tienda"])
         if actual is None:
@@ -102,7 +145,7 @@ def mejor_por_tienda(filas: list[dict]) -> dict[str, dict]:
             continue
         confirmada_gana = bool(actual["sin_confirmar"]) and not r["sin_confirmar"]
         empate_mas_barato = (bool(actual["sin_confirmar"]) == bool(r["sin_confirmar"])
-                             and p < num(actual["precio"]))
+                             and clave(r) < clave(actual))
         if confirmada_gana or empate_mas_barato:
             mejor[r["tienda"]] = r
     return mejor
@@ -146,12 +189,13 @@ def analizar(filas: list[dict], item: dict, fecha: str) -> dict:
     resultado["comparable"] = bool(comunes) and len(por_tienda) > 1
     if resultado["comparable"]:
         # Entre los EAN que estan en las dos, el que salga mas barato en algun lado.
-        ean_comun = min(comunes, key=lambda e: min(num(por_tienda[t][e]["precio"]) for t in por_tienda))
+        clave_ean = ordenador([por_tienda[t][e] for t in por_tienda for e in comunes])
+        ean_comun = min(comunes, key=lambda e: min(clave_ean(por_tienda[t][e]) for t in por_tienda))
         resultado["par"] = {t: por_tienda[t][ean_comun] for t in por_tienda}
         ganadora = min(resultado["par"].values(), key=lambda r: num(r["precio"]))
     else:
         resultado["par"] = None
-        ganadora = min(resultado["tiendas"].values(), key=lambda r: num(r["precio"]))
+        ganadora = min(resultado["tiendas"].values(), key=ordenador(list(resultado["tiendas"].values())))
 
     resultado["ganadora"] = ganadora
     precio_hoy = num(ganadora["precio"])
@@ -200,6 +244,21 @@ def analizar(filas: list[dict], item: dict, fecha: str) -> dict:
     return resultado
 
 
+def money_unit(r: dict | None) -> str:
+    """Precio del envase mas su precio por unidad.
+
+    Sin el segundo el numero engaña: al ordenar por conveniencia el ganador pasa
+    a ser un envase mas grande y mas caro, y la columna parece haber subido de
+    precio sin explicacion.
+    """
+    if not r:
+        return "—"
+    pu = por_unidad(r)
+    if not pu:
+        return money(r["precio"])
+    return f"{money(r['precio'])}<br><small>{money(pu[1])}/{pu[0]}</small>"
+
+
 def money(v) -> str:
     n = num(v)
     return f"${n:,.2f}".replace(",", "@").replace(".", ",").replace("@", ".") if n is not None else "-"
@@ -225,14 +284,15 @@ def html(fecha, analisis, sin_confirmar, n_filas, n_dias) -> None:
         chip = f'<span class="promo">{promo}</span>' if promo else ""
         aviso = "" if a["comparable"] or not (pm and pc) else '<span class="aviso">distinto producto</span>'
         estado = a["veredicto"] or ""
+        hint = f'<span class="hint">{a["senal_sepa"]}</span>' if a.get("senal_sepa") else ""
         clase = {"COMPRAR": "comprar", "ESPERAR": "esperar"}.get(estado, "gris")
         etiqueta = {"COMPRAR": "COMPRAR", "ESPERAR": "esperar",
                     "SIN HISTORIA": f"faltan {MIN_DIAS - a.get('dias', 0)} d"}.get(estado, "—")
         return (
             f'<tr><td class="prod">{item["nombre"]}{chip}{aviso}</td>'
-            f'<td class="{"gana" if gana_m else ""}">{money(pm) if pm else "—"}</td>'
-            f'<td class="{"gana" if pm and pc and not gana_m else ""}">{money(pc) if pc else "—"}</td>'
-            f'<td><span class="badge {clase}">{etiqueta}</span></td></tr>'
+            f'<td class="{"gana" if gana_m else ""}">{money_unit(market)}</td>'
+            f'<td class="{"gana" if pm and pc and not gana_m else ""}">{money_unit(carre)}</td>'
+            f'<td><span class="badge {clase}">{etiqueta}</span>{hint}</td></tr>'
         )
 
     # La pagina es su propio monitor. Si la corrida diaria falla (bloqueo de
@@ -287,6 +347,8 @@ tr:last-child td{{border-bottom:0}}.gana{{font-weight:700;color:var(--ok)}}
 .promo{{display:inline-block;margin-left:6px;padding:1px 6px;border-radius:6px;
 background:var(--pr);color:#fff;font-size:.68rem;font-weight:700}}
 .aviso{{display:block;color:var(--mu);font-size:.72rem}}
+.hint{{display:block;color:var(--mu);font-size:.68rem;margin-top:3px;white-space:normal;max-width:150px}}
+td small{{color:var(--mu);font-weight:400;font-size:.78rem}}
 .stale{{background:#fdf4dd;border-color:#e0c368;color:#6b551a}}
 @media(prefers-color-scheme:dark){{.stale{{background:#332b12;border-color:#7a6a2e;color:#e6d9a8}}}}
 .stale code{{font-size:.85em;background:rgba(0,0,0,.08);padding:1px 4px;border-radius:4px}}
@@ -383,8 +445,8 @@ def main() -> None:
         promo = f" ({market['promo_tag']})" if market and market["promo_tag"] else ""
         if a.get("senal_sepa"):
             veredicto += f" · {a['senal_sepa']}"
-        lineas.append(f"| {item['nombre']} | {money(pm) if pm else '—'}{promo} | "
-                      f"{money(pc) if pc else '—'} | {signo} | {veredicto} |")
+        lineas.append(f"| {item['nombre']} | {money_unit(market)}{promo} | "
+                      f"{money_unit(carre)} | {signo} | {veredicto} |")
         for r in a["tiendas"].values():
             if r["sin_confirmar"]:
                 sin_confirmar.append(f"{item['id']} · {r['tienda']} · {r['nombre']} (EAN {r['ean']})")
