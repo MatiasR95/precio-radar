@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import statistics
 import sys
+from datetime import date
 from collections import defaultdict
 from pathlib import Path
 
@@ -111,8 +112,16 @@ def analizar(filas: list[dict], item: dict, fecha: str) -> dict:
     # daba Mañanita de 1 kg en PeYa contra Mañanita de 500 g en Carrefour y
     # anunciaba $2.411 de diferencia. La comparacion valida es del mismo EAN en
     # las dos tiendas; si no hay ninguno en comun, se dice y no se resta.
+    # `variantes: false` = la linea es UN producto, no una familia. Se siguen
+    # guardando las alternativas en la serie (son gratis y a veces son mas
+    # baratas), pero no pueden convertirse en el precio de portada: para leche
+    # Protein una marca competidora aparecia como si fuera la de siempre, $625
+    # mas barata, y la comparacion entre tiendas dejaba de ser del mismo producto.
+    sigue_variantes = item.get("variantes", True)
+    base = hoy if sigue_variantes else [r for r in hoy if not r["sin_confirmar"]] or hoy
+
     por_tienda: dict[str, dict[str, dict]] = defaultdict(dict)
-    for r in hoy:
+    for r in base:
         p = num(r["precio"])
         if p is None:
             continue
@@ -208,6 +217,19 @@ def html(fecha, analisis, sin_confirmar, n_filas, n_dias) -> None:
             f'<td><span class="badge {clase}">{etiqueta}</span></td></tr>'
         )
 
+    # La pagina es su propio monitor. Si la corrida diaria falla (bloqueo de
+    # PerimeterX, notebook apagada, sin internet) el reporte de ayer se queda
+    # publicado y parece al dia. Sin este aviso, un dato viejo se lee como dato
+    # bueno, que es peor que no tener pagina.
+    hoy_iso = date.today().isoformat()
+    atraso = (date.today() - date.fromisoformat(fecha)).days
+    banner = ""
+    if atraso >= 1:
+        banner = (f'<section class="stale"><b>Datos de hace {atraso} dia(s).</b> '
+                  f'La corrida del {hoy_iso} no llego a actualizar. '
+                  f'Revisar <code>data/run-daily.log</code>, o correr '
+                  f'<code>py_fetch.py login</code> si PedidosYa pide captcha.</section>')
+
     comprar = [a for a in analisis if a["veredicto"] == "COMPRAR"]
     destacado = "".join(
         f'<li><b>{a["item"]["nombre"]}</b> — {money(a["ganadora"]["precio"])} '
@@ -247,11 +269,15 @@ tr:last-child td{{border-bottom:0}}.gana{{font-weight:700;color:var(--ok)}}
 .promo{{display:inline-block;margin-left:6px;padding:1px 6px;border-radius:6px;
 background:var(--pr);color:#fff;font-size:.68rem;font-weight:700}}
 .aviso{{display:block;color:var(--mu);font-size:.72rem}}
+.stale{{background:#fdf4dd;border-color:#e0c368;color:#6b551a}}
+@media(prefers-color-scheme:dark){{.stale{{background:#332b12;border-color:#7a6a2e;color:#e6d9a8}}}}
+.stale code{{font-size:.85em;background:rgba(0,0,0,.08);padding:1px 4px;border-radius:4px}}
 summary{{cursor:pointer;font-weight:600;font-size:.9rem}}
 .pend{{font-size:.8rem;color:var(--mu);padding-left:18px}}
 footer{{color:var(--mu);font-size:.78rem;text-align:center;padding:4px 0 20px}}
 </style></head><body><div class="wrap">
 <h1>Precio radar</h1><div class="fecha">{fecha} · PeYa Market vs Carrefour en PedidosYa</div>
+{banner}
 {bloque_comprar}
 <section class="tabla"><table><thead><tr><th>Producto</th><th>PeYa Market</th>
 <th>Carrefour</th><th>Cuando</th></tr></thead><tbody>

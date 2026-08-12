@@ -1,90 +1,286 @@
 fecha,fuente,tienda,item,ean,nombre,precio,precio_antes,precio_por_unidad,unidad,contenido,stock,promo_tag,sin_confirmar
-2026-08-12,pedidosya,Carrefour Hiper City Bell,desodorante-barra-hombre,7501001163983,Desodorante Old Spice En Barra Aroma Fresh 50 g,9949,,19898,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,desodorante-barra-hombre,75083694,Desodorante Axe En Barra Para Hombre Blue Lavander 58 g,8709,,150155.17,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,desodorante-barra-hombre,75083700,Desodorante Axe En Barra Stick Aqua Citrus 58 g,8709,,150155.17,,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,desodorante-barra-hombre,33200197447,Desodorante En Barra Arm & Hammer Active Sport 73 g,12086.15,,165563.7,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,desodorante-barra-hombre,7500435213882,Desodorante En Barra Antitranspirante Secret Invisible Coco 45 g,12800,,28444.445,g,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,desodorante-barra-hombre,7501001163983,Desodorante Old Spice En Barra Aroma Fresh 50 g,9949,,19898,g,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,desodorante-barra-hombre,75083694,Desodorante Axe En Barra Para Hombre Blue Lavander 58 g,8709,,150155.17,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,desodorante-barra-hombre,75083700,Desodorante Axe En Barra Stick Aqua Citrus 58 g,8709,,150155.17,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7613035379213,Café Nescafe Instantáneo Descafeinado 100 g,16535,,165350,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7613036312752,Café Nescafe Instantáneo Espresso Gold 100 g,24475,,244750,kg,,,,1
 2026-08-12,pedidosya,Carrefour Hiper City Bell,capsulas-nespresso-starbucks,7613036961004,Cápsulas De Café Starbucks Expresso Rubio 10 Unidades,17765,17765,1776.5,un,10,0,,
-2026-08-12,pedidosya,Carrefour Hiper City Bell,suprema-pollo,7790070036063,Suprema De Pollo Granja Del Sol 360 g,7998.75,,22218.75,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7790130000263,Vinagre Alcazar De Alcohol 500 cm3,1119,,2238,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7790130000645,Vinagre Menoyo Alcohol 250 g,1145,,4580,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7790132098459,Lavandina Ayudín Original 1 L,959.25,,959.25,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7790139101145,Vinagre De Alcohol Favinco 500 ml,1159,,2318,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790150100783,Café La Virginia Instantáneo Clásico 100 g,5859,,58590,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790150100806,Café La Virginia Instantáneo Clásico Doypack 100 g,5150,,51500,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790150101780,Café La Virginia Instantáneo Suave Doypack 100 g,5139,,51390,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7790250015536,Papel Higiénico Higienol Plus Doble Hoja 30 m 4 Unidades,3435,,858.75,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7790250015567,Papel Higiénico Higienol Plus Doble Hoja (20 m) 4 Unidades,3149,,787.25,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,yerba-mananita,7790387015317,Yerba Mate Mañanita 4 Flex 1000 g,4749,,4749,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,yerba-mananita,7790387015324,Yerba Mate Mañanita 4Flex 500 g,2379,,4758,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,atun-lomitos-natural,7790580131364,Atún En Lomitos La Campagnola Al Natural 170 g,5745,,33794.117,,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,capsulas-nespresso-starbucks,7613036961448,Café Starbucks Colombia 10 Unidades,19200,19200,1920,un,10,0,,
+2026-08-12,pedidosya,Carrefour Hiper City Bell,suprema-pollo,7790070036063,Suprema De Pollo Granja Del Sol 360 g,7998.75,,22218.75,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7790130000058,Vinagre De Alcohol Menoyo 1 L,1750,,1750,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7790130000102,Vinagre De Alcohol Menoyo Bidón 5 L,9830,,1966,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7790130000263,Vinagre Alcazar De Alcohol 500 cm3,1119,,2238,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7790130000294,Vinagre Alcazar De Alcohol 1 L,1319,,1319,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7790130000645,Vinagre Menoyo Alcohol 250 g,1145,,4580,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7790132098459,Lavandina Ayudín Original 1 L,959.25,,959.25,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7790139003166,Vinagre De Alcohol Casalta 500 ml,1205,,2410,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7790139101138,Vinagre De Alcohol Favinco 1 L,1589,,1589,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7790139101145,Vinagre De Alcohol Favinco 500 ml,1159,,2318,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790150100462,Café La Virginia Instantáneo Clásico Doypack 170 g,8039,,47288.234,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790150100486,Café La Virginia Instantaneo Clasico Sin Gluten 170 g,8089,,47582.35,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790150100783,Café La Virginia Instantáneo Clásico 100 g,5859,,58590,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790150100806,Café La Virginia Instantáneo Clásico Doypack 100 g,5150,,51500,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790150101476,Café La Virginia Instantáneo Suave Doypack 170 g,8050,,47352.94,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790150101490,Café La Virginia Instantaneo Suave 170 g,9215,,54205.883,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790150101773,Café La Virginia Instantaneo Suave 100 g,5859,,58590,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790150101780,Café La Virginia Instantáneo Suave Doypack 100 g,5139,,51390,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790150150573,Café La Virginia Instantáneo Granulado 100 g,8259,,82590,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790170904798,Café Instantáneo Morenita Intenso 100 g,6350,,63500,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,queso-crema-light,7790244941605,Queso Crema San Ignacio Light 290 g,3203.65,,11047.068,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,queso-crema-light,7790244941612,Queso Crema San Ignacio Light 480 g,4818.65,,10038.854,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7790250015536,Papel Higiénico Higienol Plus Doble Hoja 30 m 4 Unidades,3435,,858.75,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7790250015567,Papel Higiénico Higienol Plus Doble Hoja (20 m) 4 Unidades,3149,,787.25,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7790250019411,Papel Higiénico Higienol Plus Doble Hoja (30 m) 18 Unidades,15510,,861.6667,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7790250026075,Papel Higiénico Elite Ultra Suave Doble hoja (30 mts) 4 Unidades,4399,,1099.75,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7790250026082,Papel higiénico Elite Ultra Suave Doble Hoja (50 m) 4 Unidades,10349,,2587.25,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7790250056881,Rollos De Cocina Sussex Clásico (50 Paños) 3 Unidades,2929,,976.3333,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7790250056898,Rollo De Cocina Sussex Ultra 60 Paños 3 Unidades,4980,,1660,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7790250056980,Rollo De Cocina Sussex Ultra (100 Paños) 3 Unidades,7489,,2496.3333,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7790250057086,Rollo De Cocina Sussex Mega Rollo Clásico 200 Paños 1 Unidad,3350,,3350,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7790250092452,Papel Higiénico Noble Doble Hoja 30 Metros 4 Unidades,3669,,917.25,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7790250913368,Papel Higiénico Higienol Doble Hoja Yapa (50 m) 4 Unidades,9529,,9529,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,yerba-mananita,7790387015317,Yerba Mate Mañanita 4 Flex 1000 g,4749,,4749,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,yerba-mananita,7790387015324,Yerba Mate Mañanita 4Flex 500 g,2379,,4758,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7790550029431,Café Nescafé Instantáneo La Planta De Café Clásico 170 g,13709,,80641.17,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,atun-lomitos-natural,7790580131364,Atún En Lomitos La Campagnola Al Natural 170 g,5745,,33794.117,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7790673000188,Vinagre De Alcohol Favinco 5 L,8129,,1625.8,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,ricotta,7790742102805,Ricotta García Entera Baja En Sodio 500 g,4699,,9398,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,ricotta,7790742114204,Ricotta García Semigrasa Baja En Sodio 500 g,4755,,9510,kg,,,,1
 2026-08-12,pedidosya,Carrefour Hiper City Bell,leche-protein,7790742358608,Leche La Serenisima Protein 1 L,2999,2999,2999,L,1,0,,
-2026-08-12,pedidosya,Carrefour Hiper City Bell,yogur-natural-sin-azucar,7790787960934,Yogur Ilolay Cremoso Natural 350 g,2358.11,,6737.457,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,gaseosa-cola-zero,7790895067532,Gaseosa Coca-Cola Zero 500 ml,2500,,5000,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,gaseosa-cola-zero,7790895067587,Refresco Coca-Cola Zero 354 ml,2500,,7062.1465,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7790990003022,Detergente Magistral Ultra Limón 300 ml,2459,,8196.667,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7791290794054,Detergente Cif Bioactive Limón 300 ml,2329,,7763.3335,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7791290794108,Detergente Cif Bioactive Lima 300 ml,2329,,7763.3335,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791720002605,Rollos De Cocina Carrefour 40 Paños 3 Unidades,2350,,783.3333,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,queso-crema-light,7791720028506,Queso Crema Carrefour Classic Light 290 g,3190,,11000,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,ricotta,7791720046951,Ricotta Bulnez Entera 500 g,2966.5,,5933,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791720047446,Rollo De Cocina Bulnez Doble Hoja (200 Paños) 1 Unidad,2350,,2350,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,yogur-natural-sin-azucar,7791720048122,Yogurt Carrefour Natural Extra En Frasco 200 g,2337.5,,11687.5,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,gaseosa-cola-zero,7791813828365,Gaseosa Pepsi Black Sin Azúcar 500 ml,2200,,4400,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7791828900186,Papel Higiénico Felpita Corazón De Algodón Doble Textura (20 m) 4 Unidades,2940,,735,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905000020,Lavandina Querubín Concentrada 1 L,1206.75,,1206.75,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905023203,Lavandina Odex 1 L,1295,,1295,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,yogur-natural-sin-azucar,7793913002423,Yogur Tregar Natural 140 g,2029,,14492.857,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,queso-crema-light,7793913013641,Queso Untable Neufchatel Tregar Light 180 g,3089,,17161.111,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,ricotta,7793913013672,Ricotta Magra Tregar Baja En Sodio 290 g,3769,,12996.552,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,atun-lomitos-natural,7798033333907,Atún En Lomitos Carrefour Classic Al Natural 170 g,3490,,20529.412,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7798141718221,Rollos De Cocina Carrefour (50 Paños) 3 Unidades,2150,,716.6667,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,atun-lomitos-natural,7798152222151,Atún En Lomitos Carrefour Al Natural 3 x 80 g,6150,,76875,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,ricotta,7798179070018,Ricotta Silvia Con Crema 500 g,3285,,6570,,,,,1
-2026-08-12,pedidosya,Carrefour Hiper City Bell,queso-crema-light,7798312320567,Queso Untable Light Santa Clara En Pote 300 g,3099,,10330,,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,queso-crema-light,7790742373304,Queso Untable La Serenísima Finlandia Clásico Light 290 g,5479,,18893.104,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,yogur-natural-sin-azucar,7790787960934,Yogur Ilolay Cremoso Natural 350 g,2358.11,,6737.457,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,gaseosa-cola-zero,7790895067532,Gaseosa Coca-Cola Zero 500 ml,2500,,5000,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,gaseosa-cola-zero,7790895067556,Gaseosa Coca-Cola Zero 1.5 L,4300,,2866.6667,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,gaseosa-cola-zero,7790895067570,Gaseosa Coca-Cola Zero 2.25 L,5600,,2488.889,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,gaseosa-cola-zero,7790895067587,Refresco Coca-Cola Zero 354 ml,2500,,7062.1465,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,gaseosa-cola-zero,7790895640438,Gaseosa Coca-Cola Sin Azúcares Sin Azúcar 3 L,6750,,2250,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7790990003022,Detergente Magistral Ultra Limón 300 ml,2459,,8196.667,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7790990003039,Detergente Magistral Ultra Limón 500 ml,4389,,8778,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7790990003046,Detergente Magistral Ultra Limón 750 ml,6035,,8046.667,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7790990003053,Detergente Magistral Ultra Limón En Botella 1400 ml,13990,,9992.857,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7790990003121,Detergente Magistral Ultra Marina 300 ml,2459,,8196.667,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7790990003138,Detergente Magistral Ultra Marina 500 ml,4559,,9118,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7790990003145,Detergente Magistral Ultra Marina En Botella 750 cc,6035,,8046.667,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7790990003381,Detergente Magistral Platinum Limón 500 ml,6159,,12318,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7790990003404,Detergente Magistral Ultra Limón Cremoso En Botella 300 ml,3450,,11500,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7790990003411,Detergente Magistral Ultra Limón Cremoso 500 ml,4559,,9118,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7790990003787,Detergente Magistral Ultra Limón 450 ml,4039,,8975.556,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791070005806,Rollo De Cocina Celestial 13 50 Paños,3189,,3189,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791290793781,Limpiador En Crema Cif Lavandina / Cloro 750 g,4665,,6220,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791290793804,Limpiador En Gel Cif Con Lavandina 513 g,3669,,7152.047,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7791290794054,Detergente Cif Bioactive Limón 300 ml,2329,,7763.3335,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7791290794061,Detergente Cif Bioactive Limón 500 ml,3729,,7458,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7791290794078,Detergente Cif Bioactive Limón 750 ml,6590,,8786.667,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7791290794085,Detergente CIF Bioactive Limón Doypack 450 ml,2855,,6344.4443,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7791290794092,Detergente Cif Bioactive Verde Limón Doypack 450 ml,2855,,6344.4443,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7791290794108,Detergente Cif Bioactive Lima 300 ml,2329,,7763.3335,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7791290794115,Detergente CIF Bioactive Lima Botella 500 ml,3729,,7458,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7791290796706,Detergente Concentrado Cif Active Gel Original 500 ml,3152.5,,6305,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7791290796720,Detergente Concentrado Cif Active Gel Original 400 ml,2787.85,,6969.6255,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7791290796737,Detergente Concentrado Cif Active Gel Limón 500 ml,3152.5,,6305,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,detergente,7791290796751,Detergente Concentrado Cif Active Gel Limón 400 ml,2787.85,,6969.6255,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,yogur-natural-sin-azucar,7791337007208,Yogur Ser Natural Sin Lactosa 300 g,4915,,16383.333,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,queso-crema-light,7791337009851,Queso Untable La Serenisima Light 460 g,6045,,13141.304,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791720002605,Rollos De Cocina Carrefour 40 Paños 3 Unidades,2350,,783.3333,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791720025543,Rollos De Cocina Carrefour Maxi Blanco 200 Paños 1 Unidad,2850,,2850,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,queso-crema-light,7791720028506,Queso Crema Carrefour Classic Light 290 g,3190,,11000,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7791720032930,Papel Higiénico Doble Hoja Carrefour Essential 30 m 4 Unidades,3450,,3450,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7791720035481,Café Instantáneo Suave Carrefour Classic En Frasco 170 g,10650,,62647.06,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7791720035955,Vinagre Bulnez De Alcohol 1 L,1190,,1190,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7791720035962,Vinagre De Alcohol Bulnez Bidón 5000 cm3,5790,,1158,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791720045541,Rollos De Cocina Carrefour Essential Aseo (100 Paños) 3 Unidades,4650,,1550,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7791720045558,Papel Higiénico Carrefour Doble Hoja Essential (50 Metros) 4 Unidades,5550,,1387.5,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,ricotta,7791720046951,Ricotta Bulnez Entera 500 g,2966.5,,5933,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791720047446,Rollo De Cocina Bulnez Doble Hoja (200 Paños) 1 Unidad,2350,,2350,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,yogur-natural-sin-azucar,7791720048122,Yogurt Carrefour Natural Extra En Frasco 200 g,2337.5,,11687.5,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,yogur-natural-sin-azucar,7791720048139,Yogur Carrefour Classic Natural 300 g,2626.5,,8755,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,gaseosa-cola-zero,7791813828365,Gaseosa Pepsi Black Sin Azúcar 500 ml,2200,,4400,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,gaseosa-cola-zero,7791813828419,Gaseosa Pepsi Black 1.5 L,3950,,2633.3333,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,gaseosa-cola-zero,7791813828464,Gaseosa Pepsi Black 2 L,4400,,2200,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791828000121,Rollos De Cocina Felpita Twist 40 Paños 3 Unidades,2499,,833,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791828900025,Rollos De Cocina Disney Felpita 40 Paños 3 Unidades,3265,,1088.3334,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791828900056,Rollos De Cocina Doble Hoja Felpita Infinity 100 Paños 3 Unidades,5109,,1703,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7791828900186,Papel Higiénico Felpita Corazón De Algodón Doble Textura (20 m) 4 Unidades,2940,,735,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7791828900278,Papel Higiénico Felpita Pura Caricia Doble Hoja (30 m) 6 Unidades,6405,,1067.5,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7791828900285,Papel Higiénico Felpita Infinity Doble Hoja (50 m) 4 Unidades,6860,,1715,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791828900377,Rollo de Cocina Felpita Maxirollo 200 Paños 1 Unidad,3069,,3069,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7791828900520,Papel Higiénico Felpita (Doble Hoja 30 m) 12 Unidades,14009,,1167.4166,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791828900537,Rollo De Cocina BlancoFelpita Doble Hoja 3 Rollos 60 Paños,2649,,14.716666,sheets,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791828900599,Rollo De Cocina Felpita Familiar Maxirollo (150 Paños) 1 Unidad,3069,,3069,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7791828900605,Rollo De Cocina Felpita Maxirollo De (200 Metros) 4 Unidades,11039,,2759.75,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905000020,Lavandina Querubín Concentrada 1 L,1206.75,,1206.75,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905000037,Lavandina Querubín Clásica 2 L,3129,,1564.5,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905000372,Lavandina Querubín Concentrada 4 L,6029,,1507.25,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905003663,Lavandina Querubín Ropa Blanca Aditivada 1 L,2020,,2020,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905023203,Lavandina Odex 1 L,1295,,1295,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905023210,Lavandina Odex 2 L,2460,,1230,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905023227,Lavandina Odex Original 4 L,4809,,1202.25,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905024057,Lavandina Odex Fragancia Lavanda 1 L,1520,,1520,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905024064,Lavandina Odex Aditivada Lavanda 2 L,2810,,1405,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905024071,Lavandina Odex Aditivada Lavanda 4 L,4990,,1247.5,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905024095,Lavandina Odex Aditivada Bosque 2 L,2810,,1405,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905024101,Lavandina Odex Aditivada Bosque 4 L,4990,,1247.5,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7791905024248,Lavandina Odex En Gel Original 700 ml,3000,,4285.7144,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253003715,Lavandina Ayudín Triple Poder Lavanda 1 L,1431.75,,1431.75,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253003722,Lavandina Ayudín Triple Poder Lavanda 2 L,3465,,1732.5,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253003739,Lavandina Ayudín Triple Poder Lavanda 4 L,7179,,1794.75,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253003746,Lavandina Ayudín Triple Poder Pureza Glaciar 1 L,1431.75,,1431.75,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253003760,Lavandina Ayudín Pureza Del Glaciar Triple Poder 4 L,7179,,1794.75,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253003777,Lavandina Ayudín Anti Splash 1 L,1668.75,,1668.75,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253003784,Lavandina Ayudín Anti Splash 2 L,4185,,2092.5,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253003791,Lavandina En Gel Ayudín Original 700 ml,3519,,5027.143,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253003807,Lavandina En Gel Ayudín Citrica 700 ml,3519,,5027.143,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253003814,Lavandina En Gel Ayudín Floral 700 ml,3519,,5027.143,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253003821,Lavandina Ayudín En Gel Menta 700 ml,3519,,5027.143,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253003838,Lavandina En Gel Ayudín Lavanda 700 ml,3519,,5027.143,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253003869,Lavandina Ayudín En Gel Original 1500 ml,8300,,5533.3335,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253005856,Lavandina En Gel Ayudín Original 500 ml,2989,,5978,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253005863,Lavandina Ayudín En Gel Citrica 500 ml,2985,,5970,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253006709,Lavandina Original Ayudín 2 L,2609,,1304.5,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253006716,Lavandina Ayudín Original 4 L,5789,,1447.25,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,lavandina,7793253007263,Lavandina Anti Splash 4 L,8280,,2070,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7793344009206,Rollo De Cocina Elegante Gigante Doble Hoja 200 Paños 1 Unidad,2839,,2839,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7793344009305,Rollos De Cocina Elegante Giramas 3 Unidades,5319,,1773,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7793344904013,Rollos De Cocina Elegante 50 Paños 3 Unidades,2839,,946.3333,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7793344904853,Rollos De Cocina Elegante Premium 60 Paños 3 Unidades,3429,,1143,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,yogur-natural-sin-azucar,7793913002423,Yogur Tregar Natural 140 g,2029,,14492.857,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,queso-crema-light,7793913013214,Queso Crema Tregar Light 190 g,3190,,16789.475,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,queso-crema-light,7793913013641,Queso Untable Neufchatel Tregar Light 180 g,3089,,17161.111,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,ricotta,7793913013665,Ricotta Entera Tregar Baja En Sodio 290 g,3790,,13068.966,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,ricotta,7793913013672,Ricotta Magra Tregar Baja En Sodio 290 g,3769,,12996.552,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,queso-crema-light,7794820015018,Queso Untable Milkaut Clásico Balance Light 190 g,3379,,17784.21,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,queso-crema-light,7794820903094,Queso Untable Milkaut Crematto Light 285 g,5069,,17785.965,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,yogur-natural-sin-azucar,7794820903612,Yogur Natural Cremoso Milkaut 300 g,3879,,12930,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,yogur-natural-sin-azucar,7794820903711,Yogurt Descremado Milkaut Natural Cremoso 300 g,3879,,12930,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7798033332610,Vinagre De Alcohol Carrefour Classic 500 ml,1190,,2380,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,vinagre-alcohol,7798033332641,Vinagre De Alcohol Carrefour Classic 1 L,1450,,1450,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,atun-lomitos-natural,7798033333907,Atún En Lomitos Carrefour Classic Al Natural 170 g,3490,,20529.412,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,atun-lomitos-natural,7798108349161,Atún En Lomitos Carrefour Classic Al Natural 354 g,6450,,18220.338,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,yogur-natural-sin-azucar,7798136870545,Yogur Dahi Firme Natural 190 g,2720,,14315.789,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,yogur-natural-sin-azucar,7798136870859,Yogur Dahi Natural Estilo Griego190 g,3289,,17310.525,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7798141718221,Rollos De Cocina Carrefour (50 Paños) 3 Unidades,2150,,716.6667,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,atun-lomitos-natural,7798152222151,Atún En Lomitos Carrefour Al Natural 3 x 80 g,6150,,76875,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7798159717520,Papel Higiénico Carrefour Doble Hoja Decorado (50 m) 4 Unidades,6090,,1522.5,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,rollo-cocina,7798159717537,Rollos De Cocina Carrefour Decorados 50 Paños 3 Unidades,2750,,916.6667,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,papel-higienico-doble-hoja,7798159718961,Papel Higiénico Carrefour Doble Hoja (30 m) 4 Unidades,3450,,862.5,un,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,ricotta,7798179070018,Ricotta Silvia Con Crema 500 g,3285,,6570,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7798196990016,Café Segafredo Preferito Instantáneo 100 g,19500,,195000,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7798196990023,Café Segafredo Zanetti Instantáneo Preferito Intenso 100 g,18838,,188380,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7798196990047,Café Segafredo Zanetti Instantáneo Liofilizado 100 g,22100,,221000,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,queso-crema-light,7798312320567,Queso Untable Light Santa Clara En Pote 300 g,3099,,10330,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,yogur-natural-sin-azucar,7798327950193,Yogurt Beaudroit Natural 400 g,4855,,12137.5,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,leche-protein,7798338291803,Leche Con Proteína Las Tres Niñas Vida Activa 1 L,2865,,2865,L,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,7891000426937,Café Instantáneo Nescafe Ice 100 g,10210,,102100,kg,,,,1
 2026-08-12,pedidosya,Carrefour Hiper City Bell,capsulas-nespresso-starbucks,8445290154125,Cápsulas Starbucks De Café Caramel Nespresso 125 g,16599,16599,132.79,g,125,0,,
 2026-08-12,pedidosya,Carrefour Hiper City Bell,capsulas-nespresso-starbucks,8445290814425,Cápsulas Starbucks De Café Blonde Decaf Nespresso 55 g,16599,16599,301.8,g,55,0,,
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,8445291311510,Café Instantáneo Tradicional Nescafe 100 g,8750,,87500,kg,,,,1
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,8445291311558,Café Instantáneo Suave Nescafé 100 g,6149,,61490,kg,,,,1
 2026-08-12,pedidosya,Carrefour Hiper City Bell,capsulas-nespresso-starbucks,8445291363656,Cápsulas De Café Starbucks House Blend 10 Unidades,15995,15995,1599.5,un,10,0,,
 2026-08-12,pedidosya,Carrefour Hiper City Bell,capsulas-nespresso-starbucks,8445291367272,Cápsulas De Café Starbucks Espresso Roast 10 Unidades,16599,16599,1659.9,un,10,0,,
+2026-08-12,pedidosya,Carrefour Hiper City Bell,cafe-instantaneo,8445291738775,Café Nescafé Instantáneo Gold 95 G,21969,,219690,kg,,,,1
 2026-08-12,pedidosya,Carrefour Hiper City Bell,capsulas-nespresso-starbucks,8445291786721,Cápsulas Starbucks Nespresso Hazelnut 10 Unidades,14875,14875,1487.5,un,10,0,,
-2026-08-12,pedidosya,PedidosYa Market La Plata,desodorante-barra-hombre,7501001163983,Desodorante Old Spice En Barra Aroma Fresh 50 g,5553,,11106,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,desodorante-barra-hombre,75083694,Desodorante Axe En Barra Para Hombre Blue Lavander 58 g,9319,,160672.4,,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,desodorante-barra-hombre,7501001163983,Desodorante Old Spice En Barra Aroma Fresh 50 g,5553,,11106,g,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,desodorante-barra-hombre,75083694,Desodorante Axe En Barra Para Hombre Blue Lavander 58 g,9319,,160672.4,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,cafe-instantaneo,7613035379213,Café Nescafe Instantáneo Descafeinado 100 g,12386.5,,123865,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,cafe-instantaneo,7613036312752,Café Nescafe Instantáneo Espresso Gold 100 g,16060.85,,160608.48,kg,,,,1
 2026-08-12,pedidosya,PedidosYa Market La Plata,capsulas-nespresso-starbucks,7613036961448,Café Starbucks Colombia 10 Unidades,17579,17579,1757.9,un,10,4,,
-2026-08-12,pedidosya,PedidosYa Market La Plata,suprema-pollo,7790070036063,Suprema De Pollo Granja Del Sol 360 g,9132,,25366.666,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,vinagre-alcohol,7790130000034,Vinagre De Alcohol Menoyo 500 ml,1479,,2958,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7790132098459,Lavandina Ayudín Original 1 L,1455,,1455,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,vinagre-alcohol,7790139000424,Vinagre De Alcohol Casalta 1.3 L,1295,,996.1539,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,vinagre-alcohol,7790139002138,Vinagre De Alcohol Favinco 1.3 L,1500,,1153.8462,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,cafe-instantaneo,7790150100806,Café La Virginia Instantáneo Clásico Doypack 100 g,5515,,55150,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,cafe-instantaneo,7790150101780,Café La Virginia Instantáneo Suave Doypack 100 g,5499,,54990,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,papel-higienico-doble-hoja,7790250015536,Papel Higiénico Higienol Plus Doble Hoja 30 m 4 Unidades,2895.2,,723.8,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,papel-higienico-doble-hoja,7790250015567,Papel Higiénico Higienol Plus Doble Hoja (20 m) 4 Unidades,2839.2,,709.8,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,rollo-cocina,7790250056881,Rollos De Cocina Sussex Clásico (50 Paños) 3 Unidades,2489.65,,829.8833,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,yerba-mananita,7790387015317,Yerba Mate Mañanita 4 Flex 1000 g,4790,,4790,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,ricotta,7790742102805,Ricotta García Entera Baja En Sodio 500 g,4899,,9798,,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,cafe-instantaneo,7701362014904,Café Juan Valdez Avellana De Liofilizado 95 g,42479,,447147.38,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,suprema-pollo,7790070036063,Suprema De Pollo Granja Del Sol 360 g,9132,,25366.666,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,vinagre-alcohol,7790130000034,Vinagre De Alcohol Menoyo 500 ml,1479,,2958,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7790132098459,Lavandina Ayudín Original 1 L,1455,,1455,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,vinagre-alcohol,7790139000424,Vinagre De Alcohol Casalta 1.3 L,1295,,996.1539,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,vinagre-alcohol,7790139002138,Vinagre De Alcohol Favinco 1.3 L,1500,,1153.8462,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,cafe-instantaneo,7790150100486,Café La Virginia Instantaneo Clasico Sin Gluten 170 g,8925,,52500,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,cafe-instantaneo,7790150100783,Café La Virginia Instantáneo Clásico 100 g,6269,,62690,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,cafe-instantaneo,7790150100806,Café La Virginia Instantáneo Clásico Doypack 100 g,5515,,55150,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,cafe-instantaneo,7790150101780,Café La Virginia Instantáneo Suave Doypack 100 g,5499,,54990,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,papel-higienico-doble-hoja,7790250015536,Papel Higiénico Higienol Plus Doble Hoja 30 m 4 Unidades,2895.2,,723.8,un,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,papel-higienico-doble-hoja,7790250015567,Papel Higiénico Higienol Plus Doble Hoja (20 m) 4 Unidades,2839.2,,709.8,un,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,rollo-cocina,7790250022060,Rollo De Cocina Elite Ultra Absorbente 120 paños 2 Unidades,4799.2,,2399.6,un,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,papel-higienico-doble-hoja,7790250026075,Papel Higiénico Elite Ultra Suave Doble hoja (30 mts) 4 Unidades,3796,,949,un,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,rollo-cocina,7790250056881,Rollos De Cocina Sussex Clásico (50 Paños) 3 Unidades,2489.65,,829.8833,un,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,rollo-cocina,7790250056980,Rollo De Cocina Sussex Ultra (100 Paños) 3 Unidades,6412,,2137.3333,un,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,rollo-cocina,7790250057086,Rollo De Cocina Sussex Mega Rollo Clásico 200 Paños 1 Unidad,2868,,2868,un,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,papel-higienico-doble-hoja,7790250913368,Papel Higiénico Higienol Doble Hoja Yapa (50 m) 4 Unidades,7511.25,,7511.25,un,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,yerba-mananita,7790387015317,Yerba Mate Mañanita 4 Flex 1000 g,4790,,4790,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,ricotta,7790742102805,Ricotta García Entera Baja En Sodio 500 g,4899,,9798,kg,,,,1
 2026-08-12,pedidosya,PedidosYa Market La Plata,leche-protein,7790742358608,Leche La Serenisima Protein 1 L,2989,2989,2989,L,1,73,,
-2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7790990003039,Detergente Magistral Ultra Limón 500 ml,2262.5,,4525,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290794054,Detergente Cif Bioactive Limón 300 ml,2240.46,,7468.1997,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290794108,Detergente Cif Bioactive Lima 300 ml,2240.46,,7468.1997,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,gaseosa-cola-zero,7791813828365,Gaseosa Pepsi Black Sin Azúcar 500 ml,1959,,3918,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,gaseosa-cola-zero,7791813828372,Gaseosa Black Pepsi Sin Azúcar 354 ml,2165,,6115.819,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,gaseosa-cola-zero,7791813828464,Gaseosa Pepsi Black 2 L,2693.4,,1346.7,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,rollo-cocina,7791828900377,Rollo de Cocina Felpita Maxirollo 200 Paños 1 Unidad,2766.75,,2766.75,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253003715,Lavandina Ayudín Triple Poder Lavanda 1 L,1568,,1568,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,papel-higienico-doble-hoja,7793344000517,Papel Higiénico Elegante Doble Hoja (30 m) 4 Unidades,2459.25,,614.8125,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,rollo-cocina,7793344009206,Rollo De Cocina Elegante Gigante Doble Hoja 200 Paños 1 Unidad,2413.15,,2413.15,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,yogur-natural-sin-azucar,7793913002423,Yogur Tregar Natural 140 g,2129,,15207.143,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,queso-crema-light,7793913013412,Queso Crema Tregar Descremado 280 g,3383.2,,12082.857,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,queso-crema-light,7793913013641,Queso Untable Neufchatel Tregar Light 180 g,3185,,17694.445,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,ricotta,7793913013672,Ricotta Magra Tregar Baja En Sodio 290 g,3319.25,,11445.689,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,queso-port-salut-light,7794990191703,Queso Port Salut Light La Paulina 520 g,9875,,18990.385,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,queso-crema-light,7798060854352,Queso Untable Tonadita Patagonia Light 180 g,2780,,15444.444,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,atun-lomitos-natural,7798075090349,Atún En Lomitos Delicias Marinas Al Natural 190 g,8970,,47210.527,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7798131250380,Lavandina Héroe Limpieza Clásica 1 L,1155,,1155,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,yogur-natural-sin-azucar,7798136870743,Yogur Dahi Natural Deslactosado Probio 190 g,3455,,18184.209,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,yogur-natural-sin-azucar,7798136870859,Yogur Dahi Natural Estilo Griego190 g,3519,,18521.053,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,atun-lomitos-natural,7891167831100,Atún En Lomitos Gomes Da Costa Al Natural 170 g,3577.65,,21045,,,,,1
-2026-08-12,pedidosya,PedidosYa Market La Plata,suprema-pollo,7894904271993,Suprema De Pollo Congelada 2 kg,33980,,16990,,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,queso-crema-light,7790742373304,Queso Untable La Serenísima Finlandia Clásico Light 290 g,4954.5,,17084.482,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,gaseosa-cola-zero,7790895067556,Gaseosa Coca-Cola Zero 1.5 L,4300,,2866.6667,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,gaseosa-cola-zero,7790895067570,Gaseosa Coca-Cola Zero 2.25 L,5600,,2488.889,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7790990003022,Detergente Magistral Ultra Limón 300 ml,2829,,9430,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7790990003022,Detergente Magistral Ultra Limón 300 ml,2829,,9430,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7790990003039,Detergente Magistral Ultra Limón 500 ml,2262.5,,4525,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7790990003039,Detergente Magistral Ultra Limón 500 ml,2262.5,,4525,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7790990003046,Detergente Magistral Ultra Limón 750 ml,6935,,9246.667,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7790990003046,Detergente Magistral Ultra Limón 750 ml,6935,,9246.667,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7790990003121,Detergente Magistral Ultra Marina 300 ml,3049,,10163.333,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7790990003138,Detergente Magistral Ultra Marina 500 ml,4785,,9570,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7790990003381,Detergente Magistral Platinum Limón 500 ml,6715,,13430,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7790990003404,Detergente Magistral Ultra Limón Cremoso En Botella 300 ml,3765,,12550,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7791290793804,Limpiador En Gel Cif Con Lavandina 513 g,3034.05,,5914.3276,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290794054,Detergente Cif Bioactive Limón 300 ml,2240.46,,7468.1997,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290794061,Detergente Cif Bioactive Limón 500 ml,3628.47,,7256.94,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290794078,Detergente Cif Bioactive Limón 750 ml,5446.3,,7261.733,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290794085,Detergente CIF Bioactive Limón Doypack 450 ml,3190.28,,7089.511,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290794092,Detergente Cif Bioactive Verde Limón Doypack 450 ml,3190.28,,7089.511,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290794108,Detergente Cif Bioactive Lima 300 ml,2240.46,,7468.1997,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290794115,Detergente CIF Bioactive Lima Botella 500 ml,3628.47,,7256.94,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7791290794955,Lavandina En Gel Original Vim 700 Ml,2908.9,,4155.5713,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7791290794962,Lavandina En Gel Lavanda Vim 700 Ml,2908.9,,4155.5713,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7791290794979,Lavandina En Gel Citrus Vim 700 Ml,2908.9,,4155.5713,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290796706,Detergente Concentrado Cif Active Gel Original 500 ml,4532.88,,9065.76,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290796713,Detergente Concentrado Cif Active Gel Original 750 ml,6803.82,,9071.76,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290796720,Detergente Concentrado Cif Active Gel Original 400 ml,3544.76,,8861.9,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290796737,Detergente Concentrado Cif Active Gel Limón 500 ml,4532.88,,9065.76,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290796744,Detergente Concentrado Cif Active Gel Limón 750 ml,6803.82,,9071.76,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,detergente,7791290796751,Detergente Concentrado Cif Active Gel Limón 400 ml,3544.76,,8861.9,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,yogur-natural-sin-azucar,7791337007208,Yogur Ser Natural Sin Lactosa 300 g,5259,,17530,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,yogur-natural-sin-azucar,7791337010932,Yogurísimo Griego Firme Natural 180 g,4533.27,,25184.834,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,gaseosa-cola-zero,7791813828365,Gaseosa Pepsi Black Sin Azúcar 500 ml,1959,,3918,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,gaseosa-cola-zero,7791813828419,Gaseosa Pepsi Black 1.5 L,4000,,2666.6667,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,gaseosa-cola-zero,7791813828419,Gaseosa Pepsi Black 1.5 L,4000,,2666.6667,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,gaseosa-cola-zero,7791813828464,Gaseosa Pepsi Black 2 L,2693.4,,1346.7,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,gaseosa-cola-zero,7791813828464,Gaseosa Pepsi Black 2 L,2693.4,,1346.7,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,papel-higienico-doble-hoja,7791828900049,Papel Higiénico Felpita Infinity doble hoja (30 m) 4 Unidades,4046,,1011.5,un,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,papel-higienico-doble-hoja,7791828900285,Papel Higiénico Felpita Infinity Doble Hoja (50 m) 4 Unidades,6239,,1559.75,un,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,rollo-cocina,7791828900377,Rollo de Cocina Felpita Maxirollo 200 Paños 1 Unidad,2766.75,,2766.75,un,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253003715,Lavandina Ayudín Triple Poder Lavanda 1 L,1568,,1568,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253003722,Lavandina Ayudín Triple Poder Lavanda 2 L,2884,,1442,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253003746,Lavandina Ayudín Triple Poder Pureza Glaciar 1 L,2025,,2025,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253003753,Lavandina Ayudín Triple Poder Pureza Glaciar 2 L,3092,,1546,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253003777,Lavandina Ayudín Anti Splash 1 L,2249,,2249,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253003784,Lavandina Ayudín Anti Splash 2 L,4615,,2307.5,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253003791,Lavandina En Gel Ayudín Original 700 ml,3699,,5284.2856,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253003807,Lavandina En Gel Ayudín Citrica 700 ml,3699,,5284.2856,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253003814,Lavandina En Gel Ayudín Floral 700 ml,3735,,5335.7144,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253003821,Lavandina Ayudín En Gel Menta 700 ml,3735,,5335.7144,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253003838,Lavandina En Gel Ayudín Lavanda 700 ml,3735,,5335.7144,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253003876,Lavandina En Gel Ayudín Citrica 1500 ml,8269,,5512.6665,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253005856,Lavandina En Gel Ayudín Original 500 ml,3129,,6258,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7793253006709,Lavandina Original Ayudín 2 L,2849,,1424.5,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,papel-higienico-doble-hoja,7793344000517,Papel Higiénico Elegante Doble Hoja (30 m) 4 Unidades,2459.25,,614.8125,un,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,rollo-cocina,7793344009206,Rollo De Cocina Elegante Gigante Doble Hoja 200 Paños 1 Unidad,2413.15,,2413.15,un,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,yogur-natural-sin-azucar,7793913002423,Yogur Tregar Natural 140 g,2129,,15207.143,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,queso-crema-light,7793913013412,Queso Crema Tregar Descremado 280 g,3383.2,,12082.857,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,queso-crema-light,7793913013641,Queso Untable Neufchatel Tregar Light 180 g,3185,,17694.445,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,ricotta,7793913013672,Ricotta Magra Tregar Baja En Sodio 290 g,3319.25,,11445.689,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,yogur-natural-sin-azucar,7794820903612,Yogur Natural Cremoso Milkaut 300 g,4155,,13850,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,queso-port-salut-light,7794990191703,Queso Port Salut Light La Paulina 520 g,9875,,18990.385,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,queso-crema-light,7794990879663,Queso Crema La Paulina Light 290 g,3525,,12155.172,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,queso-crema-light,7798060854352,Queso Untable Tonadita Patagonia Light 180 g,2780,,15444.444,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,atun-lomitos-natural,7798075090349,Atún En Lomitos Delicias Marinas Al Natural 190 g,8970,,47210.527,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7798131250380,Lavandina Héroe Limpieza Clásica 1 L,1155,,1155,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,lavandina,7798131250397,Lavandina Héroe Clásica 2 L,2275,,1137.5,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,yogur-natural-sin-azucar,7798136870743,Yogur Dahi Natural Deslactosado Probio 190 g,3455,,18184.209,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,yogur-natural-sin-azucar,7798136870859,Yogur Dahi Natural Estilo Griego190 g,3519,,18521.053,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,leche-protein,7798338291803,Leche Con Proteína Las Tres Niñas Vida Activa 1 L,2364,,2364,L,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,atun-lomitos-natural,7891167831100,Atún En Lomitos Gomes Da Costa Al Natural 170 g,3577.65,,21045,kg,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,suprema-pollo,7894904271993,Suprema De Pollo Congelada 2 kg,33980,,16990,kg,,,,1
 2026-08-12,pedidosya,PedidosYa Market La Plata,capsulas-nespresso-starbucks,8445290814425,Cápsulas Starbucks De Café Blonde Decaf Nespresso 55 g,17765,17765,323,g,55,11,,
-2026-08-12,pedidosya,PedidosYa Market La Plata,cafe-instantaneo,8445291311510,Café Instantáneo Tradicional Nescafe 100 g,5648.3,,56482.996,,,,,1
+2026-08-12,pedidosya,PedidosYa Market La Plata,cafe-instantaneo,8445291311510,Café Instantáneo Tradicional Nescafe 100 g,5648.3,,56482.996,kg,,,,1
 2026-08-12,pedidosya,PedidosYa Market La Plata,capsulas-nespresso-starbucks,8445291363656,Cápsulas De Café Starbucks House Blend 10 Unidades,17115,17115,1711.5,un,10,14,,
 2026-08-12,pedidosya,PedidosYa Market La Plata,capsulas-nespresso-starbucks,8445291367272,Cápsulas De Café Starbucks Espresso Roast 10 Unidades,17765,17765,1776.5,un,10,6,,
-2026-08-12,pedidosya,PedidosYa Market La Plata,capsulas-nespresso-starbucks,8445291786721,Cápsulas Starbucks Nespresso Hazelnut 10 Unidades,10202.5,14575,1020.25,un,10,14,30%,
+2026-08-12,pedidosya,PedidosYa Market La Plata,capsulas-nespresso-starbucks,8445291786721,Cápsulas Starbucks Nespresso Hazelnut 10 Unidades,10202.5,14575,1020.25,un,10,12,30%,

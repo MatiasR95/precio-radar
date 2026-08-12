@@ -34,6 +34,10 @@ items:
   - id: leche-protein
     nombre: Leche Protein 1 L (botella)
     marca_fija: true
+    # Un producto, no una familia: la portada usa solo los accepted_eans. Las
+    # alternativas (Las Tres Niñas Vida Activa, mas barata) se siguen guardando
+    # en la serie y aparecen en "falta confirmar" por si vale la pena cambiarse.
+    variantes: false
     match:
       all: [protein]
       any: [leche, "la serenisima", "las tres marias", "tres marias"]
