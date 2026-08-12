@@ -17,6 +17,7 @@ Uso:
 
 from __future__ import annotations
 
+import re
 import statistics
 import sys
 from datetime import date, timedelta
@@ -91,8 +92,44 @@ CONVERSION = {
 }
 
 
+# "(30 m) 4 Unidades", "30 m 4 Unidades", "(50 Metros) 4 Unidades",
+# "200 Paños 1 Unidad". El contenido real es la medida por rollo x la cantidad
+# de rollos, y ninguno de los dos numeros esta en los campos de la API.
+MEDIDA_RE = re.compile(r"(\d+(?:[.,]\d+)?)\s*(metros?|mts?|m|pa[nñ]os?)\b", re.I)
+UNIDADES_RE = re.compile(r"(\d+)\s*unidades?\b", re.I)
+MEDIDA_BASE = {"m": "m", "mt": "m", "mts": "m", "metro": "m", "metros": "m",
+               "pano": "pano", "panos": "pano", "paño": "pano", "paños": "pano"}
+
+
+def medida_del_nombre(nombre: str) -> tuple[str, float] | None:
+    """Contenido total sacado del nombre: '(30 m) 4 Unidades' -> ('m', 120).
+
+    PedidosYa informa estos productos con `unit: un`, o sea precio por rollo. Asi
+    un rollo de 30 m y uno de 50 m se comparan como iguales, que es justamente lo
+    que hay que evitar en papel higienico y rollo de cocina.
+    """
+    m = MEDIDA_RE.search(nombre or "")
+    if not m:
+        return None
+    base = MEDIDA_BASE.get(m.group(2).lower().rstrip("."))
+    if not base:
+        return None
+    medida = float(m.group(1).replace(",", "."))
+    u = UNIDADES_RE.search(nombre or "")
+    cantidad = float(u.group(1)) if u else 1.0
+    total = medida * cantidad
+    return (base, total) if total > 0 else None
+
+
 def por_unidad(r: dict) -> tuple[str, float] | None:
     """(unidad base, precio por esa unidad). None si no se puede normalizar."""
+    # El nombre gana cuando trae metros o paños: es mas especifico que el `un`
+    # que publica la API, que ignora el tamaño del rollo.
+    medida = medida_del_nombre(r.get("nombre") or "")
+    precio = num(r.get("precio"))
+    if medida and precio:
+        return medida[0], precio / medida[1]
+
     p = num(r.get("precio_por_unidad"))
     u = (r.get("unidad") or "").strip().lower()
     if p is None or p <= 0 or u not in CONVERSION:
@@ -265,107 +302,17 @@ def money(v) -> str:
 
 
 def html(fecha, analisis, sin_confirmar, n_filas, n_dias) -> None:
-    """Pagina autocontenida, pensada para mirar desde el telefono.
+    """Escribe la pagina. El diseno vive en page.py."""
+    import page
 
-    Sin CSS ni fuentes externas: tiene que abrir igual desde un archivo local,
-    desde GitHub Pages o dentro de un mail, sin depender de que cargue nada.
-    """
-    def fila_html(a):
-        item = a["item"]
-        if not a["tiendas"]:
-            return f'<tr class="vacia"><td>{item["nombre"]}</td><td colspan="3">{a["detalle"]}</td></tr>'
-        fuente = a["par"] or a["tiendas"]
-        market = next((r for t, r in fuente.items() if "Market" in t), None)
-        carre = next((r for t, r in fuente.items() if "Carrefour" in t), None)
-        pm = num(market["precio"]) if market else None
-        pc = num(carre["precio"]) if carre else None
-        gana_m = pm is not None and (pc is None or pm < pc)
-        promo = market["promo_tag"] if market and market["promo_tag"] else ""
-        chip = f'<span class="promo">{promo}</span>' if promo else ""
-        aviso = "" if a["comparable"] or not (pm and pc) else '<span class="aviso">distinto producto</span>'
-        estado = a["veredicto"] or ""
-        hint = f'<span class="hint">{a["senal_sepa"]}</span>' if a.get("senal_sepa") else ""
-        clase = {"COMPRAR": "comprar", "ESPERAR": "esperar"}.get(estado, "gris")
-        etiqueta = {"COMPRAR": "COMPRAR", "ESPERAR": "esperar",
-                    "SIN HISTORIA": f"faltan {MIN_DIAS - a.get('dias', 0)} d"}.get(estado, "—")
-        return (
-            f'<tr><td class="prod">{item["nombre"]}{chip}{aviso}</td>'
-            f'<td class="{"gana" if gana_m else ""}">{money_unit(market)}</td>'
-            f'<td class="{"gana" if pm and pc and not gana_m else ""}">{money_unit(carre)}</td>'
-            f'<td><span class="badge {clase}">{etiqueta}</span>{hint}</td></tr>'
-        )
-
-    # La pagina es su propio monitor. Si la corrida diaria falla (bloqueo de
-    # PerimeterX, notebook apagada, sin internet) el reporte de ayer se queda
-    # publicado y parece al dia. Sin este aviso, un dato viejo se lee como dato
-    # bueno, que es peor que no tener pagina.
-    hoy_iso = date.today().isoformat()
-    atraso = (date.today() - date.fromisoformat(fecha)).days
-    banner = ""
-    if atraso >= 1:
-        banner = (f'<section class="stale"><b>Datos de hace {atraso} dia(s).</b> '
-                  f'La corrida del {hoy_iso} no llego a actualizar. '
-                  f'Revisar <code>data/run-daily.log</code>, o correr '
-                  f'<code>py_fetch.py login</code> si PedidosYa pide captcha.</section>')
-
-    comprar = [a for a in analisis if a["veredicto"] == "COMPRAR"]
-    destacado = "".join(
-        f'<li><b>{a["item"]["nombre"]}</b> — {money(a["ganadora"]["precio"])} '
-        f'en {a["ganadora"]["tienda"]}. {a["detalle"]}.</li>' for a in comprar)
-    bloque_comprar = (f'<section class="hoy"><h2>Comprar hoy</h2><ul>{destacado}</ul></section>'
-                      if comprar else
-                      '<section class="hoy vacio"><h2>Nada urgente hoy</h2>'
-                      '<p>Ningun producto esta en su franja barata.</p></section>')
-    pendientes = "".join(f"<li>{s}</li>" for s in sorted(set(sin_confirmar)))
-    bloque_pend = (f'<details><summary>Falta confirmar {len(set(sin_confirmar))} producto(s)</summary>'
-                   f'<ul class="pend">{pendientes}</ul></details>' if sin_confirmar else "")
-
-    doc = f"""<!doctype html><html lang="es"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Precio radar — {fecha}</title><style>
-:root{{--bg:#faf9f7;--card:#fff;--tx:#1a1a1a;--mu:#6b6b6b;--ln:#e5e3df;
---ok:#0f7b3f;--okbg:#e6f4ec;--wait:#8a6d1f;--waitbg:#fdf4dd;--pr:#b3261e}}
-@media(prefers-color-scheme:dark){{:root{{--bg:#131313;--card:#1c1c1c;--tx:#ededed;
---mu:#9a9a9a;--ln:#2e2e2e;--ok:#5ed69a;--okbg:#10331f;--wait:#e0c368;--waitbg:#332b12;--pr:#ff8a80}}}}
-*{{box-sizing:border-box}}body{{margin:0;padding:16px;background:var(--bg);color:var(--tx);
-font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}}
-.wrap{{max-width:760px;margin:0 auto}}h1{{font-size:1.35rem;margin:0 0 2px}}
-.fecha{{color:var(--mu);font-size:.85rem;margin-bottom:18px}}
-section,details{{background:var(--card);border:1px solid var(--ln);border-radius:14px;
-padding:14px 16px;margin-bottom:14px}}h2{{font-size:1rem;margin:0 0 8px}}
-.hoy ul{{margin:0;padding-left:18px}}.hoy li{{margin:4px 0}}
-.hoy.vacio h2{{color:var(--mu)}}.hoy.vacio p{{margin:0;color:var(--mu);font-size:.9rem}}
-.tabla{{padding:0;overflow-x:auto}}table{{width:100%;border-collapse:collapse;font-size:.9rem}}
-th,td{{padding:9px 12px;text-align:right;border-bottom:1px solid var(--ln);white-space:nowrap}}
-th:first-child,td:first-child{{text-align:left;white-space:normal;min-width:150px}}
-th{{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:var(--mu);font-weight:600}}
-tr:last-child td{{border-bottom:0}}.gana{{font-weight:700;color:var(--ok)}}
-.vacia td{{color:var(--mu)}}
-.badge{{display:inline-block;padding:2px 8px;border-radius:999px;font-size:.72rem;font-weight:700}}
-.comprar{{background:var(--okbg);color:var(--ok)}}.esperar{{background:var(--waitbg);color:var(--wait)}}
-.gris{{background:var(--ln);color:var(--mu)}}
-.promo{{display:inline-block;margin-left:6px;padding:1px 6px;border-radius:6px;
-background:var(--pr);color:#fff;font-size:.68rem;font-weight:700}}
-.aviso{{display:block;color:var(--mu);font-size:.72rem}}
-.hint{{display:block;color:var(--mu);font-size:.68rem;margin-top:3px;white-space:normal;max-width:150px}}
-td small{{color:var(--mu);font-weight:400;font-size:.78rem}}
-.stale{{background:#fdf4dd;border-color:#e0c368;color:#6b551a}}
-@media(prefers-color-scheme:dark){{.stale{{background:#332b12;border-color:#7a6a2e;color:#e6d9a8}}}}
-.stale code{{font-size:.85em;background:rgba(0,0,0,.08);padding:1px 4px;border-radius:4px}}
-summary{{cursor:pointer;font-weight:600;font-size:.9rem}}
-.pend{{font-size:.8rem;color:var(--mu);padding-left:18px}}
-footer{{color:var(--mu);font-size:.78rem;text-align:center;padding:4px 0 20px}}
-</style></head><body><div class="wrap">
-<h1>Precio radar</h1><div class="fecha">{fecha} · PeYa Market vs Carrefour en PedidosYa</div>
-{banner}
-{bloque_comprar}
-<section class="tabla"><table><thead><tr><th>Producto</th><th>PeYa Market</th>
-<th>Carrefour</th><th>Cuando</th></tr></thead><tbody>
-{"".join(fila_html(a) for a in analisis)}
-</tbody></table></section>
-{bloque_pend}
-<footer>{n_filas} filas · {n_dias} dia(s) de serie · el veredicto necesita {MIN_DIAS}</footer>
-</div></body></html>"""
+    doc = page.construir(fecha, analisis, sin_confirmar, n_filas, n_dias, {
+        "money": money,
+        "por_unidad": por_unidad,
+        "num": num,
+        "min_dias": MIN_DIAS,
+        "atraso": (date.today() - date.fromisoformat(fecha)).days,
+        "hoy_iso": date.today().isoformat(),
+    })
     HTML.write_text(doc, encoding="utf-8")
     publico = ROOT / "docs" / "index.html"
     if publico.parent.exists():

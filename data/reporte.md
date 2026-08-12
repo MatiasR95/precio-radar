@@ -7,12 +7,12 @@
 | Leche Protein 1 L (botella) | $2.989,00<br><small>$2.989,00/L</small> | $2.999,00<br><small>$2.999,00/L</small> | PeYa −$10,00 | faltan 7 dias |
 | Lomitos de atun al natural (lata) | $3.577,65<br><small>$21.045,00/kg</small> | $6.450,00<br><small>$18.220,34/kg</small> | Carrefour −$2.824,66/kg · marcas distintas | faltan 7 dias |
 | Yogur natural sin endulzar | $4.155,00<br><small>$13.850,00/kg</small> | $3.879,00<br><small>$12.930,00/kg</small> | Carrefour −$276,00 | faltan 7 dias |
-| Papel higienico doble hoja | $2.839,20<br><small>$709,80/un</small> | $3.149,00<br><small>$787,25/un</small> | PeYa −$309,80 | faltan 7 dias |
+| Papel higienico doble hoja | $2.895,20<br><small>$24,13/m</small> | $3.435,00<br><small>$28,62/m</small> | PeYa −$539,80 | faltan 7 dias |
 | Ricotta magra o semimagra | $4.899,00<br><small>$9.798,00/kg</small> | $4.699,00<br><small>$9.398,00/kg</small> | Carrefour −$200,00 | faltan 7 dias |
 | Yerba Mañanita 500 g / 1 kg | $4.790,00<br><small>$4.790,00/kg</small> | $4.749,00<br><small>$4.749,00/kg</small> | Carrefour −$41,00 | faltan 7 dias · en gondola esta mas barato que el 86% de los dias |
 | Detergente (Cif o Magistral) | $2.262,50<br><small>$4.525,00/L</small> | $4.389,00<br><small>$8.778,00/L</small> | PeYa −$2.126,50 | faltan 7 dias · en gondola esta mas barato que el 86% de los dias |
 | Lavandina | $1.455,00<br><small>$1.455,00/L</small> | $959,25<br><small>$959,25/L</small> | Carrefour −$495,75 | faltan 7 dias · en gondola esta mas barato que el 86% de los dias |
-| Rollo de cocina | $2.489,65<br><small>$829,88/un</small> | $2.929,00<br><small>$976,33/un</small> | PeYa −$439,35 | faltan 7 dias · en gondola esta mas barato que el 86% de los dias |
+| Rollo de cocina | $2.413,15<br><small>$12,07/pano</small> | $2.839,00<br><small>$14,20/pano</small> | PeYa −$425,85 | faltan 7 dias · en gondola esta mas barato que el 86% de los dias |
 | Vinagre de alcohol | $1.295,00<br><small>$996,15/L</small> | $5.790,00<br><small>$1.158,00/L</small> | PeYa −$161,85/L · marcas distintas | faltan 7 dias |
 | Cafe instantaneo liofilizado | $8.925,00<br><small>$52.500,00/kg</small> | $8.089,00<br><small>$47.582,35/kg</small> | Carrefour −$836,00 | faltan 7 dias |
 | Capsulas Starbucks para Nespresso Original | $10.202,50<br><small>$1.020,25/un</small> (30%) | $14.875,00<br><small>$1.487,50/un</small> | PeYa −$4.672,50 | faltan 7 dias |
@@ -38,15 +38,15 @@ Estos salieron del buscador y todavia no estan en `accepted_eans`, asi que la co
 - gaseosa-cola-zero · PedidosYa Market La Plata · Gaseosa Pepsi Black 2 L (EAN 7791813828464)
 - lavandina · Carrefour Hiper City Bell · Lavandina Ayudín Original 1 L (EAN 7790132098459)
 - lavandina · PedidosYa Market La Plata · Lavandina Héroe Clásica 2 L (EAN 7798131250397)
-- papel-higienico-doble-hoja · Carrefour Hiper City Bell · Papel Higiénico Felpita Corazón De Algodón Doble Textura (20 m) 4 Unidades (EAN 7791828900186)
+- papel-higienico-doble-hoja · Carrefour Hiper City Bell · Papel Higiénico Carrefour Doble Hoja Essential (50 Metros) 4 Unidades (EAN 7791720045558)
 - papel-higienico-doble-hoja · PedidosYa Market La Plata · Papel Higiénico Elegante Doble Hoja (30 m) 4 Unidades (EAN 7793344000517)
 - queso-crema-light · Carrefour Hiper City Bell · Queso Crema San Ignacio Light 480 g (EAN 7790244941612)
 - queso-crema-light · PedidosYa Market La Plata · Queso Crema Tregar Descremado 280 g (EAN 7793913013412)
 - queso-port-salut-light · PedidosYa Market La Plata · Queso Port Salut Light La Paulina 520 g (EAN 7794990191703)
 - ricotta · Carrefour Hiper City Bell · Ricotta Bulnez Entera 500 g (EAN 7791720046951)
 - ricotta · PedidosYa Market La Plata · Ricotta García Entera Baja En Sodio 500 g (EAN 7790742102805)
-- rollo-cocina · Carrefour Hiper City Bell · Rollo De Cocina BlancoFelpita Doble Hoja 3 Rollos 60 Paños (EAN 7791828900537)
-- rollo-cocina · PedidosYa Market La Plata · Rollos De Cocina Sussex Clásico (50 Paños) 3 Unidades (EAN 7790250056881)
+- rollo-cocina · Carrefour Hiper City Bell · Rollo De Cocina Bulnez Doble Hoja (200 Paños) 1 Unidad (EAN 7791720047446)
+- rollo-cocina · PedidosYa Market La Plata · Rollo De Cocina Elegante Gigante Doble Hoja 200 Paños 1 Unidad (EAN 7793344009206)
 - suprema-pollo · Carrefour Hiper City Bell · Suprema De Pollo Granja Del Sol 360 g (EAN 7790070036063)
 - suprema-pollo · PedidosYa Market La Plata · Suprema De Pollo Congelada 2 kg (EAN 7894904271993)
 - vinagre-alcohol · Carrefour Hiper City Bell · Vinagre De Alcohol Bulnez Bidón 5000 cm3 (EAN 7791720035962)
