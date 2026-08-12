@@ -1,0 +1,3064 @@
+{
+  "leche-protein": [
+    {
+      "ean": "7790742352101",
+      "descripcion": "LECHE PROTEIN SACHET [LASER]",
+      "precio_min": 2285.0,
+      "por_unidad": 2285.0,
+      "unidad": "L",
+      "banderas": {
+        "Supermercados DIA": 2285.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 2590.0
+      }
+    },
+    {
+      "ean": "7790742358608",
+      "descripcion": "Leche Uat Proteina La serenisima 1l BOT-1000-ml. [LA SERENISIMA]",
+      "precio_min": 2490.0,
+      "por_unidad": 2490.0,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 3100.0,
+        "Vea": 2890.0,
+        "Express": 3089.0,
+        "Market": 2999.0,
+        "Hipermercado Carrefour": 2999.0,
+        "HiperChangomas": 2999.0,
+        "Supermercados DIA": 2999.0,
+        "COTO CICSA": 2999.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 2490.0
+      }
+    },
+    {
+      "ean": "7798338291803",
+      "descripcion": "LECHE C PROTEINA VIDA ACTIVA LAS TRES NINAS X 1LT [LAS TRES NINAS]",
+      "precio_min": 2759.0,
+      "por_unidad": 2759.0,
+      "unidad": "L",
+      "banderas": {
+        "Market": 2865.0,
+        "Express": 2950.0,
+        "Hipermercado Carrefour": 2865.0,
+        "HiperChangomas": 2759.0,
+        "COTO CICSA": 2865.0
+      }
+    },
+    {
+      "ean": "7790742172105",
+      "descripcion": "BEB.A BASE LECHE DESC PROTEIN CHOC. LA SERENISIMA TTB 1L TR [LA SERENISIMA]",
+      "precio_min": 4655.0,
+      "por_unidad": 4655.0,
+      "unidad": "L",
+      "banderas": {
+        "COTO CICSA": 4655.0
+      }
+    }
+  ],
+  "atun-lomitos-natural": [
+    {
+      "ean": "7791102053072",
+      "descripcion": "ATUN COOP LOMITOS NATURAL [COOPERATIVA]",
+      "precio_min": 2750.0,
+      "por_unidad": 17187.5,
+      "unidad": "kg",
+      "banderas": {
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 2750.0
+      }
+    },
+    {
+      "ean": "7799120000887",
+      "descripcion": "CHECK LOMITOS DE ATUN AL NATURAL 170G [CHECK]",
+      "precio_min": 3169.0,
+      "por_unidad": 18641.176470588234,
+      "unidad": "kg",
+      "banderas": {
+        "HiperChangomas": 3169.0
+      }
+    },
+    {
+      "ean": "7798033333907",
+      "descripcion": "ATUN AL NATURAL LOMITOS CARREFOUR LATA X 170 GRS. [CARREFOUR]",
+      "precio_min": 3490.0,
+      "por_unidad": 20529.41176470588,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 3490.0,
+        "Market": 3490.0,
+        "Express": 3490.0
+      }
+    },
+    {
+      "ean": "8480017558121",
+      "descripcion": "ATUN LOMITO NATURAL [DIA]",
+      "precio_min": 3490.0,
+      "por_unidad": 20529.41176470588,
+      "unidad": "kg",
+      "banderas": {
+        "Supermercados DIA": 3490.0
+      }
+    },
+    {
+      "ean": "7791102053041",
+      "descripcion": "ATUN ECOOP LOMITOS S/SAL [ECOOP]",
+      "precio_min": 3350.0,
+      "por_unidad": 20937.5,
+      "unidad": "kg",
+      "banderas": {
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 3350.0
+      }
+    },
+    {
+      "ean": "7790360984234",
+      "descripcion": "ATUN AL NATURAL LOMITOS SWIFT LATA X 170 GRS [SWIFT]",
+      "precio_min": 4199.0,
+      "por_unidad": 24700.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 4199.0,
+        "Supermercados DIA": 4199.0
+      }
+    },
+    {
+      "ean": "7798152222151",
+      "descripcion": "ATUN AL NATURAL LOMITOS CARREFOUR 3 X 80 GRS [CARREFOUR]",
+      "precio_min": 6150.0,
+      "por_unidad": 25625.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 6150.0,
+        "Express": 6150.0,
+        "Market": 6150.0
+      }
+    },
+    {
+      "ean": "8480017770134",
+      "descripcion": "ATUN LOMITO NATURAL [DIA]",
+      "precio_min": 6150.0,
+      "por_unidad": 25625.0,
+      "unidad": "kg",
+      "banderas": {
+        "Supermercados DIA": 6150.0
+      }
+    },
+    {
+      "ean": "7790580131364",
+      "descripcion": "ATUN AL NATURAL LOMITOS LA CAMPAGNOLA X 170 GRS [LA CAMPAGNOLA]",
+      "precio_min": 5745.0,
+      "por_unidad": 33794.11764705882,
+      "unidad": "kg",
+      "banderas": {
+        "Express": 6469.0,
+        "Market": 5745.0,
+        "Hipermercado Carrefour": 5745.0,
+        "HiperChangomas": 6029.0,
+        "Supermercados DIA": 5745.0
+      }
+    }
+  ],
+  "yogur-natural-sin-azucar": [
+    {
+      "ean": "7794820903605",
+      "descripcion": "YOGUR BEBI.ENT.DES.NATURAL MILKAUT BOT 950 GRM [MILKAUT]",
+      "precio_min": 5515.0,
+      "por_unidad": 5805.263157894737,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 5515.0
+      }
+    },
+    {
+      "ean": "7791337010871",
+      "descripcion": "YOGUR GRIEGO BEB NATURAL YOGURISIMO SACH X900G [YOGURISIMO]",
+      "precio_min": 6170.0,
+      "por_unidad": 6855.555555555556,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 6170.0,
+        "Express": 6355.0,
+        "Market": 6170.0,
+        "HiperChangomas": 6179.0
+      }
+    },
+    {
+      "ean": "7798111062408",
+      "descripcion": "YOGUR NATURAL YATASTO POT 125 GRM [YATASTO]",
+      "precio_min": 905.0,
+      "por_unidad": 7240.0,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 905.0
+      }
+    },
+    {
+      "ean": "7791337009776",
+      "descripcion": "YYS NATURAL SACH900G [YOGURISIMO]",
+      "precio_min": 6750.0,
+      "por_unidad": 7500.0,
+      "unidad": "kg",
+      "banderas": {
+        "HiperChangomas": 6750.0
+      }
+    },
+    {
+      "ean": "7791337010727",
+      "descripcion": "YOGUR BATIDO NATURAL [LSNA]",
+      "precio_min": 990.0,
+      "por_unidad": 8250.0,
+      "unidad": "kg",
+      "banderas": {
+        "Supermercados DIA": 1315.0,
+        "COTO CICSA": 1319.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 990.0
+      }
+    },
+    {
+      "ean": "7790787960934",
+      "descripcion": "YOGUR CREMOSO SAB NATURAL ILOLAY POTE X 350 G [ILOLAY]",
+      "precio_min": 3144.15,
+      "por_unidad": 8983.285714285714,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 3695.0,
+        "Hipermercado Carrefour": 3144.15,
+        "COTO CICSA": 3699.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 3599.0
+      }
+    },
+    {
+      "ean": "7794820902721",
+      "descripcion": "Yogur Natural Milkaut cremoso 180g POT-180-gr. [MILKAUT]",
+      "precio_min": 1999.0,
+      "por_unidad": 11105.555555555557,
+      "unidad": "kg",
+      "banderas": {
+        "Vea": 2450.0,
+        "Disco": 2450.0,
+        "Market": 2355.0,
+        "Express": 2129.0,
+        "Hipermercado Carrefour": 1999.0,
+        "HiperChangomas": 2359.0,
+        "Supermercados DIA": 2065.0
+      }
+    },
+    {
+      "ean": "7790787960927",
+      "descripcion": "YOGUR CREMOSO NATURAL ILOLAY 140 GRS [ILOLAY]",
+      "precio_min": 1576.75,
+      "por_unidad": 11262.499999999998,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 1576.75,
+        "COTO CICSA": 1859.0
+      }
+    },
+    {
+      "ean": "7791720048122",
+      "descripcion": "YOGUR NATURAL CARREFOUR EXTRA FRASCO X 200 GR [CARREFOUR EXTRA]",
+      "precio_min": 2337.5,
+      "por_unidad": 11687.5,
+      "unidad": "kg",
+      "banderas": {
+        "Express": 2750.0,
+        "Hipermercado Carrefour": 2337.5,
+        "Market": 2750.0
+      }
+    },
+    {
+      "ean": "7791337010017",
+      "descripcion": "YOG GRIEGO NATURAL [YOGURISIMO]",
+      "precio_min": 3790.0,
+      "por_unidad": 12633.333333333334,
+      "unidad": "kg",
+      "banderas": {
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 3790.0
+      }
+    },
+    {
+      "ean": "7794820903612",
+      "descripcion": "YOGUR ENT NATURAL CREMOSO MILKAUT POTE X 300 G [MILKAUT]",
+      "precio_min": 3879.0,
+      "por_unidad": 12930.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 3879.0,
+        "Market": 3879.0,
+        "HiperChangomas": 3879.0
+      }
+    },
+    {
+      "ean": "7794820903711",
+      "descripcion": "YOGUR DESC NATURAL CREMOSO MILKAUT POTE X 300G [MILKAUT]",
+      "precio_min": 3879.0,
+      "por_unidad": 12930.0,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 3879.0,
+        "Hipermercado Carrefour": 3879.0
+      }
+    },
+    {
+      "ean": "744430256278",
+      "descripcion": "YOGUR SEMIDESCRE BATIDO NATURAL YOGURADE 210 GRS [YOGURADE]",
+      "precio_min": 2940.0,
+      "por_unidad": 14000.0,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 2940.0,
+        "Express": 3029.0,
+        "Hipermercado Carrefour": 2940.0,
+        "COTO CICSA": 2940.0
+      }
+    },
+    {
+      "ean": "7798136870545",
+      "descripcion": "YOGUR FIRME NATURAL DAHI FRASCO X 190 GRS [DAHI]",
+      "precio_min": 2720.0,
+      "por_unidad": 14315.78947368421,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 2720.0
+      }
+    },
+    {
+      "ean": "7793913002423",
+      "descripcion": "YOGUR ENTERO NATURAL TREGAR POTE X 140 GRS. [TREGAR]",
+      "precio_min": 2029.0,
+      "por_unidad": 14492.857142857141,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 2029.0,
+        "COTO CICSA": 2090.0
+      }
+    },
+    {
+      "ean": "7798338250022",
+      "descripcion": "YOGUR VEGANO NATURAL S AZU COCOIOGO POTE X 160 GRS [COCOIOGO]",
+      "precio_min": 2416.0,
+      "por_unidad": 15100.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 2416.0
+      }
+    },
+    {
+      "ean": "7791337007345",
+      "descripcion": "YOGUR SER NATURAL SIN END [SER]",
+      "precio_min": 2799.0,
+      "por_unidad": 15994.285714285712,
+      "unidad": "kg",
+      "banderas": {
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 2799.0
+      }
+    },
+    {
+      "ean": "7791337007208",
+      "descripcion": "YOGUR NATURAL S LACTOSA SER POTE X 300 GR [SER]",
+      "precio_min": 4915.0,
+      "por_unidad": 16383.333333333334,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 4915.0,
+        "Market": 4915.0,
+        "Express": 5059.0,
+        "Supermercados DIA": 4915.0
+      }
+    },
+    {
+      "ean": "7791337010932",
+      "descripcion": "YOGUR GRIEGO FIR NATURAL YOGURISIMO POTE X 180 GR [YOGURISIMO]",
+      "precio_min": 2950.0,
+      "por_unidad": 16388.88888888889,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 2950.0,
+        "Hipermercado Carrefour": 2950.0
+      }
+    },
+    {
+      "ean": "7798136870859",
+      "descripcion": "YOGUR NATURAL ESTILO GRIEGO DAHI FRASCO X 190 GRM [DAHI]",
+      "precio_min": 3159.0,
+      "por_unidad": 16626.315789473683,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 3289.0,
+        "HiperChangomas": 3159.0,
+        "COTO CICSA": 3295.0
+      }
+    },
+    {
+      "ean": "744430256315",
+      "descripcion": "Yog Ent Yogurade Natural 150g POT-150-gr. [YOGURADE]",
+      "precio_min": 2550.0,
+      "por_unidad": 17000.0,
+      "unidad": "kg",
+      "banderas": {
+        "Disco": 2550.0
+      }
+    },
+    {
+      "ean": "7798327950162",
+      "descripcion": "YOGUR DESC DESLAC S AZU NATURAL BEAUDROIT X 160 GR [FAMILIA BEAUDROIT]",
+      "precio_min": 3095.0,
+      "por_unidad": 19343.75,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 3095.0,
+        "COTO CICSA": 3099.0
+      }
+    },
+    {
+      "ean": "7798327950018",
+      "descripcion": "YOGUR BATIDO ENTERO NATURAL FAMILIA BEAUDROIT POTE 160 GRS [BEAUDROIT]",
+      "precio_min": 3099.0,
+      "por_unidad": 19368.75,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 3099.0
+      }
+    },
+    {
+      "ean": "7791337009660",
+      "descripcion": "YOGUR DESCREMADO BATIDO NATURAL SER PRO+ 175 GRS [SER PRO+]",
+      "precio_min": 3395.0,
+      "por_unidad": 19399.999999999996,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 3395.0,
+        "Market": 3395.0,
+        "Express": 3499.0,
+        "HiperChangomas": 3395.0
+      }
+    },
+    {
+      "ean": "7798327840166",
+      "descripcion": "Yogur La Delfina Batido Natural 600g DOY-600-gr. [LA DELFINA]",
+      "precio_min": 14800.0,
+      "por_unidad": 24666.666666666668,
+      "unidad": "kg",
+      "banderas": {
+        "Disco": 14800.0
+      }
+    }
+  ],
+  "papel-higienico-doble-hoja": [
+    {
+      "ean": "7790250092452",
+      "descripcion": "PAPEL HIGIENICO DOBLE HOJA NOBLE 4 X 30 M [NOBLE]",
+      "precio_min": 3669.0,
+      "por_unidad": 30.575,
+      "unidad": "m",
+      "banderas": {
+        "Hipermercado Carrefour": 3669.0
+      }
+    },
+    {
+      "ean": "7793344001132",
+      "descripcion": "PAPEL HIGIENICO H DOBLE RINDEMAS ELEGANTE 4 X30MTS [ELEGANTE]",
+      "precio_min": 4249.0,
+      "por_unidad": 35.40833333333333,
+      "unidad": "m",
+      "banderas": {
+        "Hipermercado Carrefour": 4255.0,
+        "Market": 4249.0
+      }
+    },
+    {
+      "ean": "7791828900049",
+      "descripcion": "FELPITA PAPEL HIGIENICO DOBLE HOJA 30M 4U [FELPITA]",
+      "precio_min": 4269.0,
+      "por_unidad": 35.575,
+      "unidad": "m",
+      "banderas": {
+        "HiperChangomas": 4269.0
+      }
+    },
+    {
+      "ean": "7791828900285",
+      "descripcion": "Papel Higienico FELPITA Doble Hoj 4x50 PAQ-50-hjs [FELPITA]",
+      "precio_min": 7250.0,
+      "por_unidad": 36.25,
+      "unidad": "un",
+      "banderas": {
+        "Disco": 7250.0
+      }
+    },
+    {
+      "ean": "7790250015567",
+      "descripcion": "PAPEL HIGIENICO DOBLE HOJA PLUS HIGIENOL 4 X 20 MT [HIGIENOL]",
+      "precio_min": 3149.0,
+      "por_unidad": 39.3625,
+      "unidad": "m",
+      "banderas": {
+        "Market": 3545.0,
+        "Hipermercado Carrefour": 3149.0
+      }
+    }
+  ],
+  "ricotta": [
+    {
+      "ean": "7791720046951",
+      "descripcion": "RICOTTA ENTERA BULNEZ X 500 GRM [BULNEZ]",
+      "precio_min": 2966.5,
+      "por_unidad": 5933.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 2966.5,
+        "Market": 3490.0
+      }
+    },
+    {
+      "ean": "7791720046975",
+      "descripcion": "RICOTTA SEMIMAGRA BULNEZ X 500 GRM [BULNEZ]",
+      "precio_min": 2966.5,
+      "por_unidad": 5933.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 2966.5,
+        "Market": 3490.0
+      }
+    },
+    {
+      "ean": "7798179070018",
+      "descripcion": "RICOTA G SILVIA X 500 GRS [SILVIA]",
+      "precio_min": 3159.0,
+      "por_unidad": 6318.0,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 3285.0,
+        "Express": 3479.0,
+        "Hipermercado Carrefour": 3285.0,
+        "HiperChangomas": 3159.0,
+        "COTO CICSA": 3285.0
+      }
+    },
+    {
+      "ean": "2800005890747",
+      "descripcion": "PANZOTTIS D/RICOTA Y QUESO CIUDAD DEL LAGO BLI 500 GRM [CIUDAD DEL LAGO]",
+      "precio_min": 3979.0,
+      "por_unidad": 7958.0,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 3979.0
+      }
+    },
+    {
+      "ean": "7790742102805",
+      "descripcion": "ricota entera GARCIA baja en sodio SCH-500-gr. [GARCIA]",
+      "precio_min": 4509.0,
+      "por_unidad": 9018.0,
+      "unidad": "kg",
+      "banderas": {
+        "Disco": 5100.0,
+        "Vea": 5050.0,
+        "Market": 4509.0,
+        "Hipermercado Carrefour": 4699.0,
+        "HiperChangomas": 4759.0,
+        "Supermercados DIA": 4699.0,
+        "COTO CICSA": 4755.0
+      }
+    },
+    {
+      "ean": "7790742114204",
+      "descripcion": "Ricotta Garcia Semigrasa Sachet 500GR SCH-500-gr. [GARCIA]",
+      "precio_min": 4755.0,
+      "por_unidad": 9510.0,
+      "unidad": "kg",
+      "banderas": {
+        "Vea": 4950.0,
+        "Disco": 5100.0,
+        "Express": 4899.0,
+        "Hipermercado Carrefour": 4755.0,
+        "Market": 4755.0,
+        "HiperChangomas": 4759.0,
+        "COTO CICSA": 4755.0
+      }
+    },
+    {
+      "ean": "7793913013665",
+      "descripcion": "RICOTTA ENTERA TREGAR X 290 GRS POT-290-gr. [TREGAR]",
+      "precio_min": 3290.0,
+      "por_unidad": 11344.827586206897,
+      "unidad": "kg",
+      "banderas": {
+        "Disco": 3850.0,
+        "Vea": 3290.0,
+        "Hipermercado Carrefour": 3790.0,
+        "COTO CICSA": 3790.0
+      }
+    },
+    {
+      "ean": "7793913013672",
+      "descripcion": "RICOTTA LIGHT TREGAR X 290 GRS POT-290-gr. [TREGAR]",
+      "precio_min": 3550.0,
+      "por_unidad": 12241.379310344828,
+      "unidad": "kg",
+      "banderas": {
+        "Vea": 3550.0,
+        "Disco": 3850.0,
+        "Market": 3790.0,
+        "Hipermercado Carrefour": 3769.0,
+        "COTO CICSA": 3790.0
+      }
+    },
+    {
+      "ean": "7798041520108",
+      "descripcion": "Ricota ARRIVATA con crema PCH-300-gr. [ARRIVATA]",
+      "precio_min": 4599.0,
+      "por_unidad": 15330.0,
+      "unidad": "kg",
+      "banderas": {
+        "Disco": 5250.0,
+        "HiperChangomas": 4599.0
+      }
+    }
+  ],
+  "yerba-mananita": [
+    {
+      "ean": "7790387015317",
+      "descripcion": "Yerba Mate MAÑANITA 4FLEX 1kg PAQ-1000-gr. [MAÑANITA]",
+      "precio_min": 4490.0,
+      "por_unidad": 4490.0,
+      "unidad": "kg",
+      "banderas": {
+        "Disco": 5350.0,
+        "Vea": 4490.0,
+        "Hipermercado Carrefour": 4749.0,
+        "Market": 4789.0,
+        "Express": 4929.0,
+        "HiperChangomas": 5519.0,
+        "COTO CICSA": 5370.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 5350.0
+      }
+    },
+    {
+      "ean": "7790387015324",
+      "descripcion": "Yerba Mate MAÑANITA 4FLEX 1/2kg PAQ-500-gr. [MAÑANITA]",
+      "precio_min": 2379.0,
+      "por_unidad": 4758.0,
+      "unidad": "kg",
+      "banderas": {
+        "Vea": 2690.0,
+        "Disco": 2800.0,
+        "Hipermercado Carrefour": 2379.0,
+        "Market": 2570.0,
+        "Express": 2570.0,
+        "DEHEZA S.A.I.C.F. e I.": 4400.0,
+        "COTO CICSA": 2750.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 2750.0
+      }
+    }
+  ],
+  "detergente": [
+    {
+      "ean": "7791290794085",
+      "descripcion": "DETERGENTE BIOACTIVE LIMON CIF REPUESTO X 450 CC [BIOACTIVE]",
+      "precio_min": 2855.0,
+      "por_unidad": 6344.444444444444,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 2855.0,
+        "Market": 2855.0,
+        "Express": 3965.0,
+        "COTO CICSA": 3864.99
+      }
+    },
+    {
+      "ean": "7791290794092",
+      "descripcion": "DETERGENTE BIOACTIVE LIMA CIF RESPUESTO X 450 CC [BIOACTIVE]",
+      "precio_min": 2855.0,
+      "por_unidad": 6344.444444444444,
+      "unidad": "L",
+      "banderas": {
+        "Market": 2855.0,
+        "Hipermercado Carrefour": 2855.0,
+        "COTO CICSA": 3864.99
+      }
+    },
+    {
+      "ean": "7791290794115",
+      "descripcion": "DETERGENTE BIOACTIVE LIMA CIF X 500 CC [BIOACTIVE]",
+      "precio_min": 3729.0,
+      "por_unidad": 7458.0,
+      "unidad": "L",
+      "banderas": {
+        "Express": 4005.0,
+        "Hipermercado Carrefour": 3729.0,
+        "Market": 3889.0,
+        "HiperChangomas": 4219.0,
+        "COTO CICSA": 4390.99
+      }
+    },
+    {
+      "ean": "7791290794061",
+      "descripcion": "DETERGENTE BIOACTIVE LIMON CIF X 500 CC [BIOACTIVE]",
+      "precio_min": 3729.0,
+      "por_unidad": 7458.0,
+      "unidad": "L",
+      "banderas": {
+        "Market": 3889.0,
+        "Express": 4005.0,
+        "Hipermercado Carrefour": 3729.0,
+        "HiperChangomas": 4219.0,
+        "COTO CICSA": 4390.99
+      }
+    },
+    {
+      "ean": "7791290794108",
+      "descripcion": "DETERGENTE BIOACTIVE LIMA CIF X 300 CC [BIOACTIVE]",
+      "precio_min": 2329.0,
+      "por_unidad": 7763.333333333334,
+      "unidad": "L",
+      "banderas": {
+        "Market": 2710.0,
+        "Hipermercado Carrefour": 2329.0,
+        "COTO CICSA": 2710.99
+      }
+    },
+    {
+      "ean": "7791290794054",
+      "descripcion": "DETERGENTE BIOACTIVE LIMON CIF X 300 CC [BIOACTIVE]",
+      "precio_min": 2329.0,
+      "por_unidad": 7763.333333333334,
+      "unidad": "L",
+      "banderas": {
+        "Market": 2710.0,
+        "Express": 2710.0,
+        "Hipermercado Carrefour": 2329.0,
+        "COTO CICSA": 2710.99
+      }
+    },
+    {
+      "ean": "7790990003046",
+      "descripcion": "detergente MAGISTRAL ult lim bot 750ml BOT-750-ml. [MAGISTRAL]",
+      "precio_min": 6035.0,
+      "por_unidad": 8046.666666666667,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 7850.0,
+        "Vea": 6290.0,
+        "Express": 7779.0,
+        "Market": 7550.0,
+        "Hipermercado Carrefour": 6035.0,
+        "COTO CICSA": 7559.99
+      }
+    },
+    {
+      "ean": "7790990003145",
+      "descripcion": "detergente MAGISTRAL ult mar bot 750ml BOT-750-ml. [MAGISTRAL]",
+      "precio_min": 6035.0,
+      "por_unidad": 8046.666666666667,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 7850.0,
+        "Vea": 6290.0,
+        "Market": 7560.0,
+        "Hipermercado Carrefour": 6035.0
+      }
+    },
+    {
+      "ean": "7790990003022",
+      "descripcion": "detergente MAGISTRAL ult lim bot 300ml BOT-300-ml. [MAGISTRAL]",
+      "precio_min": 2459.0,
+      "por_unidad": 8196.666666666668,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 3350.0,
+        "Vea": 3190.0,
+        "Market": 2595.0,
+        "Hipermercado Carrefour": 2459.0,
+        "Express": 2669.0,
+        "HiperChangomas": 2999.0,
+        "COTO CICSA": 3129.99
+      }
+    },
+    {
+      "ean": "7790990003121",
+      "descripcion": "detergente MAGISTRAL ult mar bot 300ml BOT-300-ml. [MAGISTRAL]",
+      "precio_min": 2459.0,
+      "por_unidad": 8196.666666666668,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 3350.0,
+        "Vea": 2990.0,
+        "Market": 3129.0,
+        "Hipermercado Carrefour": 2459.0,
+        "COTO CICSA": 3129.99
+      }
+    },
+    {
+      "ean": "7791290796058",
+      "descripcion": "DETERGENTE BIOACTIVE LIMON CIF BOT X 1250 CC [BIOACTIVE]",
+      "precio_min": 10419.0,
+      "por_unidad": 8335.2,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 10419.0,
+        "COTO CICSA": 10421.99
+      }
+    },
+    {
+      "ean": "7791290796041",
+      "descripcion": "DETERGENTE BIOACTIVE LIMA CIF BOT X 1250 CC [BIOACTIVE]",
+      "precio_min": 10419.0,
+      "por_unidad": 8335.2,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 10419.0,
+        "COTO CICSA": 10421.99
+      }
+    },
+    {
+      "ean": "7790990003039",
+      "descripcion": "detergente MAGISTRAL ult lim bot 500ml BOT-500-ml. [MAGISTRAL]",
+      "precio_min": 4189.0,
+      "por_unidad": 8378.0,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 4542.0,
+        "Vea": 4290.0,
+        "Express": 4315.0,
+        "Hipermercado Carrefour": 4389.0,
+        "Market": 4189.0,
+        "HiperChangomas": 4849.0,
+        "COTO CICSA": 5049.99
+      }
+    },
+    {
+      "ean": "7790990003138",
+      "descripcion": "detergente MAGISTRAL ult mar bot 500ml BOT-500-ml. [MAGISTRAL]",
+      "precio_min": 4290.0,
+      "por_unidad": 8580.0,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 4542.0,
+        "Vea": 4290.0,
+        "Market": 4559.0,
+        "Hipermercado Carrefour": 4559.0,
+        "COTO CICSA": 5049.99
+      }
+    },
+    {
+      "ean": "7791290794078",
+      "descripcion": "DETERGENTE BIOACTIVE LIMON CIF X 750 CC [BIOACTIVE]",
+      "precio_min": 6590.0,
+      "por_unidad": 8786.666666666666,
+      "unidad": "L",
+      "banderas": {
+        "Market": 6590.0,
+        "Hipermercado Carrefour": 6590.0,
+        "COTO CICSA": 6590.99
+      }
+    },
+    {
+      "ean": "7791290794122",
+      "descripcion": "DETERGENTE BIO ACTIV.LIMA CIF BOT 750 ML [CIF]",
+      "precio_min": 6590.99,
+      "por_unidad": 8787.986666666666,
+      "unidad": "L",
+      "banderas": {
+        "COTO CICSA": 6590.99
+      }
+    },
+    {
+      "ean": "7790990004241",
+      "descripcion": "DETERGENTE E/POLVO P/LAVAVAJI. MAGISTRAL  PAQ 1.2 KGM [MAGISTRAL]",
+      "precio_min": 10549.99,
+      "por_unidad": 8791.658333333333,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 10549.99
+      }
+    },
+    {
+      "ean": "7790990003787",
+      "descripcion": "DETERGENTE ULTRA LIMON MAGISTRAL DP X 450 CC [MAGISTRAL]",
+      "precio_min": 4039.0,
+      "por_unidad": 8975.555555555555,
+      "unidad": "L",
+      "banderas": {
+        "Market": 4315.0,
+        "Express": 4445.0,
+        "Hipermercado Carrefour": 4039.0,
+        "HiperChangomas": 4149.0
+      }
+    },
+    {
+      "ean": "7790990003411",
+      "descripcion": "DETERGENTE CREM ULTRA LIMON MAGISTRAL BOT X 500CC [MAGISTRAL]",
+      "precio_min": 4559.0,
+      "por_unidad": 9118.0,
+      "unidad": "L",
+      "banderas": {
+        "Market": 4559.0,
+        "Hipermercado Carrefour": 4559.0,
+        "HiperChangomas": 4849.0,
+        "COTO CICSA": 5049.99
+      }
+    },
+    {
+      "ean": "7791290796706",
+      "descripcion": "DETERGENTE ACTIVE GEL ORIG CIF BOT X 500 CC [ACTIVE GEL]",
+      "precio_min": 4850.0,
+      "por_unidad": 9700.0,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 4850.0,
+        "Market": 5485.0,
+        "Express": 5615.0,
+        "COTO CICSA": 5484.99
+      }
+    },
+    {
+      "ean": "7791290796737",
+      "descripcion": "DETERGENTE ACTIVE GEL LIMON CIF BOT X 500 CC [ACTIVE GEL]",
+      "precio_min": 4850.0,
+      "por_unidad": 9700.0,
+      "unidad": "L",
+      "banderas": {
+        "Market": 5485.0,
+        "Hipermercado Carrefour": 4850.0,
+        "COTO CICSA": 5484.99
+      }
+    },
+    {
+      "ean": "7790990003053",
+      "descripcion": "DETERGENTE ULTRA LIMON MAGISTRAL BOT 1400ML [MAGISTRAL]",
+      "precio_min": 13989.99,
+      "por_unidad": 9992.849999999999,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 13990.0,
+        "COTO CICSA": 13989.99
+      }
+    },
+    {
+      "ean": "7791290796720",
+      "descripcion": "DETERGENTE ACTIVE GEL ORIG CIF DP X 400 CC [ACTIVE GEL]",
+      "precio_min": 4289.0,
+      "por_unidad": 10722.5,
+      "unidad": "L",
+      "banderas": {
+        "Market": 4289.0,
+        "Hipermercado Carrefour": 4289.0,
+        "Express": 4409.0,
+        "COTO CICSA": 4289.99
+      }
+    },
+    {
+      "ean": "7791290796751",
+      "descripcion": "DETERGENTE ACTIVE GEL LIMON CIF DP X 400 CC [ACTIVE GEL]",
+      "precio_min": 4289.0,
+      "por_unidad": 10722.5,
+      "unidad": "L",
+      "banderas": {
+        "Market": 4289.0,
+        "Hipermercado Carrefour": 4289.0,
+        "COTO CICSA": 4289.99
+      }
+    },
+    {
+      "ean": "7791290796744",
+      "descripcion": "DETERGENTE ACTIVE GEL LIMON CIF BOT X 750 CC [ACTIVE GEL]",
+      "precio_min": 8229.0,
+      "por_unidad": 10972.0,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 8229.0,
+        "COTO CICSA": 8232.99
+      }
+    }
+  ],
+  "lavandina": [
+    {
+      "ean": "7798270247159",
+      "descripcion": "ALIADA LAVANDINA 2L [ALIADA]",
+      "precio_min": 1789.0,
+      "por_unidad": 894.5,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 1789.0
+      }
+    },
+    {
+      "ean": "7798270247142",
+      "descripcion": "ALIADA LAVANDINA 1L [ALIADA]",
+      "precio_min": 919.0,
+      "por_unidad": 919.0,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 919.0
+      }
+    },
+    {
+      "ean": "7798238110211",
+      "descripcion": "lavandina LIMPIALIN clasica 25g 2lt BOT-2000-ml. [LIMPIALIN]",
+      "precio_min": 1890.0,
+      "por_unidad": 945.0,
+      "unidad": "L",
+      "banderas": {
+        "Vea": 1890.0,
+        "Disco": 2050.0
+      }
+    },
+    {
+      "ean": "7798238110310",
+      "descripcion": "lavandina LIMPIALIN clasica 25g 4lt BDN-4000-ml. [LIMPIALIN]",
+      "precio_min": 3900.0,
+      "por_unidad": 975.0,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 3900.0
+      }
+    },
+    {
+      "ean": "8480017253057",
+      "descripcion": "LAVANDINA TRADICIONA [DIA]",
+      "precio_min": 1950.0,
+      "por_unidad": 975.0,
+      "unidad": "L",
+      "banderas": {
+        "Supermercados DIA": 1950.0
+      }
+    },
+    {
+      "ean": "8480017253064",
+      "descripcion": "LAVANDINA TRADICIONA [DIA]",
+      "precio_min": 3900.0,
+      "por_unidad": 975.0,
+      "unidad": "L",
+      "banderas": {
+        "Supermercados DIA": 3900.0
+      }
+    },
+    {
+      "ean": "8480017240699",
+      "descripcion": "LAVANDINA TRADICIONA [DIA]",
+      "precio_min": 990.0,
+      "por_unidad": 990.0,
+      "unidad": "L",
+      "banderas": {
+        "Supermercados DIA": 990.0
+      }
+    },
+    {
+      "ean": "7798131250502",
+      "descripcion": "HEROE LAVANDINA [HEROE]",
+      "precio_min": 4119.0,
+      "por_unidad": 1029.75,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 4119.0,
+        "COTO CICSA": 4159.99,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 4690.0
+      }
+    },
+    {
+      "ean": "7792389081338",
+      "descripcion": "X5 LAVANDINA COMUN [X 5]",
+      "precio_min": 4139.0,
+      "por_unidad": 1034.75,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 4139.0
+      }
+    },
+    {
+      "ean": "7798131250397",
+      "descripcion": "lavandina clasica HEROE 2lt BOT-2000-ml. [HEROE]",
+      "precio_min": 2089.0,
+      "por_unidad": 1044.5,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 2250.0,
+        "HiperChangomas": 2089.0,
+        "Supermercados DIA": 2170.0
+      }
+    },
+    {
+      "ean": "7798131250380",
+      "descripcion": "lavandina clasica HEROE 1lt BOT-1000-ml. [HEROE]",
+      "precio_min": 1069.0,
+      "por_unidad": 1069.0,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 1150.0,
+        "HiperChangomas": 1069.0,
+        "Supermercados DIA": 1100.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 1190.0
+      }
+    },
+    {
+      "ean": "7798131250045",
+      "descripcion": "LAVANDINA HEROE CLASICA 2LT [HEROE]",
+      "precio_min": 2169.99,
+      "por_unidad": 1084.995,
+      "unidad": "L",
+      "banderas": {
+        "COTO CICSA": 2169.99,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 2490.0
+      }
+    },
+    {
+      "ean": "7798238110204",
+      "descripcion": "lavandina LIMPIALIN clasica 1lt BOT-1000-ml. [LIMPIALIN]",
+      "precio_min": 1094.0,
+      "por_unidad": 1094.0,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 1094.0,
+        "Vea": 1190.0
+      }
+    },
+    {
+      "ean": "7798131250052",
+      "descripcion": "LAVANDINA ADITIVADA HEROE COMUN BOT 1LT [HEROE]",
+      "precio_min": 1099.99,
+      "por_unidad": 1099.99,
+      "unidad": "L",
+      "banderas": {
+        "COTO CICSA": 1099.99,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 1190.0
+      }
+    },
+    {
+      "ean": "7792389081321",
+      "descripcion": "X5 LAVANDINA COMUN [X 5]",
+      "precio_min": 2209.0,
+      "por_unidad": 1104.5,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 2209.0
+      }
+    },
+    {
+      "ean": "7792389080744",
+      "descripcion": "X5 LAVANDINA COMUN [X 5]",
+      "precio_min": 1159.0,
+      "por_unidad": 1159.0,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 1159.0
+      }
+    },
+    {
+      "ean": "7791905023227",
+      "descripcion": "LAVANDINA ORIGINAL ODEX X 4 LT [ODEX]",
+      "precio_min": 4809.0,
+      "por_unidad": 1202.25,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 4809.0,
+        "Market": 4809.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 5590.0
+      }
+    },
+    {
+      "ean": "7791905000020",
+      "descripcion": "LAVANDINA CONCENTRADA QUERUBIN X 1 LT [QUERUBIN]",
+      "precio_min": 1206.75,
+      "por_unidad": 1206.75,
+      "unidad": "L",
+      "banderas": {
+        "Market": 1609.0,
+        "Hipermercado Carrefour": 1206.75,
+        "Express": 1670.0,
+        "COTO CICSA": 1620.99
+      }
+    },
+    {
+      "ean": "7791905023210",
+      "descripcion": "LAVANDINA ORIGINAL ODEX X 2 LT [ODEX]",
+      "precio_min": 2459.0,
+      "por_unidad": 1229.5,
+      "unidad": "L",
+      "banderas": {
+        "Express": 2535.0,
+        "Market": 2459.0,
+        "Hipermercado Carrefour": 2460.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 2850.0
+      }
+    },
+    {
+      "ean": "7791905024101",
+      "descripcion": "LAVANDINA ADITIVADA BOSQUE ODEX X 4 LT [ODEX]",
+      "precio_min": 4990.0,
+      "por_unidad": 1247.5,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 4990.0
+      }
+    },
+    {
+      "ean": "7791905024071",
+      "descripcion": "LAVANDINA ADITIVADA LAVANDA ODEX X 4 LT [ODEX]",
+      "precio_min": 4990.0,
+      "por_unidad": 1247.5,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 4990.0
+      }
+    },
+    {
+      "ean": "7791905023203",
+      "descripcion": "LAVANDINA ORIGINAL ODEX X 1 LT [ODEX]",
+      "precio_min": 1259.0,
+      "por_unidad": 1259.0,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 1295.0,
+        "Market": 1295.0,
+        "Express": 1335.0,
+        "HiperChangomas": 1259.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 1550.0
+      }
+    },
+    {
+      "ean": "7790132098459",
+      "descripcion": "lavandina AYUDIN original 1L       PVC-1000-ml. [AYUDIN]",
+      "precio_min": 1270.0,
+      "por_unidad": 1270.0,
+      "unidad": "L",
+      "banderas": {
+        "Vea": 1290.0,
+        "Disco": 1278.0,
+        "Market": 1279.0,
+        "Hipermercado Carrefour": 1279.0,
+        "Express": 1319.0,
+        "HiperChangomas": 1479.0,
+        "Supermercados DIA": 1279.0,
+        "COTO CICSA": 1453.99,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 1270.0
+      }
+    },
+    {
+      "ean": "7793253006709",
+      "descripcion": "LAVANDINA ORIGINAL DESINFECTANTE AYUDIN X 2 LT [AYUDIN]",
+      "precio_min": 2609.0,
+      "por_unidad": 1304.5,
+      "unidad": "L",
+      "banderas": {
+        "Express": 3039.0,
+        "Market": 2925.0,
+        "Hipermercado Carrefour": 2609.0,
+        "HiperChangomas": 2809.0,
+        "Supermercados DIA": 2950.0,
+        "COTO CICSA": 2925.99,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 2680.0
+      }
+    },
+    {
+      "ean": "7791905024095",
+      "descripcion": "LAVANDINA ADITIVADA BOSQUE ODEX X 2 LT [ODEX]",
+      "precio_min": 2810.0,
+      "por_unidad": 1405.0,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 2810.0
+      }
+    }
+  ],
+  "rollo-cocina": [
+    {
+      "ean": "7791070003222",
+      "descripcion": "Rollo de cocina SOL MAYOR PAQ-120-un. [SOL MAYOR]",
+      "precio_min": 1390.0,
+      "por_unidad": 11.583333333333334,
+      "unidad": "un",
+      "banderas": {
+        "Vea": 1390.0
+      }
+    },
+    {
+      "ean": "7791070005615",
+      "descripcion": "rollo cocina CAMPANITA prac 1x200p BSA-200-un. [CAMPANITA]",
+      "precio_min": 2690.0,
+      "por_unidad": 13.45,
+      "unidad": "un",
+      "banderas": {
+        "Disco": 3300.0,
+        "Vea": 2690.0,
+        "Market": 3219.0,
+        "Hipermercado Carrefour": 3219.0,
+        "COTO CICSA": 3218.99
+      }
+    },
+    {
+      "ean": "7791828900605",
+      "descripcion": "ROLLO DE COCINA FAMILIAR MAXIROLLO FELPITA 4 X 200 [FELPITA]",
+      "precio_min": 11039.0,
+      "por_unidad": 13.79875,
+      "unidad": "un",
+      "banderas": {
+        "Hipermercado Carrefour": 11039.0
+      }
+    },
+    {
+      "ean": "7791828900537",
+      "descripcion": "ROLLO DE COCINA PANO BLANCO FELPITA 3 X 60 UNI [FELPITA]",
+      "precio_min": 2539.0,
+      "por_unidad": 14.105555555555556,
+      "unidad": "un",
+      "banderas": {
+        "Market": 2649.0,
+        "Hipermercado Carrefour": 2649.0,
+        "HiperChangomas": 2539.0
+      }
+    },
+    {
+      "ean": "7793344009206",
+      "descripcion": "rollo cocina ELEGANTE dobl h 1x200 paños PCK-1-un. [ELEGANTE]",
+      "precio_min": 2829.0,
+      "por_unidad": 14.145,
+      "unidad": "un",
+      "banderas": {
+        "Disco": 3050.0,
+        "Vea": 2890.0,
+        "Express": 3189.0,
+        "Market": 2839.0,
+        "Hipermercado Carrefour": 2839.0,
+        "HiperChangomas": 2829.0
+      }
+    },
+    {
+      "ean": "7798141718221",
+      "descripcion": "ROLLO DE COCINA CARREFOUR 3 X 50 PANOS [CARREFOUR]",
+      "precio_min": 2150.0,
+      "por_unidad": 14.333333333333334,
+      "unidad": "un",
+      "banderas": {
+        "Hipermercado Carrefour": 2150.0,
+        "Market": 2150.0
+      }
+    },
+    {
+      "ean": "7791720045541",
+      "descripcion": "ROLLOS DE COCINA CARREFOUR ESSENTIAL 3 X 100 PANOS [CARREFOUR ESSENTIAL]",
+      "precio_min": 4650.0,
+      "por_unidad": 15.5,
+      "unidad": "un",
+      "banderas": {
+        "Hipermercado Carrefour": 4650.0,
+        "Market": 4650.0
+      }
+    },
+    {
+      "ean": "7793344009237",
+      "descripcion": "rollo cocina ELEGANTE dobl h 3x120 paños LAM-360-un. [ELEGANTE]",
+      "precio_min": 5849.0,
+      "por_unidad": 16.247222222222224,
+      "unidad": "un",
+      "banderas": {
+        "Disco": 6300.0,
+        "Market": 5849.0
+      }
+    },
+    {
+      "ean": "7791720047439",
+      "descripcion": "ROLLO DE COCINA DOBLE HOJA BULNEZ 3 X 40 PANOS [BULNEZ]",
+      "precio_min": 1950.0,
+      "por_unidad": 16.25,
+      "unidad": "un",
+      "banderas": {
+        "Express": 1950.0,
+        "Hipermercado Carrefour": 1950.0,
+        "Market": 1950.0
+      }
+    },
+    {
+      "ean": "7791828900056",
+      "descripcion": "Rollo Cocina FELPITA DH Infinity 3x100 PCK-300-un. [FELPITA]",
+      "precio_min": 5109.0,
+      "por_unidad": 17.03,
+      "unidad": "un",
+      "banderas": {
+        "Disco": 5350.0,
+        "Hipermercado Carrefour": 5109.0,
+        "Market": 5109.0
+      }
+    },
+    {
+      "ean": "7798159717537",
+      "descripcion": "ROLLO DE COCINA DECORADO CARREFOUR 3 X 50 PANOS [CARREFOUR]",
+      "precio_min": 2750.0,
+      "por_unidad": 18.333333333333332,
+      "unidad": "un",
+      "banderas": {
+        "Hipermercado Carrefour": 2750.0,
+        "Market": 2750.0
+      }
+    },
+    {
+      "ean": "7790250056881",
+      "descripcion": "rollo cocina SUSSEX clasic 3x50paños PAQ-15-m2 [SUSSEX]",
+      "precio_min": 2829.0,
+      "por_unidad": 18.86,
+      "unidad": "un",
+      "banderas": {
+        "Disco": 3100.0,
+        "Vea": 2890.0,
+        "Market": 2929.0,
+        "Hipermercado Carrefour": 2929.0,
+        "Express": 2929.0,
+        "HiperChangomas": 2829.0,
+        "Supermercados DIA": 2840.0,
+        "COTO CICSA": 2957.99
+      }
+    },
+    {
+      "ean": "7793344904853",
+      "descripcion": "ROLLO DE COCINA PREMIUM ELEGANTE 3 X 60 PAN [ELEGANTE]",
+      "precio_min": 3429.0,
+      "por_unidad": 19.05,
+      "unidad": "un",
+      "banderas": {
+        "Hipermercado Carrefour": 3429.0,
+        "Market": 3429.0
+      }
+    },
+    {
+      "ean": "7791720002605",
+      "descripcion": "ROLLO DE COCINA CARREFOUR ESSENTIAL 3 X 40 PANOS [CARREFOUR ESSENTIAL]",
+      "precio_min": 2350.0,
+      "por_unidad": 19.583333333333332,
+      "unidad": "un",
+      "banderas": {
+        "Market": 2350.0,
+        "Hipermercado Carrefour": 2350.0,
+        "Express": 2350.0
+      }
+    },
+    {
+      "ean": "7791828000121",
+      "descripcion": "ROLLO COCINA PARA CADA DIA FELPITA 3 X 40 PANOS [FELPITA]",
+      "precio_min": 2499.0,
+      "por_unidad": 20.825,
+      "unidad": "un",
+      "banderas": {
+        "Market": 2499.0,
+        "Hipermercado Carrefour": 2499.0,
+        "COTO CICSA": 2855.99
+      }
+    },
+    {
+      "ean": "7791070005806",
+      "descripcion": "ROLLO DE COCINA CELESTIAL 3 X 50 PANOS [CELESTIAL]",
+      "precio_min": 3188.99,
+      "por_unidad": 21.259933333333333,
+      "unidad": "un",
+      "banderas": {
+        "Market": 3189.0,
+        "Hipermercado Carrefour": 3189.0,
+        "COTO CICSA": 3188.99
+      }
+    },
+    {
+      "ean": "7791070000030",
+      "descripcion": "rollo cocina CAMPANITA clasic 3x50p BSA-150-un. [CAMPANITA]",
+      "precio_min": 3374.99,
+      "por_unidad": 22.49993333333333,
+      "unidad": "un",
+      "banderas": {
+        "Disco": 3500.0,
+        "COTO CICSA": 3374.99
+      }
+    },
+    {
+      "ean": "8480017749710",
+      "descripcion": "ROLLO DE COCINA 60MT [DIA]",
+      "precio_min": 1430.0,
+      "por_unidad": 23.833333333333332,
+      "unidad": "m",
+      "banderas": {
+        "Supermercados DIA": 1430.0
+      }
+    },
+    {
+      "ean": "7791828900025",
+      "descripcion": "ROLLO DE COCINA DISNEY FELPITA 3 X 40 PANOS [FELPITA]",
+      "precio_min": 3265.0,
+      "por_unidad": 27.208333333333332,
+      "unidad": "un",
+      "banderas": {
+        "Hipermercado Carrefour": 3265.0,
+        "COTO CICSA": 3267.99
+      }
+    },
+    {
+      "ean": "8480017169471",
+      "descripcion": "ROLLO DE COCINA 120M [DIA]",
+      "precio_min": 3445.0,
+      "por_unidad": 28.708333333333332,
+      "unidad": "m",
+      "banderas": {
+        "Supermercados DIA": 3445.0
+      }
+    },
+    {
+      "ean": "7790117061270",
+      "descripcion": "bolsa rollo ASURIN cocina 50u BSA-50-un. [ASURIN]",
+      "precio_min": 4100.0,
+      "por_unidad": 82.0,
+      "unidad": "un",
+      "banderas": {
+        "Disco": 4100.0,
+        "Vea": 4100.0
+      }
+    },
+    {
+      "ean": "7798123137231",
+      "descripcion": "CHECK ROLLOS DE COCINA 50 PANOS 20,7X20CM 3U [CHECK]",
+      "precio_min": 2169.0,
+      "por_unidad": 154.92857142857142,
+      "unidad": "un",
+      "banderas": {
+        "HiperChangomas": 2169.0
+      }
+    },
+    {
+      "ean": "7790250092322",
+      "descripcion": "rollo de cocina NOBLE 40Px3 PAQ-1-m2 [NOBLE]",
+      "precio_min": 2590.0,
+      "por_unidad": null,
+      "unidad": null,
+      "banderas": {
+        "Vea": 2590.0
+      }
+    },
+    {
+      "ean": "7791828900377",
+      "descripcion": "ROLLO DE COCINA MAXIROLLO FELPITA X 200 PANOS [FELPITA]",
+      "precio_min": 3069.0,
+      "por_unidad": null,
+      "unidad": null,
+      "banderas": {
+        "Hipermercado Carrefour": 3069.0,
+        "Express": 3165.0,
+        "Market": 3069.0,
+        "HiperChangomas": 3069.0,
+        "COTO CICSA": 3070.99
+      }
+    },
+    {
+      "ean": "7791720025543",
+      "descripcion": "ROLLO DE COCINA MAXI BLANCO CARREFOUR X 200 PANOS [CARREFOUR]",
+      "precio_min": 2850.0,
+      "por_unidad": null,
+      "unidad": null,
+      "banderas": {
+        "Market": 2850.0,
+        "Express": 2850.0,
+        "Hipermercado Carrefour": 2850.0
+      }
+    }
+  ],
+  "vinagre-alcohol": [
+    {
+      "ean": "7791720035962",
+      "descripcion": "VINAGRE DE ALCOHOL BULNEZ BIDON 5000 CC [BULNEZ]",
+      "precio_min": 5790.0,
+      "por_unidad": 1158.0,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 5790.0
+      }
+    },
+    {
+      "ean": "7791720035955",
+      "descripcion": "VINAGRE DE ALCOHOL BULNEZ 1 LT [BULNEZ]",
+      "precio_min": 1190.0,
+      "por_unidad": 1190.0,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 1190.0
+      }
+    },
+    {
+      "ean": "7790139101138",
+      "descripcion": "Vinagre de Alcohol Favinco S/T x 1lt BOT-1000-ml. [FAVINCO]",
+      "precio_min": 1290.0,
+      "por_unidad": 1290.0,
+      "unidad": "L",
+      "banderas": {
+        "Vea": 1290.0,
+        "Disco": 1717.0,
+        "Market": 1589.0,
+        "Hipermercado Carrefour": 1589.0,
+        "COTO CICSA": 1587.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 1585.0
+      }
+    },
+    {
+      "ean": "7790130000294",
+      "descripcion": "VINAGRE DE ALCOHOL ALCAZAR PET X 1 LT [ALCAZAR]",
+      "precio_min": 1319.0,
+      "por_unidad": 1319.0,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 1319.0,
+        "Market": 1319.0
+      }
+    },
+    {
+      "ean": "7790139003173",
+      "descripcion": "Vinagre de alcohol clasicox1lt BOT-1-lt. [CASALTA]",
+      "precio_min": 1449.0,
+      "por_unidad": 1449.0,
+      "unidad": "L",
+      "banderas": {
+        "Vea": 1799.0,
+        "Disco": 1850.0,
+        "Market": 1709.0,
+        "Hipermercado Carrefour": 1709.0,
+        "HiperChangomas": 1849.0,
+        "COTO CICSA": 1707.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 1449.0
+      }
+    },
+    {
+      "ean": "7798033332641",
+      "descripcion": "VINAGRE DE ALCOHOL CARREFOUR PET X 1 LT [CARREFOUR]",
+      "precio_min": 1550.0,
+      "por_unidad": 1550.0,
+      "unidad": "L",
+      "banderas": {
+        "Market": 1550.0,
+        "Express": 1550.0,
+        "Hipermercado Carrefour": 1550.0
+      }
+    },
+    {
+      "ean": "8480017534682",
+      "descripcion": "VINAGRE DE ALCOHOL [DIA]",
+      "precio_min": 1565.0,
+      "por_unidad": 1565.0,
+      "unidad": "L",
+      "banderas": {
+        "Supermercados DIA": 1565.0
+      }
+    },
+    {
+      "ean": "7790673000188",
+      "descripcion": "VINAGRE DE ALCOHOL FAVINCO BIDON X 5 LT [FAVINCO]",
+      "precio_min": 8129.0,
+      "por_unidad": 1625.8,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 8129.0
+      }
+    },
+    {
+      "ean": "7790139000424",
+      "descripcion": "CASALTA VINAGRE DE ALCOHOL 1.3L [CASALTA]",
+      "precio_min": 2189.0,
+      "por_unidad": 1683.8461538461538,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 2189.0
+      }
+    },
+    {
+      "ean": "7790130000058",
+      "descripcion": "Vinagre MENOYO de alcohol PVC-1-lt. [MENOYO]",
+      "precio_min": 1689.0,
+      "por_unidad": 1689.0,
+      "unidad": "L",
+      "banderas": {
+        "Vea": 1850.0,
+        "Disco": 1850.0,
+        "Market": 1750.0,
+        "Express": 2025.0,
+        "Hipermercado Carrefour": 1750.0,
+        "HiperChangomas": 1689.0,
+        "Supermercados DIA": 1965.0,
+        "COTO CICSA": 1765.0
+      }
+    },
+    {
+      "ean": "7792900093246",
+      "descripcion": "DOS ANCLAS VINAGRE DE ALCOHOL 1L [DOS ANCLAS]",
+      "precio_min": 1699.0,
+      "por_unidad": 1699.0,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 1699.0,
+        "COTO CICSA": 1769.0
+      }
+    },
+    {
+      "ean": "7792900806037",
+      "descripcion": "VINAGRE DE ALCOHOL [DOS ANCLAS]",
+      "precio_min": 5289.0,
+      "por_unidad": 1763.0,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 5289.0
+      }
+    },
+    {
+      "ean": "7790130000102",
+      "descripcion": "VINAGRE DE ALCOHOL MENOYO BIDON X 5 LT [MENOYO]",
+      "precio_min": 9830.0,
+      "por_unidad": 1966.0,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 9830.0
+      }
+    },
+    {
+      "ean": "7790130000263",
+      "descripcion": "Vinagre alcazar de alcohol PVC-500-cc. [ALCAZAR]",
+      "precio_min": 1119.0,
+      "por_unidad": 2238.0,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 1200.0,
+        "Vea": 1150.0,
+        "Market": 1119.0,
+        "Hipermercado Carrefour": 1119.0,
+        "COTO CICSA": 1119.0
+      }
+    },
+    {
+      "ean": "7790139101145",
+      "descripcion": "VINAGRE DE ALCOHOL FAVINCO BOT 500 ML [FAVINCO]",
+      "precio_min": 1162.0,
+      "por_unidad": 2324.0,
+      "unidad": "L",
+      "banderas": {
+        "COTO CICSA": 1162.0
+      }
+    },
+    {
+      "ean": "7798033332610",
+      "descripcion": "VINAGRE DE ALCOHOL CARREFOUR PET X 500 CC [CARREFOUR]",
+      "precio_min": 1190.0,
+      "por_unidad": 2380.0,
+      "unidad": "L",
+      "banderas": {
+        "Market": 1190.0,
+        "Hipermercado Carrefour": 1190.0
+      }
+    },
+    {
+      "ean": "7790139003166",
+      "descripcion": "Vinagre de Alcohol CASALTA x 500cc. BOT-500-cc. [CASALTA]",
+      "precio_min": 1205.0,
+      "por_unidad": 2410.0,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 1300.0,
+        "Market": 1205.0,
+        "Hipermercado Carrefour": 1205.0,
+        "COTO CICSA": 1205.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 1239.0
+      }
+    },
+    {
+      "ean": "7792900093024",
+      "descripcion": "VINAGRE DE ALCOHOL DOS ANCLAS  BOT 500 CC [DOS ANCLAS]",
+      "precio_min": 1225.0,
+      "por_unidad": 2450.0,
+      "unidad": "L",
+      "banderas": {
+        "COTO CICSA": 1225.0
+      }
+    },
+    {
+      "ean": "7790130000034",
+      "descripcion": "Vinagre MENOYO de alcohol PVC-500-cc. [MENOYO]",
+      "precio_min": 1350.0,
+      "por_unidad": 2700.0,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 1350.0,
+        "Vea": 1350.0,
+        "Express": 1599.0,
+        "Market": 1379.0,
+        "Hipermercado Carrefour": 1379.0,
+        "Supermercados DIA": 1400.0,
+        "COTO CICSA": 1399.0
+      }
+    },
+    {
+      "ean": "7790130000645",
+      "descripcion": "VINAGRE DE ALCOHOL MENOYO PET X 250 CC [MENOYO]",
+      "precio_min": 1145.0,
+      "por_unidad": 4580.0,
+      "unidad": "L",
+      "banderas": {
+        "Hipermercado Carrefour": 1145.0,
+        "Market": 1145.0
+      }
+    },
+    {
+      "ean": "7990000594766",
+      "descripcion": "VINAGRE DE ALCOHOL COTO BOT 1 LTR [COTO]",
+      "precio_min": 1613.0,
+      "por_unidad": null,
+      "unidad": null,
+      "banderas": {
+        "COTO CICSA": 1613.0
+      }
+    }
+  ],
+  "cafe-instantaneo": [
+    {
+      "ean": "8445291749221",
+      "descripcion": "CAFE LATTE INSTANTANEO DOLCA X 125 GRS [DOLCA]",
+      "precio_min": 5050.0,
+      "por_unidad": 40400.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 5050.0,
+        "Market": 5050.0,
+        "Express": 5790.0,
+        "COTO CICSA": 5622.0
+      }
+    },
+    {
+      "ean": "8445291749269",
+      "descripcion": "CAFÉ INSTANTANEO CAPPUCCINO NESCAFE DOLCA DOY 225 GRM [NESCAFE DOLCA]",
+      "precio_min": 9100.0,
+      "por_unidad": 40444.444444444445,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 9100.0
+      }
+    },
+    {
+      "ean": "8445291749672",
+      "descripcion": "CAFE INSTANTANEO CARAMEL DOLCA X 125 GRS [DOLCA]",
+      "precio_min": 5400.0,
+      "por_unidad": 43200.0,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 5400.0,
+        "Hipermercado Carrefour": 5400.0,
+        "COTO CICSA": 5958.0
+      }
+    },
+    {
+      "ean": "8445291749306",
+      "descripcion": "CAFÉ INSTANTANEO CHOCO MOCHA NESCAFE DOLCA DOY 125 GRM [NESCAFE DOLCA]",
+      "precio_min": 5622.0,
+      "por_unidad": 44976.0,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 5622.0
+      }
+    },
+    {
+      "ean": "8445291749245",
+      "descripcion": "CAFÉ INSTANTANEO CAPPUCCINO NESCAFE DOLCA DOY 100 GRM [NESCAFE DOLCA]",
+      "precio_min": 4545.0,
+      "por_unidad": 45450.0,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 4545.0
+      }
+    },
+    {
+      "ean": "7790150101476",
+      "descripcion": "CAFE INSTANTANEO SUAVE LA VIRGINA DOYPACK X 170GRS [LA VIRGINIA]",
+      "precio_min": 8050.0,
+      "por_unidad": 47352.94117647059,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 8050.0
+      }
+    },
+    {
+      "ean": "7790150100486",
+      "descripcion": "CAFE INSTANTANEO ESP INST CLAS LA VIRGINIA X 170GR [LA VIRGINIA]",
+      "precio_min": 8089.0,
+      "por_unidad": 47582.35294117647,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 8089.0,
+        "Market": 9209.0,
+        "COTO CICSA": 9215.0
+      }
+    },
+    {
+      "ean": "5901583416699",
+      "descripcion": "CAFE INSTANTANEO BON AROMA DP X 50 GRS [BON AROMA]",
+      "precio_min": 2490.0,
+      "por_unidad": 49800.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 2490.0
+      }
+    },
+    {
+      "ean": "7790150101780",
+      "descripcion": "CAFE INSTANTANEO SUAVE LA VIRGINA DP X 100 GRS [LA VIRGINIA]",
+      "precio_min": 5139.0,
+      "por_unidad": 51390.0,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 5139.0,
+        "Hipermercado Carrefour": 5139.0
+      }
+    },
+    {
+      "ean": "7790150100806",
+      "descripcion": "CAFE INSTANTANEO CLASICO LA VIRGINA DP X 100 GRS [LA VIRGINIA]",
+      "precio_min": 5150.0,
+      "por_unidad": 51500.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 5150.0,
+        "Market": 5150.0
+      }
+    },
+    {
+      "ean": "7790170904668",
+      "descripcion": "CAFE INSTANTANEO LA MORENITA FRASCO X 170 GRS [MORENITA]",
+      "precio_min": 8919.0,
+      "por_unidad": 52464.70588235294,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 8919.0
+      }
+    },
+    {
+      "ean": "8445291082137",
+      "descripcion": "CAFE INSTANTANEO SUAVE ORIGENES DOLCA X 170 GR [DOLCA]",
+      "precio_min": 9085.0,
+      "por_unidad": 53441.17647058823,
+      "unidad": "kg",
+      "banderas": {
+        "Express": 13289.0,
+        "Hipermercado Carrefour": 9085.0,
+        "Market": 12075.0,
+        "HiperChangomas": 14309.0,
+        "COTO CICSA": 12374.0
+      }
+    },
+    {
+      "ean": "7790150101490",
+      "descripcion": "CAFE INSTANTANEO SUAVE LA VIRGINIA FRASCO X 170 GR [LA VIRGINIA]",
+      "precio_min": 9215.0,
+      "por_unidad": 54205.882352941175,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 9215.0
+      }
+    },
+    {
+      "ean": "7790150101773",
+      "descripcion": "CAFE INSTANTANEO SUAVE LA VIRGINIA FRASCO X 100GRS [LA VIRGINIA]",
+      "precio_min": 5859.0,
+      "por_unidad": 58590.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 5859.0
+      }
+    },
+    {
+      "ean": "7790150100783",
+      "descripcion": "CAFE INSTANTANEO ESP INST CLAS LA VIRGINIA X 100GR [LA VIRGINIA]",
+      "precio_min": 5859.0,
+      "por_unidad": 58590.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 5859.0
+      }
+    },
+    {
+      "ean": "7790070933638",
+      "descripcion": "ARLISTAN CAFE INSTANTANEO 170G [ARLISTAN]",
+      "precio_min": 10079.0,
+      "por_unidad": 59288.23529411764,
+      "unidad": "kg",
+      "banderas": {
+        "HiperChangomas": 10079.0
+      }
+    },
+    {
+      "ean": "8445291311558",
+      "descripcion": "CAFE INSTANTANEO SUAVE DOLCA DP X 100 GRS [DOLCA]",
+      "precio_min": 6149.0,
+      "por_unidad": 61490.0,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 6149.0,
+        "Express": 6149.0,
+        "Hipermercado Carrefour": 6149.0
+      }
+    },
+    {
+      "ean": "7790070933645",
+      "descripcion": "ARLISTAN CAFE INSTANTANEO 100G [ARLISTAN]",
+      "precio_min": 6249.0,
+      "por_unidad": 62490.0,
+      "unidad": "kg",
+      "banderas": {
+        "HiperChangomas": 6249.0
+      }
+    },
+    {
+      "ean": "7791720035481",
+      "descripcion": "CAFE INSTANTANEO SUAVE CRF CLASSIC FRASCO X 170 GR [CARREFOUR CLASSIC]",
+      "precio_min": 10650.0,
+      "por_unidad": 62647.058823529405,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 10650.0
+      }
+    },
+    {
+      "ean": "7790170904798",
+      "descripcion": "CAFE INSTANTANEO LA MORENITA FRASCO X 100 GRS [MORENITA]",
+      "precio_min": 6350.0,
+      "por_unidad": 63500.0,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 6350.0,
+        "Express": 6540.0,
+        "Hipermercado Carrefour": 6350.0,
+        "COTO CICSA": 6350.0
+      }
+    },
+    {
+      "ean": "8445292738323",
+      "descripcion": "CAFE INSTANTANEO ORIGENES DP DOLCA X 160 GRS [DOLCA]",
+      "precio_min": 11340.0,
+      "por_unidad": 70875.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 13279.0,
+        "Express": 13680.0,
+        "Market": 11340.0,
+        "COTO CICSA": 13282.0
+      }
+    },
+    {
+      "ean": "8445292738200",
+      "descripcion": "CAFE INSTANTANEO SUAVE ORIGENES DP DOLCA X 160 GRS [DOLCA]",
+      "precio_min": 11340.0,
+      "por_unidad": 70875.0,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 11340.0,
+        "Express": 13680.0,
+        "Hipermercado Carrefour": 13279.0,
+        "COTO CICSA": 13282.0
+      }
+    },
+    {
+      "ean": "8445291082212",
+      "descripcion": "CAFE INSTANTANEO ORIGENES FR DOLCA X 170 GRS [DOLCA]",
+      "precio_min": 12075.0,
+      "por_unidad": 71029.41176470587,
+      "unidad": "kg",
+      "banderas": {
+        "Express": 13289.0,
+        "Market": 12075.0,
+        "HiperChangomas": 14309.0,
+        "COTO CICSA": 12900.0
+      }
+    },
+    {
+      "ean": "5901583407178",
+      "descripcion": "CAFE INSTANTANEO BON AROMA EN FRASCO X 100 GRS [BON AROMA]",
+      "precio_min": 7110.0,
+      "por_unidad": 71100.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 7110.0
+      }
+    },
+    {
+      "ean": "7790150150276",
+      "descripcion": "LA VIRGINIA CAFE INSTANTANEO TOSTADO 150G [LA VIRGINIA]",
+      "precio_min": 10769.0,
+      "por_unidad": 71793.33333333334,
+      "unidad": "kg",
+      "banderas": {
+        "HiperChangomas": 10769.0
+      }
+    }
+  ],
+  "capsulas-nespresso-starbucks": [
+    {
+      "ean": "7613036961448",
+      "descripcion": "Capsulas Café STARBUCKS Colombia x57g CJA-57-gr. [STARBUCKS]",
+      "precio_min": 15699.0,
+      "por_unidad": 261650.0,
+      "unidad": "kg",
+      "banderas": {
+        "Vea": 15699.0,
+        "Disco": 19050.0,
+        "Hipermercado Carrefour": 19200.0
+      }
+    },
+    {
+      "ean": "7613037290967",
+      "descripcion": "Capsulas Café STARBUCKS Colombia x57g CJA-57-gr. [STARBUCKS]",
+      "precio_min": 15699.0,
+      "por_unidad": 261650.0,
+      "unidad": "kg",
+      "banderas": {
+        "Vea": 15699.0,
+        "Disco": 19050.0
+      }
+    },
+    {
+      "ean": "8445290814425",
+      "descripcion": "CAPSULA CAFE NESPRESSO STARBUCKS DECAF X 55 GRS [STARBUCKS]",
+      "precio_min": 16599.0,
+      "por_unidad": 301800.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 16599.0,
+        "Market": 16599.0
+      }
+    },
+    {
+      "ean": "8445290154125",
+      "descripcion": "CAPSULA CAFE NESPRESSO STARBUCKS CARAMEL X 51 GRS [STARBUCKS]",
+      "precio_min": 16599.0,
+      "por_unidad": 325470.5882352941,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 16599.0,
+        "Market": 16599.0,
+        "HiperChangomas": 17059.0
+      }
+    },
+    {
+      "ean": "7613036961004",
+      "descripcion": "Capsulas STARBUCKS Blonde Espresso Roast CJA-53-gr. [STARBUCKS]",
+      "precio_min": 17290.0,
+      "por_unidad": 1729000.0,
+      "unidad": "kg",
+      "banderas": {
+        "Vea": 17290.0,
+        "Disco": 18750.0,
+        "Hipermercado Carrefour": 17765.0,
+        "Express": 18299.0,
+        "Market": 17765.0,
+        "COTO CICSA": 17766.0
+      }
+    },
+    {
+      "ean": "7613037301793",
+      "descripcion": "Capsulas STARBUCKS Blonde Espresso Roast CJA-53-gr. [STARBUCKS]",
+      "precio_min": 17290.0,
+      "por_unidad": 1729000.0,
+      "unidad": "kg",
+      "banderas": {
+        "Vea": 17290.0,
+        "Disco": 18750.0
+      }
+    },
+    {
+      "ean": "8445291061361",
+      "descripcion": "CAPSULAS CAFE L CARAMEL DOLCE GUSTO STARBUCKS X 6 [STARBUCKS]",
+      "precio_min": 16769.0,
+      "por_unidad": null,
+      "unidad": null,
+      "banderas": {
+        "Hipermercado Carrefour": 16769.0,
+        "Market": 16769.0,
+        "Express": 17270.0
+      }
+    },
+    {
+      "ean": "8445291786721",
+      "descripcion": "CAPSULAS CAFE CHOCO HAZELNUT STARBUCKS X 10 UNI [STARBUCKS]",
+      "precio_min": 17589.0,
+      "por_unidad": null,
+      "unidad": null,
+      "banderas": {
+        "Market": 17589.0,
+        "Hipermercado Carrefour": 17589.0
+      }
+    },
+    {
+      "ean": "8445291362277",
+      "descripcion": "CAPSULAS DE CAFE HOUSE BLEND STARBUCKS X 18 UNI [STARBUCKS]",
+      "precio_min": 27179.0,
+      "por_unidad": null,
+      "unidad": null,
+      "banderas": {
+        "Market": 27179.0,
+        "Hipermercado Carrefour": 27179.0
+      }
+    },
+    {
+      "ean": "8445291061330",
+      "descripcion": "CAPSULAS CAPPUCCINO DOLCE GUSTO STARBUCKS X 6 UNI [STARBUCKS]",
+      "precio_min": 16769.0,
+      "por_unidad": null,
+      "unidad": null,
+      "banderas": {
+        "Hipermercado Carrefour": 16769.0,
+        "Market": 16769.0
+      }
+    },
+    {
+      "ean": "8445291061347",
+      "descripcion": "CAPSULAS CAFE VAINILLA DOLCE GUSTO STARBUCKS X 6 [STARBUCKS]",
+      "precio_min": 16769.0,
+      "por_unidad": null,
+      "unidad": null,
+      "banderas": {
+        "Market": 16769.0
+      }
+    }
+  ],
+  "desodorante-barra-hombre": [
+    {
+      "ean": "75083700",
+      "descripcion": "DESODORANTE BARRA AQUA CITRUS AXE BAR 58 GRM [AXE]",
+      "precio_min": 8711.99,
+      "por_unidad": 150206.724137931,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 8711.99
+      }
+    },
+    {
+      "ean": "75083694",
+      "descripcion": "DESODORANTE BARRA BLUE LAVEN. AXE BAR 58 GRM [AXE]",
+      "precio_min": 8711.99,
+      "por_unidad": 150206.724137931,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 8711.99
+      }
+    },
+    {
+      "ean": "7500435141840",
+      "descripcion": "DESODORANTE BARRA MAR PROF OLD SPICE X 50 GR [OLD SPICE]",
+      "precio_min": 10139.0,
+      "por_unidad": 202780.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 10139.0
+      }
+    },
+    {
+      "ean": "7500435247627",
+      "descripcion": "DESODORANTE BARRA AROMA CEDRO OLD SPICE X 50 GRM [OLD SPICE]",
+      "precio_min": 11150.0,
+      "por_unidad": 223000.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 11150.0
+      }
+    }
+  ],
+  "queso-port-salut-light": [
+    {
+      "ean": "2505628000008",
+      "descripcion": "QUESO PORT SALUT LIGHT LA PAULINA HORMA X KG [LA PAULINA]",
+      "precio_min": 13599.0,
+      "por_unidad": 13599.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 13599.0
+      }
+    },
+    {
+      "ean": "2510694000005",
+      "descripcion": "QUESO PORT SALUT LIGHT MELINCUE X KG [S/D]",
+      "precio_min": 13990.0,
+      "por_unidad": 13990.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 13990.0
+      }
+    },
+    {
+      "ean": "7794990000012",
+      "descripcion": "QUESO PORT SALUT UNT LIGHT LA PAULINA X 190 GRS [LA PAULINA]",
+      "precio_min": 2969.0,
+      "por_unidad": 15626.315789473683,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 2969.0
+      }
+    },
+    {
+      "ean": "2000000458182",
+      "descripcion": "PORT SALUT LIGHT PUNTA DEL AGUA FRACCIONADO X KG [PUNTA DEL AGUA]",
+      "precio_min": 16999.0,
+      "por_unidad": 16999.0,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 16999.0
+      }
+    },
+    {
+      "ean": "2004031700005",
+      "descripcion": "PORT SALUT LIGHT TREGAR FRACCIONADO X KG [TREGAR]",
+      "precio_min": 17799.0,
+      "por_unidad": 17799.0,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 17799.0
+      }
+    },
+    {
+      "ean": "2004031800002",
+      "descripcion": "PORT SALUT LIGHT TREGAR SIN SAL FRACCIONADO X KG [TREGAR]",
+      "precio_min": 17799.0,
+      "por_unidad": 17799.0,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 17799.0
+      }
+    },
+    {
+      "ean": "7790616000503",
+      "descripcion": "VAC PORT SALUT LIGHT [VACALIN]",
+      "precio_min": 8239.0,
+      "por_unidad": 20597.5,
+      "unidad": "kg",
+      "banderas": {
+        "HiperChangomas": 8449.0,
+        "COTO CICSA": 8239.0
+      }
+    }
+  ],
+  "gaseosa-cola-zero": [
+    {
+      "ean": "7790895063794",
+      "descripcion": "GASEO COLA LIGHT RET [COCA]",
+      "precio_min": 1695.0,
+      "por_unidad": 847.5,
+      "unidad": "L",
+      "banderas": {
+        "Supermercados DIA": 1695.0
+      }
+    },
+    {
+      "ean": "7791813424055",
+      "descripcion": "PEPSI BLACK 3L [PEPSI]",
+      "precio_min": 2990.0,
+      "por_unidad": 996.6666666666666,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 4899.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 2990.0
+      }
+    },
+    {
+      "ean": "7791813828464",
+      "descripcion": "gaseosa PEPSI Black 2lt BOT-2000-ml. [PEPSI]",
+      "precio_min": 2500.0,
+      "por_unidad": 1250.0,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 4300.0,
+        "Vea": 4300.0,
+        "Market": 4400.0,
+        "Hipermercado Carrefour": 4400.0,
+        "Express": 4689.0,
+        "Supermercados DIA": 4300.0,
+        "COTO CICSA": 4400.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 2500.0
+      }
+    },
+    {
+      "ean": "7790895067617",
+      "descripcion": "gaseosa COCA COLA Zero 2lt PVC-2000-ml. [COCA COLA]",
+      "precio_min": 3350.0,
+      "por_unidad": 1675.0,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 3350.0,
+        "Express": 3350.0
+      }
+    },
+    {
+      "ean": "7790895651038",
+      "descripcion": "COMBO DUO CCZ 2250 [COCA COLA ZERO]",
+      "precio_min": 8179.0,
+      "por_unidad": 1817.5555555555557,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 8179.0
+      }
+    },
+    {
+      "ean": "7790895067570",
+      "descripcion": "gaseosa COCA COLA Zero 2.25lt PET-2250-ml. [COCA COLA]",
+      "precio_min": 4200.0,
+      "por_unidad": 1866.6666666666667,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 5600.0,
+        "Vea": 5600.0,
+        "Market": 5600.0,
+        "Hipermercado Carrefour": 5600.0,
+        "Express": 5600.0,
+        "Axion Energy": 7200.0,
+        "HiperChangomas": 5279.0,
+        "Supermercados DIA": 5500.0,
+        "COTO CICSA": 5500.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 4200.0
+      }
+    },
+    {
+      "ean": "7791813422006",
+      "descripcion": "gaseosa PEPSI Black 2lt BOT-2000-ml. [PEPSI]",
+      "precio_min": 4300.0,
+      "por_unidad": 2150.0,
+      "unidad": "L",
+      "banderas": {
+        "Vea": 4300.0,
+        "Disco": 4300.0
+      }
+    },
+    {
+      "ean": "7790895640438",
+      "descripcion": "gaseosa COCA COLA Zero  3lt PET-3000-ml. [COCA COLA]",
+      "precio_min": 6490.0,
+      "por_unidad": 2163.3333333333335,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 6551.0,
+        "Vea": 6490.0,
+        "Hipermercado Carrefour": 6750.0,
+        "Market": 6750.0,
+        "COTO CICSA": 6650.0
+      }
+    },
+    {
+      "ean": "7790895005312",
+      "descripcion": "gaseosa COCA COLA Light 2.25lt BOT-2200-ml. [COCA COLA]",
+      "precio_min": 5500.0,
+      "por_unidad": 2500.0,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 5600.0,
+        "Vea": 5600.0,
+        "Market": 5600.0,
+        "Hipermercado Carrefour": 5600.0,
+        "Express": 5600.0,
+        "Axion Energy": 7200.0,
+        "COTO CICSA": 5500.0
+      }
+    },
+    {
+      "ean": "7791813828365",
+      "descripcion": "gaseosa PEPSI Black 500cc BOT-500-ml. [PEPSI]",
+      "precio_min": 1290.0,
+      "por_unidad": 2580.0,
+      "unidad": "L",
+      "banderas": {
+        "Vea": 2100.0,
+        "Disco": 2250.0,
+        "Market": 2200.0,
+        "Hipermercado Carrefour": 2200.0,
+        "Express": 2159.0,
+        "Axion Energy": 3000.0,
+        "DEHEZA S.A.I.C.F. e I.": 2900.0,
+        "Supermercados DIA": 2200.0,
+        "COTO CICSA": 2200.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 1290.0
+      }
+    },
+    {
+      "ean": "7791813421054",
+      "descripcion": "gaseosa PEPSI Black 1.5lt BOT-1500-ml. [PEPSI]",
+      "precio_min": 3899.0,
+      "por_unidad": 2599.3333333333335,
+      "unidad": "L",
+      "banderas": {
+        "Vea": 3899.0,
+        "Disco": 3899.0
+      }
+    },
+    {
+      "ean": "7791813828419",
+      "descripcion": "gaseosa PEPSI Black 1.5lt BOT-1500-ml. [PEPSI]",
+      "precio_min": 3899.0,
+      "por_unidad": 2599.3333333333335,
+      "unidad": "L",
+      "banderas": {
+        "Vea": 3899.0,
+        "Disco": 3899.0,
+        "Market": 3950.0,
+        "Hipermercado Carrefour": 3950.0,
+        "Express": 4120.0,
+        "Axion Energy": 6600.0,
+        "Supermercados DIA": 3900.0,
+        "COTO CICSA": 3950.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 4300.0
+      }
+    },
+    {
+      "ean": "7790895012273",
+      "descripcion": "GASEO COLA ZERO [COCA]",
+      "precio_min": 3265.0,
+      "por_unidad": 2612.0,
+      "unidad": "L",
+      "banderas": {
+        "Supermercados DIA": 3265.0
+      }
+    },
+    {
+      "ean": "7790895001451",
+      "descripcion": "gaseosa COCA COLA Light 1.5lt BOT-1500-ml. [COCA COLA]",
+      "precio_min": 4150.0,
+      "por_unidad": 2766.6666666666665,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 4300.0,
+        "Vea": 4300.0,
+        "Market": 4300.0,
+        "Hipermercado Carrefour": 4300.0,
+        "Express": 4300.0,
+        "Axion Energy": 7300.0,
+        "Supermercados DIA": 4150.0,
+        "COTO CICSA": 4150.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 4150.0
+      }
+    },
+    {
+      "ean": "7790895067556",
+      "descripcion": "gaseosa COCA COLA Zero 1.5lt PET-1500-ml. [COCA COLA]",
+      "precio_min": 4150.0,
+      "por_unidad": 2766.6666666666665,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 4300.0,
+        "Vea": 4300.0,
+        "Hipermercado Carrefour": 4300.0,
+        "Market": 4300.0,
+        "Express": 4300.0,
+        "Axion Energy": 7300.0,
+        "COTO CICSA": 4150.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 4150.0
+      }
+    },
+    {
+      "ean": "7790895012440",
+      "descripcion": "GASEO COLA LIGHT [COCA]",
+      "precio_min": 5000.0,
+      "por_unidad": 2857.1428571428573,
+      "unidad": "L",
+      "banderas": {
+        "Supermercados DIA": 5000.0
+      }
+    },
+    {
+      "ean": "7791813828372",
+      "descripcion": "gaseosa PEPSI Black 354cc LAT-354-ml. [PEPSI]",
+      "precio_min": 1190.0,
+      "por_unidad": 3361.581920903955,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 2450.0,
+        "Vea": 2290.0,
+        "Market": 2550.0,
+        "Express": 2319.0,
+        "Hipermercado Carrefour": 2550.0,
+        "Supermercados DIA": 2550.0,
+        "COTO CICSA": 2300.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 1190.0
+      }
+    },
+    {
+      "ean": "7791813000594",
+      "descripcion": "PEPSI BLACK TW 350CC [PEPSI]",
+      "precio_min": 1299.0,
+      "por_unidad": 3711.4285714285716,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 1299.0
+      }
+    },
+    {
+      "ean": "7791813420057",
+      "descripcion": "gaseosa PEPSI Black 500cc BOT-500-ml. [PEPSI]",
+      "precio_min": 2100.0,
+      "por_unidad": 4200.0,
+      "unidad": "L",
+      "banderas": {
+        "Vea": 2100.0,
+        "Disco": 2250.0
+      }
+    },
+    {
+      "ean": "7790895650840",
+      "descripcion": "COCA COLA GASEOSA ZERO 600ML [COCA COLA ZERO]",
+      "precio_min": 2600.0,
+      "por_unidad": 4333.333333333334,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 2600.0,
+        "Supermercados DIA": 2600.0
+      }
+    },
+    {
+      "ean": "7790895650864",
+      "descripcion": "COCA COLA GASEOSA SABOR LIVIANO 600ML [COCA COLA LIGHT]",
+      "precio_min": 2600.0,
+      "por_unidad": 4333.333333333334,
+      "unidad": "L",
+      "banderas": {
+        "HiperChangomas": 2600.0,
+        "Supermercados DIA": 2600.0
+      }
+    },
+    {
+      "ean": "7790895067532",
+      "descripcion": "gaseosa COCA COLA Zero 500cc PET-500-ml. [COCA COLA]",
+      "precio_min": 2280.0,
+      "por_unidad": 4560.0,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 2750.0,
+        "Vea": 2290.0,
+        "Express": 2350.0,
+        "Market": 2280.0,
+        "Hipermercado Carrefour": 2500.0,
+        "Axion Energy": 3400.0,
+        "Supermercados DIA": 2450.0,
+        "Cooperativa Obrera Limitada de Consumo y Vivienda": 2450.0
+      }
+    },
+    {
+      "ean": "7790895001482",
+      "descripcion": "COCA COLA LIGHT 500ML [COCA COLA]",
+      "precio_min": 2450.0,
+      "por_unidad": 4900.0,
+      "unidad": "L",
+      "banderas": {
+        "Axion Energy": 3400.0,
+        "Supermercados DIA": 2450.0
+      }
+    },
+    {
+      "ean": "7790895642104",
+      "descripcion": "GASEO COLA ZERO [COCA]",
+      "precio_min": 1100.0,
+      "por_unidad": 5000.0,
+      "unidad": "L",
+      "banderas": {
+        "Supermercados DIA": 1100.0
+      }
+    },
+    {
+      "ean": "7791813050056",
+      "descripcion": "gaseosa PEPSI Black 354cc LAT-354-ml. [PEPSI]",
+      "precio_min": 2290.0,
+      "por_unidad": 6468.926553672317,
+      "unidad": "L",
+      "banderas": {
+        "Disco": 2450.0,
+        "Vea": 2290.0
+      }
+    }
+  ],
+  "suprema-pollo": [
+    {
+      "ean": "2507578000008",
+      "descripcion": "PECHUGA DE POLLO CONGELADA X KG [S/D]",
+      "precio_min": 7490.0,
+      "por_unidad": 7490.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 7490.0,
+        "Market": 8500.0
+      }
+    },
+    {
+      "ean": "2407066000001",
+      "descripcion": "SUPREMAS DE POLLO LS [RES]",
+      "precio_min": 8800.0,
+      "por_unidad": 8800.0,
+      "unidad": "kg",
+      "banderas": {
+        "Supermercados DIA": 8800.0
+      }
+    },
+    {
+      "ean": "2507596000004",
+      "descripcion": "PECHUGAS DE POLLO A GRANEL X KG [S/D]",
+      "precio_min": 9300.0,
+      "por_unidad": 9300.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 9300.0
+      }
+    },
+    {
+      "ean": "2507597000003",
+      "descripcion": "SUPREMAS DE POLLO A GRANEL X KG. [S/D]",
+      "precio_min": 11200.0,
+      "por_unidad": 11200.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 11200.0
+      }
+    },
+    {
+      "ean": "2055470000003",
+      "descripcion": "SUPREMA DE POLLO [NUESTRA COCINA]",
+      "precio_min": 19999.0,
+      "por_unidad": 19999.0,
+      "unidad": "kg",
+      "banderas": {
+        "HiperChangomas": 19999.0
+      }
+    },
+    {
+      "ean": "2067210000006",
+      "descripcion": "SUPREMAS DE POLLO [NUESTRA COCINA]",
+      "precio_min": 19999.0,
+      "por_unidad": 19999.0,
+      "unidad": "kg",
+      "banderas": {
+        "HiperChangomas": 19999.0
+      }
+    },
+    {
+      "ean": "7891515547066",
+      "descripcion": "SUPREMAS DE POLLO SADIA PAQ 720 GRM [SADIA]",
+      "precio_min": 14609.0,
+      "por_unidad": 20290.277777777777,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 14609.0
+      }
+    },
+    {
+      "ean": "2406848000000",
+      "descripcion": "SUPREMA POLLO ATM [DIA]",
+      "precio_min": 20500.0,
+      "por_unidad": 20500.0,
+      "unidad": "kg",
+      "banderas": {
+        "Supermercados DIA": 20500.0
+      }
+    },
+    {
+      "ean": "7891515575014",
+      "descripcion": "Supremas de pollo SADIA 480g BSA-480-gr. [SADIA]",
+      "precio_min": 9900.0,
+      "por_unidad": 20625.0,
+      "unidad": "kg",
+      "banderas": {
+        "Vea": 9900.0,
+        "Disco": 10200.0
+      }
+    },
+    {
+      "ean": "2025070000000",
+      "descripcion": "SUPREMA DE POLLO HORNEADA GRILLADA [NUESTRA COCINA]",
+      "precio_min": 21999.0,
+      "por_unidad": 21999.0,
+      "unidad": "kg",
+      "banderas": {
+        "HiperChangomas": 21999.0
+      }
+    },
+    {
+      "ean": "7790070036063",
+      "descripcion": "Suprema de pollo GRANJA DEL SOL 360g PAQ-360-gr. [GRANJA DEL SOL]",
+      "precio_min": 10665.0,
+      "por_unidad": 29625.0,
+      "unidad": "kg",
+      "banderas": {
+        "Disco": 11350.0,
+        "Vea": 10990.0,
+        "Market": 10665.0,
+        "Hipermercado Carrefour": 10665.0,
+        "Express": 10985.0,
+        "COTO CICSA": 10665.0
+      }
+    }
+  ],
+  "queso-crema-light": [
+    {
+      "ean": "7798060853096",
+      "descripcion": "QUESO CREMA CREMETTE TONADITA LIGHT 480 GRS [TONADITA]",
+      "precio_min": 4399.0,
+      "por_unidad": 9164.583333333334,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 4799.0,
+        "COTO CICSA": 4399.0
+      }
+    },
+    {
+      "ean": "8480017233592",
+      "descripcion": "QUESO CREMA LIGHT [DIA]",
+      "precio_min": 2889.0,
+      "por_unidad": 9962.068965517243,
+      "unidad": "kg",
+      "banderas": {
+        "Supermercados DIA": 2889.0
+      }
+    },
+    {
+      "ean": "7798060852945",
+      "descripcion": "QUESO CON CREMA CREMETTE TONADITA LIGHT POT-290-gr. [TONADITA]",
+      "precio_min": 2899.0,
+      "por_unidad": 9996.551724137931,
+      "unidad": "kg",
+      "banderas": {
+        "Disco": 3400.0,
+        "Vea": 2899.0,
+        "Market": 3199.0,
+        "Hipermercado Carrefour": 3199.0
+      }
+    },
+    {
+      "ean": "7790244941612",
+      "descripcion": "QUESO CREMA LIGHT SAN IGNACIO POTE X480 GRS [SAN IGNACIO]",
+      "precio_min": 4818.65,
+      "por_unidad": 10038.854166666666,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 5669.0,
+        "Hipermercado Carrefour": 4818.65
+      }
+    },
+    {
+      "ean": "7791720028513",
+      "descripcion": "QUESO CREMA DESCREMADO CARREFOUR CLASSIC X 480 GRS [CARREFOUR CLASSIC]",
+      "precio_min": 4850.0,
+      "por_unidad": 10104.166666666668,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 4850.0,
+        "Hipermercado Carrefour": 4850.0
+      }
+    },
+    {
+      "ean": "7798312320567",
+      "descripcion": "QUESO UNTABLE LIGHT SANTA CLARA POTE X 300 GRS [SANTA CLARA]",
+      "precio_min": 3099.0,
+      "por_unidad": 10330.0,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 3099.0,
+        "Market": 3099.0
+      }
+    },
+    {
+      "ean": "7794990879663",
+      "descripcion": "queso crema LA PAULINA light. POT-290-gr. [LA PAULINA]",
+      "precio_min": 2999.0,
+      "por_unidad": 10341.379310344828,
+      "unidad": "kg",
+      "banderas": {
+        "Vea": 2999.0,
+        "Disco": 3500.0,
+        "Market": 3429.0,
+        "HiperChangomas": 3429.0,
+        "Supermercados DIA": 3420.0,
+        "COTO CICSA": 3435.0
+      }
+    },
+    {
+      "ean": "7791720028506",
+      "descripcion": "QUESO CREMA LIGHT CARREFOUR CLASSIC X 290 GRS [CARREFOUR CLASSIC]",
+      "precio_min": 3190.0,
+      "por_unidad": 11000.0,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 3190.0,
+        "Hipermercado Carrefour": 3190.0
+      }
+    },
+    {
+      "ean": "8480017121110",
+      "descripcion": "QUESO CREMA LIGHT [DIA]",
+      "precio_min": 5490.0,
+      "por_unidad": 11437.5,
+      "unidad": "kg",
+      "banderas": {
+        "Supermercados DIA": 5490.0
+      }
+    },
+    {
+      "ean": "8480017233615",
+      "descripcion": "QUESO CREMA LIGHT [DIA]",
+      "precio_min": 3490.0,
+      "por_unidad": 12034.48275862069,
+      "unidad": "kg",
+      "banderas": {
+        "Supermercados DIA": 3490.0
+      }
+    },
+    {
+      "ean": "7791337009851",
+      "descripcion": "QUESO CREMA LIGHT LA SERENISIMA POTE X 460 GRS [LA SERENISIMA]",
+      "precio_min": 6045.0,
+      "por_unidad": 13141.304347826086,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 6045.0,
+        "Express": 6229.0
+      }
+    },
+    {
+      "ean": "7791720045466",
+      "descripcion": "QUESO CREMA UNTABLE LIGHT BULNEZ POTE X 180 GR [BULNEZ]",
+      "precio_min": 2390.0,
+      "por_unidad": 13277.777777777777,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 2390.0,
+        "Market": 2390.0
+      }
+    },
+    {
+      "ean": "7793913013412",
+      "descripcion": "Queso Crema Light Tregar 280g POT-280-gr. [TREGAR]",
+      "precio_min": 3799.0,
+      "por_unidad": 13567.857142857141,
+      "unidad": "kg",
+      "banderas": {
+        "Vea": 3799.0,
+        "Disco": 4400.0,
+        "COTO CICSA": 4190.0
+      }
+    },
+    {
+      "ean": "7791337061439",
+      "descripcion": "QUESO CREMA LIGHT LA SERENISIMA POTE X 290 GRS [LA SERENISIMA]",
+      "precio_min": 4135.0,
+      "por_unidad": 14258.620689655174,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 4135.0,
+        "Market": 4135.0,
+        "Express": 4259.0,
+        "Supermercados DIA": 4135.0
+      }
+    },
+    {
+      "ean": "7790742373809",
+      "descripcion": "LA SERENISIMA QUESO UNTABLE CREMON LIGHT 280G [CREMON]",
+      "precio_min": 3996.0,
+      "por_unidad": 14271.42857142857,
+      "unidad": "kg",
+      "banderas": {
+        "HiperChangomas": 3999.0,
+        "COTO CICSA": 3996.0
+      }
+    },
+    {
+      "ean": "7793913013214",
+      "descripcion": "QUESO CREMA LIGHT TREGAR X 190 GRS [TREGAR]",
+      "precio_min": 3190.0,
+      "por_unidad": 16789.473684210527,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 3190.0,
+        "Market": 3190.0,
+        "COTO CICSA": 3190.0
+      }
+    },
+    {
+      "ean": "7793913013641",
+      "descripcion": "QUESO UNTABLE DESCREMADO TREGAR POT 180 GRM [TREGAR]",
+      "precio_min": 3090.0,
+      "por_unidad": 17166.666666666668,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 3090.0
+      }
+    },
+    {
+      "ean": "7794820903094",
+      "descripcion": "QUESO UNTABLE LIGHT CREMATTO POTE MILKAUT X 285GRS [MILKAUT]",
+      "precio_min": 5069.0,
+      "por_unidad": 17785.9649122807,
+      "unidad": "kg",
+      "banderas": {
+        "Hipermercado Carrefour": 5069.0,
+        "Market": 5069.0,
+        "Supermercados DIA": 5069.0
+      }
+    },
+    {
+      "ean": "7790742324108",
+      "descripcion": "FINLANDIA QUESO UNTABLE LIGHT SIN SAL AGREGADA 290G [FINLANDIA]",
+      "precio_min": 5479.0,
+      "por_unidad": 18893.103448275862,
+      "unidad": "kg",
+      "banderas": {
+        "HiperChangomas": 5479.0,
+        "COTO CICSA": 5479.0
+      }
+    },
+    {
+      "ean": "7790742373304",
+      "descripcion": "FINLANDIA QUESO UNTABLE LIGHT 290G [FINLANDIA]",
+      "precio_min": 5479.0,
+      "por_unidad": 18893.103448275862,
+      "unidad": "kg",
+      "banderas": {
+        "HiperChangomas": 5479.0
+      }
+    },
+    {
+      "ean": "2507278000001",
+      "descripcion": "QUESO POR SALUT LIGHT CREMAC FRACC X KG [CREMAC]",
+      "precio_min": 18900.0,
+      "por_unidad": 18900.0,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 18900.0,
+        "Hipermercado Carrefour": 18900.0,
+        "Express": 18900.0
+      }
+    },
+    {
+      "ean": "7791337061385",
+      "descripcion": "QUESO CREMA LIGHT CASANCREM X 290 GRS [CASANCREM]",
+      "precio_min": 5761.54,
+      "por_unidad": 19867.37931034483,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 5761.54,
+        "Hipermercado Carrefour": 5761.54,
+        "Express": 5936.92
+      }
+    },
+    {
+      "ean": "7791337060944",
+      "descripcion": "QUESO CREMA LIGHT SIN SAL CASANCREM POTE X 290 GR [CASANCREM]",
+      "precio_min": 5765.0,
+      "por_unidad": 19879.310344827587,
+      "unidad": "kg",
+      "banderas": {
+        "Market": 5765.0,
+        "Express": 5939.0,
+        "Hipermercado Carrefour": 5765.0
+      }
+    },
+    {
+      "ean": "7790742324009",
+      "descripcion": "QUESO UNTABLE LIGHT FINLANDIA POT 180 GRM [FINLANDIA]",
+      "precio_min": 3655.0,
+      "por_unidad": 20305.555555555555,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 3655.0
+      }
+    },
+    {
+      "ean": "77309563",
+      "descripcion": "QUESO UNTABLE REQUESÓN LIGHT CONAPROLE POT 250 GRM [CONAPROLE]",
+      "precio_min": 7399.0,
+      "por_unidad": 29596.0,
+      "unidad": "kg",
+      "banderas": {
+        "COTO CICSA": 7399.0
+      }
+    }
+  ]
+}

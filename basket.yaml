@@ -1,0 +1,225 @@
+# Canasta de Matias. Una entrada por "cosa que compramos".
+#
+# La mayoria de las lineas NO son un producto fijo sino una categoria con reglas
+# ("papel higienico doble hoja, el mas barato"). Por eso cada linea define como
+# reconocer a los candidatos y no un EAN unico:
+#
+#   any:      alcanza con que aparezca uno de estos terminos
+#   all:      tienen que estar todos
+#   none:     si aparece alguno, se descarta el candidato
+#   unidad:   unidad en la que se compara el precio (L, kg, un)
+#   tamano:   presentacion aceptada, para no comparar 200 ml contra 2 L
+#
+# Los EAN que Matias confirma se congelan en accepted_eans (y los que rechaza en
+# rejected_eans) para que la corrida diaria sea deterministica y no dependa de que
+# el texto del comercio cambie.
+
+meta:
+  ciudad: La Plata
+  radio_km: 25
+
+  # Las dos tiendas de PedidosYa que se comparan. Los ids salieron de la corrida
+  # de `py_fetch.py discover` del 2026-08-12: el vendor es el comercio y el
+  # catalogue es lo que pide el endpoint de busqueda, no son el mismo numero.
+  pedidosya:
+    vendors:
+      - id: 163630
+        catalogue: 163207
+        nombre: PedidosYa Market La Plata
+      - id: 555029
+        catalogue: 829303
+        nombre: Carrefour Hiper City Bell
+
+items:
+  - id: leche-protein
+    nombre: Leche Protein 1 L (botella)
+    marca_fija: true
+    match:
+      all: [protein]
+      any: [leche, "la serenisima", "las tres marias", "tres marias"]
+      none: [chocolat, cacao, sabor, polvo, bebida, sachet]
+    unidad: L
+    tamano: {min: 0.9, max: 1.1, unidad: L}
+    compra: {min: 3, max: 16}   # compra por oferta: de 3 a 16 unidades
+    accepted_eans:
+      - 7790742358608   # Leche Protein La Serenisima 1 L botella
+    rejected_eans:
+      # SKU fantasma: existe la ficha en Carrefour pero con Price 0 y stock 0.
+      # Vive solo en los feeds de precio, no se puede comprar. Verificado 2026-08-12.
+      - 7790742352101   # "Leche ultra descremada La Serenisima Protein sachet 1 lt"
+    notas: "El volumen depende del descuento: es el item mas sensible a promo."
+
+  - id: atun-lomitos-natural
+    nombre: Lomitos de atun al natural (lata)
+    match:
+      all: [atun]
+      any: [lomito]
+      none: [aceite, girasol, oliva, rallado, desmenuzado, pate]
+    unidad: kg
+    tamano: {min: 0.08, max: 0.35, unidad: kg}
+
+  - id: yogur-natural-sin-azucar
+    nombre: Yogur natural sin endulzar
+    match:
+      all: [yogur]
+      any: [natural]
+      none: [endulz, azucar, sabor, frutilla, vainilla, bebible, colchon, con crema]
+    marcas_preferidas: [yogurisimo, milkaut, tregar]
+    unidad: kg
+
+  - id: papel-higienico-doble-hoja
+    nombre: Papel higienico doble hoja
+    match:
+      all: [papel]
+      any: [higienico]
+      none: [cocina, pañuelo, servilleta, simple hoja]
+    requiere: [doble]
+    unidad: m
+
+  - id: ricotta
+    nombre: Ricotta magra o semimagra
+    match:
+      all: [ricota]
+      none: [dulce, postre, ravioles, rav, sorrentinos, capelletti, capeletti, panzotis, canelones, tapa, tarta, relleno, jamon]
+    acepta_variantes: [ricotta]
+    unidad: kg
+
+  - id: yerba-mananita
+    nombre: Yerba Mañanita 500 g / 1 kg
+    marca_fija: true
+    match:
+      all: [yerba]
+      any: [mañanita, mananita]
+    unidad: kg
+    tamano: {min: 0.5, max: 1.0, unidad: kg}
+
+  - id: detergente
+    nombre: Detergente (Cif o Magistral)
+    match:
+      all: [detergente]
+      any: [cif, magistral]
+      none: [lavavajilla maquina, tabletas, capsulas]
+    unidad: L
+
+  - id: lavandina
+    nombre: Lavandina
+    match:
+      all: [lavandina]
+      none: [gel perfumada ropa color]
+    unidad: L
+
+  - id: rollo-cocina
+    nombre: Rollo de cocina
+    match:
+      any: [rollo]
+      all: [cocina]
+      none: [higienico, aluminio, film]
+    unidad: m
+
+  - id: vinagre-alcohol
+    nombre: Vinagre de alcohol
+    match:
+      all: [vinagre]
+      any: [alcohol]
+      none: [manzana, vino, balsamico]
+    unidad: L
+
+  - id: cafe-instantaneo
+    nombre: Cafe instantaneo liofilizado
+    match:
+      all: [cafe]
+      any: [instantaneo, liofilizado, soluble]
+      none: [capsula, molido, grano, torrado, filtro]
+    unidad: kg
+
+  - id: capsulas-nespresso-starbucks
+    nombre: Capsulas Starbucks para Nespresso Original
+    marca_fija: true
+    match:
+      all: [starbucks]
+      any: [capsula, capsulas, nespresso]
+      none: [dolce gusto, soluble, molido, grano]
+    unidad: un                  # se compara $/capsula, no $/kg
+    # Nespresso Original y Dolce Gusto se llaman igual en las descripciones y solo
+    # se distinguen por el formato: Nespresso = 10 capsulas de ~5,1-5,7 g (caja de
+    # 51-57 g), Dolce Gusto = 12 capsulas de ~10 g (caja de ~120 g). El gramaje por
+    # capsula es el unico discriminador confiable en el feed.
+    formato:
+      capsulas: {min: 10, max: 10}
+      gramos_por_capsula: {min: 4.5, max: 6.0}
+    accepted_eans:
+      - 8445291786721   # Choco Hazelnut 10 uni / 51 g  <- el de la oferta en PedidosYa
+      - 8445290154125   # Caramel 10 uni / 51 g
+      - 8445290814425   # Blonde Espresso Roast Decaf 10 uni / 55 g
+      - 8445291367272   # Espresso Roast 10 uni
+      - 8445291363656   # House Blend 10 uni
+      - 8445290452535   # Toffee Nut 10 uni / 56 g
+      - 7613036961448   # Colombia 10 uni / 57 g
+      - 7613036961004   # Blonde Espresso Roast 10 uni / 53 g
+      - 7613037280487   # Pike Place 10 uni
+    rejected_eans:
+      # Dolce Gusto: 12 (o 18) capsulas, caja de ~120 g. Otra maquina.
+      - 7891000454466   # "Starbucks Hazelnut 123 gr" — Dolce Gusto, no confundir
+      - 8445291061330   # Cappuccino 12 uni
+      - 8445291061361   # Caramel Macchiato 12 uni
+      - 8445291061347   # Vainilla Macchiato 12 uni
+      - 8445291806320   # Toffee Nut Latte 12 uni
+      - 8445290431707   # White Mocha 12 uni
+      - 7613036943376   # Cappuccino 12 uni
+      - 7613287335388   # Vainilla Macchiato 12 uni
+      - 7613036940771   # Espresso Roast 12 uni
+      - 7613036942560   # Espresso Colombia 12 uni
+      - 7613036941358   # House Blend 12 uni
+    revisar_eans:
+      # Formato no confirmado todavia: hay que mirar la caja o la ficha.
+      - 8445291362277   # "House Blend 18 uni" — 18 no es formato tipico de ninguno
+      - 7613037290967   # Colombia 10 uni, duplicado de 7613036961448 (Price 0)
+      - 7613037301793   # Blonde Espresso Roast, duplicado (Price 0)
+      - 7613036957069   # House Blend 10 uni (Price 0)
+      - 7613036961028   # Espresso Roast 10 uni (Price 0)
+      - 7613037279429   # House Blend x 10 (Price 0)
+      - 7613037280364   # Espresso Roast x 10 (Price 0)
+      - 7613037275667   # Decaf Espresso Roast (Price 0)
+      - 7613037534160   # Toffee Nut Latte 12 uni — probablemente Dolce Gusto
+
+  - id: desodorante-barra-hombre
+    nombre: Desodorante en barra (hombre)
+    match:
+      all: [desodorante]
+      any: [barra]
+      none: [aerosol, spray, roll, crema, mujer, women]
+    unidad: un
+
+  - id: queso-port-salut-light
+    nombre: Queso port salut light / equilibrio
+    match:
+      any: [port salut, portsalut]
+      none: [comun entero]
+    requiere_alguno: [light, magro, equilibrio, descremado]
+    unidad: kg
+
+  - id: gaseosa-cola-zero
+    nombre: Coca Zero / Pepsi Black
+    match:
+      any: [coca, pepsi]
+      none: [jugo, energizante]
+    requiere_alguno: [zero, black, light, sin azucar]
+    unidad: L
+
+  - id: suprema-pollo
+    nombre: Suprema de pollo (puede ser congelada)
+    sin_ean_estable: true       # carniceria/congelados: se compara por precio/kg
+    match:
+      all: [pollo]
+      any: [suprema, pechuga]
+      none: [rebozad, milanesa, nugget, hamburguesa, empanada, formada, patitas]
+    unidad: kg
+
+  - id: queso-crema-light
+    nombre: Queso crema light / fit
+    match:
+      all: [queso]
+      any: [crema, untable]
+      none: [rallado, port salut, cremoso horma]
+    requiere_alguno: [light, fit, descremado, magro, 0%]
+    unidad: kg

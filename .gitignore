@@ -1,0 +1,15 @@
+# El perfil de Edge tiene la sesion de PedidosYa de Matias adentro (cookies de
+# login, cookie _px3 de PerimeterX). Es una credencial, no un artefacto.
+data/browser-profile/
+
+# Volcados crudos de descubrimiento: pesados y pueden traer datos de la cuenta
+# (direccion, historial de pedidos) mezclados con el catalogo.
+data/py/discovery-*.json
+
+# El ZIP diario de SEPA son 300 MB y se puede volver a bajar cuando haga falta.
+data/sepa-hoy.zip
+data/run-daily.log
+
+__pycache__/
+*.pyc
+*.zip
