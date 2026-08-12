@@ -51,6 +51,7 @@ items:
 
   - id: atun-lomitos-natural
     nombre: Lomitos de atun al natural (lata)
+    py_query: "atun lomitos"
     match:
       all: [atun]
       any: [lomito]
@@ -60,6 +61,7 @@ items:
 
   - id: yogur-natural-sin-azucar
     nombre: Yogur natural sin endulzar
+    py_query: "yogur natural"
     match:
       all: [yogur]
       any: [natural]
@@ -69,6 +71,7 @@ items:
 
   - id: papel-higienico-doble-hoja
     nombre: Papel higienico doble hoja
+    py_query: "papel higienico"
     match:
       all: [papel]
       any: [higienico]
@@ -78,6 +81,7 @@ items:
 
   - id: ricotta
     nombre: Ricotta magra o semimagra
+    py_query: "ricotta"
     match:
       all: [ricota]
       none: [dulce, postre, ravioles, rav, sorrentinos, capelletti, capeletti, panzotis, canelones, tapa, tarta, relleno, jamon]
@@ -86,6 +90,7 @@ items:
 
   - id: yerba-mananita
     nombre: Yerba Mañanita 500 g / 1 kg
+    py_query: "yerba mañanita"
     marca_fija: true
     match:
       all: [yerba]
@@ -95,6 +100,7 @@ items:
 
   - id: detergente
     nombre: Detergente (Cif o Magistral)
+    py_query: "detergente"
     match:
       all: [detergente]
       any: [cif, magistral]
@@ -103,6 +109,7 @@ items:
 
   - id: lavandina
     nombre: Lavandina
+    py_query: "lavandina"
     match:
       all: [lavandina]
       none: [gel perfumada ropa color]
@@ -110,6 +117,7 @@ items:
 
   - id: rollo-cocina
     nombre: Rollo de cocina
+    py_query: "rollo cocina"
     match:
       any: [rollo]
       all: [cocina]
@@ -118,6 +126,7 @@ items:
 
   - id: vinagre-alcohol
     nombre: Vinagre de alcohol
+    py_query: "vinagre alcohol"
     match:
       all: [vinagre]
       any: [alcohol]
@@ -126,6 +135,7 @@ items:
 
   - id: cafe-instantaneo
     nombre: Cafe instantaneo liofilizado
+    py_query: "cafe instantaneo"
     match:
       all: [cafe]
       any: [instantaneo, liofilizado, soluble]
@@ -134,6 +144,7 @@ items:
 
   - id: capsulas-nespresso-starbucks
     nombre: Capsulas Starbucks para Nespresso Original
+    py_query: "capsulas starbucks"
     marca_fija: true
     match:
       all: [starbucks]
@@ -144,9 +155,12 @@ items:
     # se distinguen por el formato: Nespresso = 10 capsulas de ~5,1-5,7 g (caja de
     # 51-57 g), Dolce Gusto = 12 capsulas de ~10 g (caja de ~120 g). El gramaje por
     # capsula es el unico discriminador confiable en el feed.
+    # PedidosYa publica `content_quantity` en la unidad de cada ficha: la misma
+    # linea aparece como "10" (unidades) y como "55" (gramos). Por eso hay dos
+    # reglas y se aplica la que corresponde a la unidad que declara la ficha.
     formato:
-      capsulas: {min: 10, max: 10}
-      gramos_por_capsula: {min: 4.5, max: 6.0}
+      capsulas: {min: 10, max: 10}   # cuando la ficha viene en unidades
+      gramos: {min: 45, max: 60}     # cuando viene en gramos (caja de 10 Nespresso)
     accepted_eans:
       - 8445291786721   # Choco Hazelnut 10 uni / 51 g  <- el de la oferta en PedidosYa
       - 8445290154125   # Caramel 10 uni / 51 g
@@ -184,6 +198,7 @@ items:
 
   - id: desodorante-barra-hombre
     nombre: Desodorante en barra (hombre)
+    py_query: "desodorante barra hombre"
     match:
       all: [desodorante]
       any: [barra]
@@ -192,6 +207,7 @@ items:
 
   - id: queso-port-salut-light
     nombre: Queso port salut light / equilibrio
+    py_query: "port salut light"
     match:
       any: [port salut, portsalut]
       none: [comun entero]
@@ -200,6 +216,7 @@ items:
 
   - id: gaseosa-cola-zero
     nombre: Coca Zero / Pepsi Black
+    py_query: "gaseosa zero"
     match:
       any: [coca, pepsi]
       none: [jugo, energizante]
@@ -208,6 +225,7 @@ items:
 
   - id: suprema-pollo
     nombre: Suprema de pollo (puede ser congelada)
+    py_query: "suprema pollo"
     sin_ean_estable: true       # carniceria/congelados: se compara por precio/kg
     match:
       all: [pollo]
@@ -217,6 +235,7 @@ items:
 
   - id: queso-crema-light
     nombre: Queso crema light / fit
+    py_query: "queso untable light"
     match:
       all: [queso]
       any: [crema, untable]

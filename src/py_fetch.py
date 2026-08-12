@@ -306,6 +306,66 @@ def norm_gtin(gtin: str | None) -> str:
     return (gtin or "").lstrip("0")
 
 
+def pasa_formato(r: dict, item: dict) -> bool:
+    """Filtra por presentacion cuando el nombre no alcanza para distinguir.
+
+    El caso que lo motiva: Starbucks vende la misma marca y los mismos sabores
+    para Nespresso Original (10 capsulas) y para Dolce Gusto (12), y el nombre no
+    siempre dice cual es. `rejected_eans` tapa los que ya conocemos, pero cada
+    sabor nuevo que sacan volveria a colarse. La cantidad de capsulas no.
+
+    Ojo: la busqueda no devuelve el gramaje, solo `content_quantity`. La regla
+    de gramos por capsula de basket.yaml solo se puede verificar con el detalle.
+    """
+    formato = item.get("formato") or {}
+    if not formato:
+        return True
+    cantidad = r.get("content_quantity")
+    if cantidad is None:
+        return True  # sin dato no se descarta: se prefiere revisarlo a perderlo
+
+    # `content_quantity` viene en la unidad de cada publicacion, no siempre en la
+    # misma: la misma linea de capsulas aparece como "10" (unidades) y como "55"
+    # (gramos). Con una sola regla en unidades, una variante nueva publicada en
+    # gramos quedaria afuera por un problema de unidades y no de producto.
+    unidad = ((r.get("measurement_unit") or {}).get("short_name") or "").lower()
+    reglas = []
+    if unidad in ("un", "u", ""):
+        reglas.append(formato.get("capsulas") or formato.get("contenido"))
+    if unidad in ("g", "gr", "grs", ""):
+        reglas.append(formato.get("gramos"))
+    reglas = [x for x in reglas if x]
+    if not reglas:
+        return True  # unidad que no sabemos interpretar: pasa y se revisa
+    return any(x.get("min", 0) <= float(cantidad) <= x.get("max", 10**9) for x in reglas)
+
+
+def seleccionar(encontrados: list[dict], item: dict) -> list[dict]:
+    """Que resultados de la busqueda se guardan para este item de la canasta.
+
+    Devuelve TODAS las variantes que pasan, no la mas barata: una linea como
+    "capsulas Starbucks" o "yogur natural" es una familia, y cual esta en promo
+    cambia cada semana. Quedarse con una sola es perderse la oferta.
+
+    Funcion aparte para poder probarla contra las respuestas ya capturadas, sin
+    volver a pegarle a PedidosYa (que bloquea si se insiste).
+    """
+    from match import matches, norm
+
+    aceptados = {str(e).lstrip("0") for e in (item.get("accepted_eans") or [])}
+    rechazados = {str(e).lstrip("0") for e in (item.get("rejected_eans") or [])}
+    elegidos = []
+    for r in encontrados:
+        ean = norm_gtin(r.get("gtin"))
+        if not r.get("price") or ean in rechazados:
+            continue
+        if ean in aceptados:
+            elegidos.append(r)
+        elif matches(norm(str(r.get("name") or "")), item) and pasa_formato(r, item):
+            elegidos.append(r)
+    return elegidos
+
+
 def search(page, catalogue: int, vendor: int, query: str) -> list[dict]:
     body = api_get(page, f"{API}/catalogues/{catalogue}/search",
                    {"query": query, "partnerId": str(vendor),
@@ -380,33 +440,25 @@ def cmd_daily() -> None:
                     "resolve el captcha a mano y volve a intentar."
                 )
             for item in items:
-                aceptados = {str(e) for e in (item.get("accepted_eans") or [])}
+                aceptados = {str(e).lstrip("0") for e in (item.get("accepted_eans") or [])}
+                rechazados = {str(e).lstrip("0") for e in (item.get("rejected_eans") or [])}
                 query = item.get("py_query") or item["nombre"]
                 for v in vendors:
                     encontrados = search(page, v["catalogue"], v["id"], query)
                     # Con accepted_eans se resuelve por EAN, que es exacto. Sin lista
                     # todavia confirmada, se deja el candidato mas barato para que
                     # Matias lo revise; no se congela nada solo.
-                    elegidos = [r for r in encontrados if norm_gtin(r.get("gtin")) in aceptados]
-                    revisar = not elegidos and not aceptados
-                    if revisar:
-                        # El buscador de PedidosYa es generoso: para "Rollo de cocina"
-                        # devuelve papel de armar, y para "Suprema de pollo" devuelve
-                        # pollo rebozado que la regla `none` descarta explicitamente.
-                        # Sin pasar las reglas de basket.yaml, quedarse con el mas
-                        # barato es quedarse con el producto equivocado casi siempre.
-                        candidatos = [r for r in encontrados
-                                      if r.get("price") and matches(norm(str(r.get("name") or "")), item)]
-                        elegidos = sorted(candidatos, key=lambda r: r["price"])[:3]
+                    elegidos = seleccionar(encontrados, item)
                     if not elegidos:
                         faltantes.append(f"{item['id']} @ {v['nombre']}")
                         continue
                     for r in elegidos:
-                        # El detalle solo para los confirmados por EAN: son los que
-                        # entran a la serie historica y necesitan `beforePrice` y el
-                        # stock bueno. Para los candidatos a revisar alcanza el precio
-                        # de la busqueda, y asi la corrida hace la mitad de pedidos
-                        # (que es lo que disparo el bloqueo de PerimeterX).
+                        revisar = norm_gtin(r.get("gtin")) not in aceptados
+                        # El detalle solo para las confirmadas: son las que ya sabemos
+                        # que nos importan y necesitan `beforePrice` y el stock bueno.
+                        # Para las provisionales alcanza el precio de la busqueda, y
+                        # asi la corrida no crece en pedidos (que es lo que disparo el
+                        # bloqueo de PerimeterX).
                         detalle = None if revisar else product_detail(page, v["id"], r.get("id"))
                         fila = extract(detalle, v["id"]) if detalle else {
                             "vendor": v["id"], "product_id": str(r.get("id")),
