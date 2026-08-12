@@ -4,23 +4,23 @@
 
 | Producto | PeYa Market | Carrefour | Diferencia | Cuando comprar |
 |---|---|---|---|---|
-| Leche Protein 1 L (botella) | $2.989,00 | $2.999,00 | PeYa −$10,00 | faltan 10 dias |
-| Lomitos de atun al natural (lata) | $3.577,65 | $3.490,00 | Carrefour −$515,59/kg · marcas distintas | faltan 10 dias |
-| Yogur natural sin endulzar | $2.129,00 | $2.029,00 | Carrefour −$100,00 | faltan 10 dias |
-| Papel higienico doble hoja | $2.839,20 | $3.149,00 | PeYa −$309,80 | faltan 10 dias |
-| Ricotta magra o semimagra | $3.319,25 | $3.769,00 | PeYa −$449,75 | faltan 10 dias |
-| Yerba Mañanita 500 g / 1 kg | $4.790,00 | $4.749,00 | Carrefour −$41,00 | faltan 10 dias |
-| Detergente (Cif o Magistral) | $2.240,46 | $2.329,00 | PeYa −$88,54 | faltan 10 dias |
-| Lavandina | $1.455,00 | $959,25 | Carrefour −$495,75 | faltan 10 dias |
-| Rollo de cocina | $2.413,15 | $2.839,00 | PeYa −$425,85 | faltan 10 dias |
-| Vinagre de alcohol | $1.295,00 | $1.119,00 | PeYa −$1.241,85/L · marcas distintas | faltan 10 dias |
-| Cafe instantaneo liofilizado | $5.499,00 | $5.139,00 | Carrefour −$360,00 | faltan 10 dias |
-| Capsulas Starbucks para Nespresso Original | $10.202,50 (30%) | $14.875,00 | PeYa −$4.672,50 | faltan 10 dias |
-| Desodorante en barra (hombre) | $5.553,00 | $9.949,00 | PeYa −$4.396,00 | faltan 10 dias |
-| Queso port salut light / equilibrio | $9.875,00 | — | solo una tienda | faltan 10 dias |
-| Coca Zero / Pepsi Black | $1.959,00 | $2.200,00 | PeYa −$241,00 | faltan 10 dias |
-| Suprema de pollo (puede ser congelada) | $9.132,00 | $7.998,75 | Carrefour −$1.133,25 | faltan 10 dias |
-| Queso crema light / fit | $3.185,00 | $3.089,00 | Carrefour −$96,00 | faltan 10 dias |
+| Leche Protein 1 L (botella) | $2.989,00 | $2.999,00 | PeYa −$10,00 | faltan 7 dias |
+| Lomitos de atun al natural (lata) | $3.577,65 | $3.490,00 | Carrefour −$515,59/kg · marcas distintas | faltan 7 dias |
+| Yogur natural sin endulzar | $2.129,00 | $2.029,00 | Carrefour −$100,00 | faltan 7 dias |
+| Papel higienico doble hoja | $2.839,20 | $3.149,00 | PeYa −$309,80 | faltan 7 dias |
+| Ricotta magra o semimagra | $3.319,25 | $3.769,00 | PeYa −$449,75 | faltan 7 dias |
+| Yerba Mañanita 500 g / 1 kg | $4.790,00 | $4.749,00 | Carrefour −$41,00 | faltan 7 dias · en gondola esta mas barato que el 86% de los dias |
+| Detergente (Cif o Magistral) | $2.240,46 | $2.329,00 | PeYa −$88,54 | faltan 7 dias · en gondola esta mas barato que el 86% de los dias |
+| Lavandina | $1.455,00 | $959,25 | Carrefour −$495,75 | faltan 7 dias · en gondola esta mas barato que el 86% de los dias |
+| Rollo de cocina | $2.413,15 | $2.839,00 | PeYa −$425,85 | faltan 7 dias · en gondola esta mas barato que el 86% de los dias |
+| Vinagre de alcohol | $1.295,00 | $1.119,00 | PeYa −$1.241,85/L · marcas distintas | faltan 7 dias |
+| Cafe instantaneo liofilizado | $5.499,00 | $5.139,00 | Carrefour −$360,00 | faltan 7 dias · en gondola esta mas barato que el 86% de los dias |
+| Capsulas Starbucks para Nespresso Original | $10.202,50 (30%) | $14.875,00 | PeYa −$4.672,50 | faltan 7 dias |
+| Desodorante en barra (hombre) | $5.553,00 | $9.949,00 | PeYa −$4.396,00 | faltan 7 dias · en gondola esta mas barato que el 86% de los dias |
+| Queso port salut light / equilibrio | $9.875,00 | — | solo una tienda | faltan 7 dias |
+| Coca Zero / Pepsi Black | $1.959,00 | $2.200,00 | PeYa −$241,00 | faltan 7 dias |
+| Suprema de pollo (puede ser congelada) | $9.132,00 | $7.998,75 | Carrefour −$1.133,25 | faltan 7 dias |
+| Queso crema light / fit | $3.185,00 | $3.089,00 | Carrefour −$96,00 | faltan 7 dias |
 
 ## Falta confirmar el producto
 
@@ -56,4 +56,4 @@ Estos salieron del buscador y todavia no estan en `accepted_eans`, asi que la co
 - yogur-natural-sin-azucar · Carrefour Hiper City Bell · Yogur Tregar Natural 140 g (EAN 7793913002423)
 - yogur-natural-sin-azucar · PedidosYa Market La Plata · Yogur Tregar Natural 140 g (EAN 7793913002423)
 
-_Serie: 285 filas, 1 dia(s). El veredicto de 'cuando' necesita 10._
+_Serie: 7758 filas, 8 dia(s). El veredicto de 'cuando' necesita 7._

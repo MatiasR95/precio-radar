@@ -40,13 +40,17 @@ items:
     variantes: false
     match:
       all: [protein]
-      any: [leche, "la serenisima", "las tres marias", "tres marias"]
+      # "las tres marias" era un error de memoria: la marca es Las Tres Niñas.
+      any: [leche, "la serenisima", "las tres ninas", "tres ninas"]
       none: [chocolat, cacao, sabor, polvo, bebida, sachet]
     unidad: L
     tamano: {min: 0.9, max: 1.1, unidad: L}
     compra: {min: 3, max: 16}   # compra por oferta: de 3 a 16 unidades
     accepted_eans:
       - 7790742358608   # Leche Protein La Serenisima 1 L botella
+      - 7798338291803   # Leche Con Proteina Las Tres Niñas Vida Activa 1 L
+                        # Confirmada por Matias 2026-08-12: entra a la portada y
+                        # compite de igual a igual con La Serenisima.
     rejected_eans:
       # SKU fantasma: existe la ficha en Carrefour pero con Price 0 y stock 0.
       # Vive solo en los feeds de precio, no se puede comprar. Verificado 2026-08-12.

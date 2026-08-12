@@ -17,12 +17,15 @@ Uso:
     python src/store.py py data/py/py-2026-08-12.json
     python src/store.py sepa                # baja el ZIP de hoy y lo ingesta
     python src/store.py sepa ruta/al.zip
+    python src/store.py seed               # los 7 ZIP = una semana de historia
 """
 
 from __future__ import annotations
 
 import csv
 import json
+import re
+import zipfile
 import sys
 import urllib.request
 from datetime import date
@@ -32,7 +35,8 @@ import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from sepa import LA_PLATA, ParseStats, daily_url, read_branches, read_prices
+from sepa import (LA_PLATA, WEEKDAY_NAMES, ParseStats, daily_url,
+                  read_branches, read_prices)
 
 ROOT = Path(__file__).resolve().parent.parent
 SERIE = ROOT / "data" / "serie.csv"
@@ -121,12 +125,36 @@ def eans_de_interes() -> dict[str, str]:
     return mapa
 
 
+FECHA_RE = re.compile(r"(20\d\d-\d\d-\d\d)")
+
+
+def fecha_del_archivo(archive: Path) -> str:
+    """La fecha que trae el ZIP adentro, NO la de hoy.
+
+    El ZIP de cada dia de semana se pisa una vez por semana, y el que se baja
+    hoy puede tener datos de hace hasta 7 dias: bajado el miercoles 2026-08-12,
+    `sepa_miercoles.zip` traia adentro la carpeta `2026-08-05/`. Fechar eso como
+    hoy corre la serie entera hasta una semana y arruina cualquier mediana, sin
+    que se note nunca.
+
+    Efecto util del mismo mecanismo: los 7 ZIP de la semana son 7 fechas
+    distintas, asi que se puede sembrar una semana de historia de una sola vez.
+    """
+    with zipfile.ZipFile(archive) as z:
+        for nombre in z.namelist():
+            m = FECHA_RE.search(nombre)
+            if m:
+                return m.group(1)
+    raise SystemExit(f"No se pudo leer la fecha de {archive.name}; no se ingesta a ciegas.")
+
+
 def ingest_sepa(archive: Path) -> tuple[str, list[dict]]:
     spec = basket()
     mapa = eans_de_interes()
     if not mapa:
         raise SystemExit("No hay EANs para seguir todavia. Corre primero `store.py py`.")
 
+    fecha = fecha_del_archivo(archive)
     stats = ParseStats()
     branches = read_branches(archive, centre=LA_PLATA,
                              radius_km=spec["meta"]["radio_km"], stats=stats)
@@ -144,7 +172,7 @@ def ingest_sepa(archive: Path) -> tuple[str, list[dict]]:
         previo = mejor.get(clave)
         if previo is None or precio < previo["precio"]:
             mejor[clave] = {
-                "fecha": date.today().isoformat(),
+                "fecha": fecha,
                 "fuente": "sepa",
                 "tienda": tienda,
                 "item": mapa.get(row.ean, ""),
@@ -159,7 +187,41 @@ def ingest_sepa(archive: Path) -> tuple[str, list[dict]]:
                 "promo_tag": row.leyenda_promo,
                 "sin_confirmar": "",
             }
-    return date.today().isoformat(), list(mejor.values())
+    return fecha, list(mejor.values())
+
+
+def cmd_seed() -> None:
+    """Siembra una semana de historia de una sola vez.
+
+    SEPA publica 7 ZIP, uno por dia de semana, y cada uno se pisa una vez por
+    semana. O sea que en cualquier momento los 7 juntos son los ultimos 7 dias.
+    Sin esto hay que esperar 10 dias corridos para que el veredicto de "cuando"
+    diga algo; con esto, arranca hoy.
+
+    Se baja de a uno y se borra despues de ingestarlo: son ~300 MB cada uno y no
+    tiene sentido dejar 2 GB en disco.
+    """
+    destino = ROOT / "data" / "sepa-seed.zip"
+    for wd in range(7):
+        url = daily_url(wd)
+        print(f"bajando {WEEKDAY_NAMES[wd]}...", flush=True)
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=600) as r, destino.open("wb") as fh:
+                while chunk := r.read(1 << 20):
+                    fh.write(chunk)
+            fecha, rows = ingest_sepa(destino)
+            upsert(rows, fecha, "sepa")
+            print(f"  {WEEKDAY_NAMES[wd]}: {len(rows)} filas para {fecha}", flush=True)
+        except Exception as e:
+            # Un dia que falle no invalida los otros seis.
+            print(f"  {WEEKDAY_NAMES[wd]}: FALLO ({type(e).__name__}: {e})", flush=True)
+        finally:
+            destino.unlink(missing_ok=True)
+
+    filas = load()
+    fechas = sorted({r["fecha"] for r in filas if r["fuente"] == "sepa"})
+    print(f"\nserie: {len(filas)} filas | fechas de SEPA: {', '.join(fechas)}")
 
 
 def descargar_sepa() -> Path:
@@ -181,6 +243,9 @@ def main() -> None:
         if not path:
             raise SystemExit("No hay data/py/py-*.json. Corre `py_fetch.py daily`.")
         fecha, rows = ingest_py(path)
+    elif modo == "seed":
+        cmd_seed()
+        return
     elif modo == "sepa":
         archive = Path(arg) if arg else descargar_sepa()
         fecha, rows = ingest_sepa(archive)

@@ -19,7 +19,7 @@ from __future__ import annotations
 
 import statistics
 import sys
-from datetime import date
+from datetime import date, timedelta
 from collections import defaultdict
 from pathlib import Path
 
@@ -35,7 +35,12 @@ HTML = ROOT / "data" / "reporte.html"
 
 # Debajo de esto la mediana y el percentil son ruido: con 3 datos, "el mas
 # barato de la serie" no significa nada. Preferible decir que falta historia.
-MIN_DIAS = 10
+#
+# 7 = un ciclo semanal completo, que es como se mueven las promos de super acá.
+# Con 7 puntos cada dia pesa 14%, asi que el percentil es grueso: sirve para
+# "hoy es el mas barato de la semana", no para diferencias finas. A medida que
+# la serie crezca conviene subirlo a 30 y mirar el mes.
+MIN_DIAS = 7
 # Percentil a partir del cual se recomienda comprar: hoy tiene que estar en el
 # 20% mas barato de lo visto.
 UMBRAL_BARATO = 80.0
@@ -75,6 +80,11 @@ def serie_de(filas: list[dict], ean: str, fuente: str, tienda: str | None,
     return list(por_dia.values())
 
 
+def fecha_siguiente(f: str) -> str:
+    """serie_de() corta con `fecha < hasta`; para incluir hoy hay que pedir mañana."""
+    return (date.fromisoformat(f) + timedelta(days=1)).isoformat()
+
+
 def mejor_por_tienda(filas: list[dict]) -> dict[str, dict]:
     """La fila mas barata de cada tienda, priorizando las confirmadas por EAN.
 
@@ -101,7 +111,8 @@ def mejor_por_tienda(filas: list[dict]) -> dict[str, dict]:
 def analizar(filas: list[dict], item: dict, fecha: str) -> dict:
     hoy = [r for r in filas
            if r["fecha"] == fecha and r["fuente"] == "pedidosya" and r["item"] == item["id"]]
-    resultado = {"item": item, "tiendas": {}, "veredicto": None, "detalle": ""}
+    resultado = {"item": item, "tiendas": {}, "veredicto": None, "detalle": "",
+                 "senal_sepa": None}
     if not hoy:
         resultado["detalle"] = "sin datos de PedidosYa hoy"
         return resultado
@@ -146,19 +157,26 @@ def analizar(filas: list[dict], item: dict, fecha: str) -> dict:
     precio_hoy = num(ganadora["precio"])
     ean = ganadora["ean"]
 
-    # Historia propia de PedidosYa primero. Es la que refleja lo que se paga.
+    # El veredicto se calcula SOLO contra la historia de PedidosYa. Mezclar
+    # fuentes parecia funcionar y era falso: con el precio de hoy de PedidosYa
+    # contra una mediana de gondola de SEPA, 10 de 17 productos daban "el mas
+    # barato de toda la serie" el primer dia. No eran ofertas, era que PeYa
+    # Market esta sistematicamente por debajo de la gondola de las cadenas que
+    # publica SEPA. Comparado asi, todo es siempre el minimo historico.
     historia = serie_de(filas, ean, "pedidosya", None, fecha)
-    fuente_historia = "PedidosYa"
-    if len(historia) < MIN_DIAS:
-        # SEPA publica todos los dias, asi que junta historia mucho mas rapido.
-        # El nivel de precio no es el mismo, pero el ciclo de promocion del
-        # producto si: sirve para ubicar el precio de hoy dentro del ciclo.
-        alterna = serie_de(filas, ean, "sepa", None, fecha)
-        if len(alterna) > len(historia):
-            historia, fuente_historia = alterna, "SEPA (gondola)"
+    resultado["fuente_historia"] = "PedidosYa"
+
+    # SEPA entra como senal aparte, comparada contra si misma: si el precio de
+    # gondola de hoy esta muy por debajo de su propia mediana, el producto entro
+    # en ciclo de promocion. Eso es un aviso para ir a mirar, no un veredicto.
+    sepa_hoy = serie_de(filas, ean, "sepa", None, fecha_siguiente(fecha))
+    sepa_antes = serie_de(filas, ean, "sepa", None, fecha)
+    if sepa_hoy and len(sepa_antes) >= MIN_DIAS:
+        pct = pct_mas_caros(sepa_antes, min(sepa_hoy))
+        if pct >= UMBRAL_BARATO:
+            resultado["senal_sepa"] = f"en gondola esta mas barato que el {pct:.0f}% de los dias"
 
     resultado["dias"] = len(historia)
-    resultado["fuente_historia"] = fuente_historia
     if len(historia) < MIN_DIAS:
         resultado["veredicto"] = "SIN HISTORIA"
         resultado["detalle"] = f"{len(historia)} dia(s) de historia, hacen falta {MIN_DIAS}"
@@ -363,6 +381,8 @@ def main() -> None:
         else:
             veredicto = a["detalle"]
         promo = f" ({market['promo_tag']})" if market and market["promo_tag"] else ""
+        if a.get("senal_sepa"):
+            veredicto += f" · {a['senal_sepa']}"
         lineas.append(f"| {item['nombre']} | {money(pm) if pm else '—'}{promo} | "
                       f"{money(pc) if pc else '—'} | {signo} | {veredicto} |")
         for r in a["tiendas"].values():
